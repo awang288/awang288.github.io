@@ -50,7 +50,7 @@ async function init() {
               .style("opacity", 1)
           }
           var mousemove = function(d) {
-            var html = "GDP per Capita: " + d.GdpPerCapita + "<br/>Number of Suicides per 100K: " + d.Suicides100K + "<br/>Number of Suicides: " + d.SuicideNo + "<br/>Total GDP per Year: " + d.GdpForYear
+            var html = "YEAR " + d.Year 
             Tooltip
               //.html("Number of Suicides per 100K: " + d.Suicides100K + "Number of Suicides: " + d.SuicideNo)
               .html(html)
