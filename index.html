@@ -49,8 +49,7 @@ d3.select("svg")
           tooltip.style("opacity", 1)
                  .style("left",(d3.event.pageX)+"px")
                  .style("top",(d3.event.pageY)+"px")
-                 .html("VALUE: "+d.Value+ "<br>" +
-                 "YEAR: "+d.Year+ "<br>"
+                 .html("VALUE: "
                );
       })
   .on("mouseout", function() { tooltip.style("opacity", 0); });
