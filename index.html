@@ -45,9 +45,8 @@ d3.select("svg")
   .attr("cy",function(d) {return ys(d.Value);})
   .attr("r",function(d) {return 8;})
   .attr("fill",d3.color("blue"))
-  .on("mouseover", function(d) {
-          tooltip.style("opacity", 1)
-                .style("top", (event.pageY)-105+"px")
+  .on("mouseover", function(d) {tooltip.style("opacity", 1)}
+  .on("mousemove",function(d) {tooltip.style("top", (event.pageY)-105+"px")
                 .style("left",(event.pageX)-60+"px")
                 .html("VALUE: "+d.Value+"<br>YEAR"+d.Year
                );
