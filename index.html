@@ -58,7 +58,21 @@ d3.select("svg").append("g")
   .attr("transform","translate("+margin+","+(height+margin)+")")
   .call(d3.axisBottom(x));
 
-
+//Line
+d3.select("svg")
+  .attr("width",width+2*margin)
+  .attr("height",height+2*margin)
+  .append("g")
+  .attr("transform","translate("+margin+","+margin+")")
+  .selectAll("body").data(data).enter().append("path")
+  .datum(data)
+  .attr("fill","none")
+  .attr("stroke", "#3CB371")
+  .attr("stroke-width", 1.5)
+  .attr("d", d3.line()
+    .x(function(d) { return x(d.Year) })
+    .y(function(d) { return y(d.Value) })
+    )
 // Axes
   d3.select("svg").append("text")
     .attr("transform","translate("+(width/2)+","+(height+margin+50)+")")
