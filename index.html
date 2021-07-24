@@ -48,7 +48,7 @@ d3.select("svg")
                 .style("top", (event.pageY)-105+"px")
                 .style("left",(event.pageX)-60+"px");
       })
-  .on("mouseout", function() { tooltip.style("opacity", 0); })
+  .on("mouseleave", function(d) { tooltip.style("opacity", 0)})
 
   d3.select("svg").append("g")
   .attr("transform","translate("+margin+","+margin+")")
