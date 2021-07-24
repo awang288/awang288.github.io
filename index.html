@@ -8,6 +8,72 @@
 <h2>Introduction</h2>
 <p>INSERT INTRODUCTION TEXT</p>
 <p>&nbsp;</p>
+<script>
+async function init() {
+
+  const data = await d3.csv('https://awang288.github.io/raw_data/US_data.csv');
+
+  var width = 750;
+  var height = 750;
+  var margin = 100;
+
+  var xs = d3.scaleLinear().domain([2000,2019]).range([0,width]);
+  var ys = d3.scaleLinear().domain([12.5,16.5]).range([height,0]);
+  var x = d3.scaleLinear().domain([2000,2019]).range([0,width]);
+  var y = d3.scaleLinear().domain([12.5,16.5]).range([height,0]);
+
+d3.select("svg")
+  .attr("width",width + 2*margin)
+  .attr("height",height + 2*margin)
+  .append("g")
+  .attr("transform","translate("+margin+","+margin+")")
+  .selectAll("body").data(data).enter().append("circle")
+  .attr("cx",function(d) {return xs(d.Year); })
+  .attr("cy",function(d) {return ys(d.Value); })
+  .attr("r",function(d) {return 4; })
+  .on("mouseover", function(d) {
+          tooltip.style("opacity", 1)
+                 .style("left",(d3.event.pageX)+"px")
+                 .style("top",(d3.event.pageY)+"px")
+                 .html("Year: "+d.Year+"<br>"
+                 +"Number of Fatalities: "+d.Value+"<br>"
+                 +"Percentage Female: "+d.Female*100+"<br>"
+                 +"Percentage Male: "+d.Male*100+"<br>");
+      })
+  .on("mouseout", function() { tooltip.style("opacity", 0); });
+
+  d3.select("svg").append("g")
+  .attr("transform","translate("+margin+","+margin+")")
+  .call(d3.axisLeft(y));
+
+  d3.select("svg").append("g")
+  .attr("transform","translate("+margin+","+(height+margin)+")")
+  .call(d3.axisBottom(x));
+
+// Axes
+  d3.select("svg").append("text")
+    .attr("transform","translate("+(width/2)+","+(height+margin+50)+")")
+    .style("text-anchor","center")
+    .text("Year");
+  d3.select("svg").append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left)
+    .attr("x",0 - (height / 2))
+    .attr("dy","1em")
+    .style("text-anchor","middle")
+    .text("Number of Traffic-Related Fatalities per 100,000 population");
+// Title
+  d3.select("svg").append("text")
+  .attr("x",(width / 2))
+  .attr("y",margin)
+  .attr("text-anchor", "center")
+  .attr("font-weight", 600)
+  .style("font-size", "24px")
+  .text("Traffic-Related Fatalities in the United States");
+
+}
+
+</script>
 <p>
 <input type="button" onclick="location.href='est_road_deaths.html';" value="Next" />
 </p>
