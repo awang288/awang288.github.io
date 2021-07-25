@@ -56,8 +56,8 @@ d3.select("svg").append("g")
 
   d3.select("svg").append("g")
   .attr("transform","translate("+margin+","+(height+margin)+")")
-  .call(d3.axisBottom(x).tickValues([2000,2005,2010,2015]))
-  .tickFormat(function(d) {return xticks[d];});
+  .call(d3.axisBottom(x).tickValues([2000,2005,2010,2015])
+    .tickFormat(function(d) {return xticks[d];}));
 
 //Line
 d3.select("svg")
