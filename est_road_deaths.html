@@ -32,9 +32,10 @@ async function init() {
           .style("border-radius","5px")
           .style("padding","5px")
           .style("position","absolute")
-  const incomes=["High income","Upper middle income","Lower middle income","Low income"]
+  const regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
+    "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
   var years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019]
-  const colors=d3.scaleOrdinal().domain(incomes).range(d3.schemeSet2)
+  const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
   
   d3.select("#button").selectAll("myOptions").data(years)
   .enter().append("option").text(function (d) {return d;})
@@ -50,7 +51,7 @@ d3.select("svg")
   .attr("cx",function(d) {return xs(d.GDP);})
   .attr("cy",function(d) {return ys(d.Value);})
   .attr("r",function(d) {return 5;})
-  .attr("fill",function(d){return colors(d["IncomeGroup"])})
+  .attr("fill",function(d){return colors(d["regions"])})
   .on("mouseover", function(d) {tooltip.style("opacity", 1);})
   .on("mousemove",function(d) {tooltip.html("TBD: ")
                 .style("top", (event.pageY)-105+"px")
@@ -100,8 +101,8 @@ d3.select("svg").append("g")
         .filter(function(d) {return d.Year==selectedOption})
         .attr("cx",function(d) {return xs(d.GDP);})
         .attr("cy",function(d) {return ys(d.Value);})
-        .attr("r",function(d) {return 8;})
-        .attr("fill",function(d){return colors(d["IncomeGroup"])})
+        .attr("r",function(d) {return 5;})
+        .attr("fill",function(d){return colors(d["regions"])})
         .on("mouseover", function(d) {tooltip.style("opacity", 1);})
         .on("mousemove",function(d) {tooltip.html("TBD: ")
                         .style("top", (event.pageY)-105+"px")
