@@ -19,9 +19,9 @@ async function init() {
   var height=750;
   var margin=100;
 
-  var xs=d3.scaleLinear().domain([1999,2019]).range([0,width]);
+  var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
   var ys=d3.scaleLinear().domain([11,16.5]).range([height,0]);
-  var x=d3.scaleLinear().domain([1999,2019]).range([0,width]);
+  var x=d3.scaleLinear().domain([1999,2021]).range([0,width]);
   var y=d3.scaleLinear().domain([11,16.5]).range([height,0]);
   var tooltip=d3.select("#tooltip").append("div")
           .style("opacity", 0)
@@ -32,7 +32,7 @@ async function init() {
           .style("border-radius", "5px")
           .style("padding", "5px")
           .style("position", "absolute")
-
+  var xticks=["2000","2005","2010","2015","2020"]
 d3.select("svg")
   .attr("width",width+2*margin)
   .attr("height",height+2*margin)
@@ -56,7 +56,8 @@ d3.select("svg").append("g")
 
   d3.select("svg").append("g")
   .attr("transform","translate("+margin+","+(height+margin)+")")
-  .call(d3.axisBottom(x).tickValues([2000,2005,2010,2015]));
+  .call(d3.axisBottom(x).tickValues([2000,2005,2010,2015]))
+  .tickFormat(function(d) {return xticks[d];});
 
 //Line
 d3.select("svg")
