@@ -1,5 +1,5 @@
 Region,CountryCode,Country,Year,MostRecent,Value,Female,Male,GDP,IncomeGroup
-Americas,ATG,Antigua and Barbuda,2019,TRUE,0,,,17113.34977,High income
+Americas,ATG,Antigua and Barbuda,2019,TRUE,0,0,0,17113.34977,High income
 Western Pacific,FSM,Micronesia (Federated States of),2019,TRUE,0.16,0.3125,0.6875,3585.423202,Lower middle income
 South-East Asia,MDV,Maldives,2019,TRUE,1.63,0.201653774,0.798346226,10626.43335,Upper middle income
 Western Pacific,KIR,Kiribati,2019,TRUE,1.92,0.17253861,0.82746139,1655.050693,Lower middle income
@@ -182,7 +182,7 @@ Europe,BGR,Bulgaria,2019,TRUE,9.24,0.240682395,0.759317605,9828.148515,Upper mid
 Americas,TTO,Trinidad and Tobago,2019,TRUE,9.33,0.201813777,0.798186223,16637.16294,High income
 Europe,POL,Poland,2019,TRUE,9.38,0.245227742,0.754772258,15694.84082,High income
 Western Pacific,NZL,New Zealand,2019,TRUE,9.57,0.324121354,0.675878646,41999.36829,High income
-Americas,ATG,Antigua and Barbuda,2018,FALSE,0,,,16673.4369,High income
+Americas,ATG,Antigua and Barbuda,2018,FALSE,0,0,0,16673.4369,High income
 Western Pacific,FSM,Micronesia (Federated States of),2018,FALSE,0.21,0.355555556,0.644444444,3568.291016,Lower middle income
 South-East Asia,MDV,Maldives,2018,FALSE,1.72,0.19572164,0.80427836,10276.77339,Upper middle income
 Europe,UKR,Ukraine,2018,FALSE,10.01,0.239705111,0.760294889,3096.817402,Lower middle income
@@ -365,7 +365,7 @@ Europe,BGR,Bulgaria,2018,FALSE,8.92,0.24880782,0.75119218,9427.73043,Upper middl
 Europe,PRT,Portugal,2018,FALSE,8.99,0.223926758,0.776073242,23551.04829,High income
 Europe,LVA,Latvia,2018,FALSE,9.07,0.228174626,0.771825374,17849.5593,High income
 Europe,POL,Poland,2018,FALSE,9.22,0.242603295,0.757396705,15468.40941,High income
-Americas,ATG,Antigua and Barbuda,2017,FALSE,0,,,15383.5764,High income
+Americas,ATG,Antigua and Barbuda,2017,FALSE,0,0,0,15383.5764,High income
 Western Pacific,FSM,Micronesia (Federated States of),2017,FALSE,0.28,0.304511278,0.695488722,3289.642117,Lower middle income
 South-East Asia,MDV,Maldives,2017,FALSE,1.78,0.194468453,0.805531547,9577.702376,Upper middle income
 Europe,UKR,Ukraine,2017,FALSE,10.34,0.242426613,0.757573387,2640.675677,Lower middle income
@@ -548,7 +548,7 @@ Europe,POL,Poland,2017,FALSE,9.12,0.244943895,0.755056105,13864.68176,High incom
 Europe,TUR,Turkey,2017,FALSE,9.44,0.254198505,0.745801495,10589.66772,Upper middle income
 Western Pacific,KOR,Republic of Korea,2017,FALSE,9.52,0.273316644,0.726683356,31616.8434,High income
 Europe,BGR,Bulgaria,2017,FALSE,9.9,0.262739848,0.737260152,8334.081728,Upper middle income
-Americas,ATG,Antigua and Barbuda,2016,FALSE,0,,,15198.74297,High income
+Americas,ATG,Antigua and Barbuda,2016,FALSE,0,0,0,15198.74297,High income
 South-East Asia,MDV,Maldives,2016,FALSE,0.86,0.210711769,0.789288231,9209.399665,Upper middle income
 Western Pacific,FSM,Micronesia (Federated States of),2016,FALSE,1.81,0.320659503,0.679340497,3014.700358,Lower middle income
 Europe,BGR,Bulgaria,2016,FALSE,10.21,0.211338589,0.788661411,7548.855007,Upper middle income
@@ -731,7 +731,7 @@ Europe,POL,Poland,2016,FALSE,9.73,0.235264222,0.764735778,12447.43959,High incom
 Western Pacific,KOR,Republic of Korea,2016,FALSE,9.79,0.287861063,0.712138937,29288.87044,High income
 Eastern Mediterranean,EGY,Egypt,2016,FALSE,9.83,0.270856548,0.729143452,3519.87324,Lower middle income
 Western Pacific,FJI,Fiji,2016,FALSE,9.86,0.261824305,0.738175695,5651.272721,Upper middle income
-Americas,ATG,Antigua and Barbuda,2015,FALSE,0,,,14285.32978,High income
+Americas,ATG,Antigua and Barbuda,2015,FALSE,0,0,0,14285.32978,High income
 Western Pacific,FSM,Micronesia (Federated States of),2015,FALSE,0.92,0.310631793,0.689368207,2906.617012,Lower middle income
 Europe,ROU,Romania,2015,FALSE,10,0.245459459,0.754540541,8969.148921,Upper middle income
 Europe,BLR,Belarus,2015,FALSE,10.07,0.268519988,0.731480012,5949.106307,Upper middle income
@@ -1280,7 +1280,7 @@ Eastern Mediterranean,BHR,Bahrain,2013,FALSE,9.73,0.147805173,0.852194827,24744.
 Europe,ROU,Romania,2013,FALSE,9.75,0.265143584,0.734856416,9547.852151,Upper middle income
 Europe,MKD,The former Yugoslav Republic of Macedonia,2013,FALSE,9.83,0.25507509,0.74492491,5210.153044,Upper middle income
 Europe,LVA,Latvia,2013,FALSE,9.88,0.268735404,0.731264596,15122.73528,High income
-Western Pacific,FSM,Micronesia (Federated States of),2012,FALSE,0,,,3131.386715,Lower middle income
+Western Pacific,FSM,Micronesia (Federated States of),2012,FALSE,0,0,0,3131.386715,Lower middle income
 Americas,ATG,Antigua and Barbuda,2012,FALSE,0.74,1,0,13272.73494,High income
 South-East Asia,MDV,Maldives,2012,FALSE,1.28,0.250239158,0.749760842,7265.723399,Upper middle income
 Europe,LVA,Latvia,2012,FALSE,10.05,0.297341919,0.702658081,13923.47398,High income
@@ -1463,7 +1463,7 @@ Americas,LCA,Saint Lucia,2012,FALSE,9.06,0.211156947,0.788843053,9086.387955,Upp
 Americas,JAM,Jamaica,2012,FALSE,9.11,0.302006116,0.697993884,5209.859264,Upper middle income
 Eastern Mediterranean,BHR,Bahrain,2012,FALSE,9.46,0.147151298,0.852848702,23654.36959,High income
 Europe,HRV,Croatia,2012,FALSE,9.59,0.156960169,0.843039831,13258.35985,High income
-Western Pacific,FSM,Micronesia (Federated States of),2011,FALSE,0,,,3009.256825,Lower middle income
+Western Pacific,FSM,Micronesia (Federated States of),2011,FALSE,0,0,0,3009.256825,Lower middle income
 Western Pacific,KIR,Kiribati,2011,FALSE,1.91,0.172815772,0.827184228,1734.902397,Lower middle income
 Europe,ROU,Romania,2011,FALSE,10.41,0.242193418,0.757806582,9099.217539,Upper middle income
 Western Pacific,PHL,Philippines,2011,FALSE,10.47,0.198635162,0.801364838,2450.735694,Lower middle income
@@ -2561,8 +2561,8 @@ Europe,ESP,Spain,2006,FALSE,9.58,0.221488411,0.778511589,28365.31349,High income
 Americas,CUB,Cuba,2006,FALSE,9.7,0.193785052,0.806214948,4683.569067,Upper middle income
 Western Pacific,PHL,Philippines,2006,FALSE,9.83,0.223358017,0.776641983,1452.438089,Lower middle income
 Europe,UZB,Uzbekistan,2006,FALSE,9.96,0.213961935,0.786038065,654.2838373,Lower middle income
-Americas,ATG,Antigua and Barbuda,2005,FALSE,0,,,12557.54785,High income
-Western Pacific,FSM,Micronesia (Federated States of),2005,FALSE,0,,,2358.1467,Lower middle income
+Americas,ATG,Antigua and Barbuda,2005,FALSE,0,0,0,12557.54785,High income
+Western Pacific,FSM,Micronesia (Federated States of),2005,FALSE,0,0,0,2358.1467,Lower middle income
 Europe,SRB,Serbia,2005,FALSE,10,0.230842857,0.769157143,3720.479155,Upper middle income
 Western Pacific,PHL,Philippines,2005,FALSE,10.14,0.23925087,0.76074913,1244.348741,Lower middle income
 Africa,SYC,Seychelles,2005,FALSE,10.15,0.217923819,0.782076181,11092.51074,High income
