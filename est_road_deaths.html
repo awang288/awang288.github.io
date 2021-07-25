@@ -58,11 +58,11 @@ d3.select("svg")
         +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
         +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
         .style("top", (event.pageY)-105+"px")
-        .style("left",(event.pageX)-60+"px").transition().duration('200')
+        .style("left",(event.pageX)-60+"px").transition().duration('2000')
         ;
     })
     .on("mouseleave", function(d) { 
-        tooltip.style("opacity", 0).transition().duration('200')
+        tooltip.style("opacity", 0).transition().duration('2000')
         ;})
 
 d3.select("svg").append("g")
