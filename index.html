@@ -61,8 +61,8 @@ d3.select("svg")
   .attr("fill",d3.color("blue"))
   .on("mouseover", function(d) {tooltip.style("opacity", 1);})
   .on("mousemove",function(d) {tooltip.html("Year: "+d.Year
-        +"<br>Number of Fatalities: "+d.Value+"<br>% of Deaths-Female: "+d.Female*100
-        +"%<br>% of Deaths-Male: "+d.Male*100+"%")
+        +"<br>Number of Fatalities: "+d.Value+"<br>% of Deaths-Female: "+d.Female
+        +"%<br>% of Deaths-Male: "+d.Male+"%")
                 .style("top", (event.pageY)-105+"px")
                 .style("left",(event.pageX)-60+"px");
       })
