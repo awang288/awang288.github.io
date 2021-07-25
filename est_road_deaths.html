@@ -20,9 +20,9 @@ async function init() {
   var margin=100;
 
   var xs=d3.scaleLog().domain([90,120000]).range([0,width]);
-  var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
+  var ys=d3.scaleLog().domain([0,65]).range([height,0]);
   var x=d3.scaleLog().domain([90,120000]).range([0,width]);
-  var y=d3.scaleLinear().domain([0,65]).range([height,0]);
+  var y=d3.scaleLog().domain([0,65]).range([height,0]);
   var tooltip=d3.select("#tooltip").append("div")
           .style("opacity",0)
           .attr("class","tooltip")
@@ -50,7 +50,7 @@ d3.select("svg")
   .filter(function(d) {return d.Year==2019;})
   .attr("cx",function(d) {return xs(d.GDP);})
   .attr("cy",function(d) {return ys(d.Value);})
-  .attr("r",function(d) {return 5;})
+  .attr("r",function(d) {return 7;})
   .attr("fill",function(d){return colors(d["Region"])})
   .on("mouseover", function(d) {tooltip.style("opacity", 1);})
   .on("mousemove",function(d) {tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
@@ -103,7 +103,7 @@ d3.select("svg").append("g")
         .filter(function(d) {return d.Year==selectedOption})
         .attr("cx",function(d) {return xs(d.GDP);})
         .attr("cy",function(d) {return ys(d.Value);})
-        .attr("r",function(d) {return 5;})
+        .attr("r",function(d) {return 7;})
         .attr("fill",function(d){return colors(d["Region"])})
         .on("mouseover", function(d) {tooltip.style("opacity", 1);})
         .on("mousemove",function(d) {tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
