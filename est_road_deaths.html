@@ -106,17 +106,19 @@ d3.select("svg").append("g")
         .attr("r",function(d) {return 7;})
         .attr("fill",function(d){return colors(d["Region"])})
         .on("mouseover", function(d) {
-            tooltip.style("opacity", 1);})
+            tooltip.style("opacity", 1)
+            .transition().duration('50');})
         .on("mousemove",function(d) {
             tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
             +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
             +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
             .style("top", (event.pageY)-105+"px")
             .style("left",(event.pageX)-60+"px")
-            .duration('50');
+            .transition().duration('50');
       })
         .on("mouseleave", function(d) { 
-            tooltip.style("opacity", 0);})
+            tooltip.style("opacity", 0)
+            .transition().duration('50');})
 
     })
 
