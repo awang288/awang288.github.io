@@ -19,9 +19,9 @@ async function init() {
   var height=750;
   var margin=100;
 
-  var xs=d3.scaleLinear().domain([2000,2019]).range([0,width]);
+  var xs=d3.scaleLinear().domain([1999,2019]).range([0,width]);
   var ys=d3.scaleLinear().domain([11,16.5]).range([height,0]);
-  var x=d3.scaleLinear().domain([2000,2019]).range([0,width]);
+  var x=d3.scaleLinear().domain([1999,2019]).range([0,width]);
   var y=d3.scaleLinear().domain([11,16.5]).range([height,0]);
   var tooltip=d3.select("#tooltip").append("div")
           .style("opacity", 0)
@@ -52,7 +52,7 @@ d3.select("svg")
 
 d3.select("svg").append("g")
   .attr("transform","translate("+margin+","+margin+")")
-  .call(d3.axisLeft(y));
+  .call(d3.axisLeft(y).tickValues([2000,2005,2010,2015]));
 
   d3.select("svg").append("g")
   .attr("transform","translate("+margin+","+(height+margin)+")")
@@ -67,7 +67,7 @@ d3.select("svg")
   .selectAll("body").data(data).enter().append("path")
   .datum(data)
   .attr("fill","none")
-  .attr("stroke", "#3CB371")
+  .attr("stroke", "skyblue")
   .attr("stroke-width", 1.5)
   .attr("d", d3.line()
     .x(function(d) { return x(d.Year) })
