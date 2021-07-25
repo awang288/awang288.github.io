@@ -20,9 +20,9 @@ async function init() {
   var margin=100;
 
   var xs=d3.scaleLog().domain([90,120000]).range([0,width]);
-  var ys=d3.scaleLog().domain([0,65]).range([height,0]);
+  var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
   var x=d3.scaleLog().domain([90,120000]).range([0,width]);
-  var y=d3.scaleLog().domain([0,65]).range([height,0]);
+  var y=d3.scaleLinear().domain([0,65]).range([height,0]);
   var tooltip=d3.select("#tooltip").append("div")
           .style("opacity",0)
           .attr("class","tooltip")
