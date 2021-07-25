@@ -51,7 +51,7 @@ d3.select("svg")
   .attr("cx",function(d) {return xs(d.GDP);})
   .attr("cy",function(d) {return ys(d.Value);})
   .attr("r",function(d) {return 5;})
-  .attr("fill",function(d){return colors(d["regions"])})
+  .attr("fill",function(d){return colors(d["Region"])})
   .on("mouseover", function(d) {tooltip.style("opacity", 1);})
   .on("mousemove",function(d) {tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
   +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
@@ -104,7 +104,7 @@ d3.select("svg").append("g")
         .attr("cx",function(d) {return xs(d.GDP);})
         .attr("cy",function(d) {return ys(d.Value);})
         .attr("r",function(d) {return 5;})
-        .attr("fill",function(d){return colors(d["regions"])})
+        .attr("fill",function(d){return colors(d["Region"])})
         .on("mouseover", function(d) {tooltip.style("opacity", 1);})
         .on("mousemove",function(d) {tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
             +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
