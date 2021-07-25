@@ -1,11 +1,122 @@
-<title>Estimated Number of Road Deaths</title>
-<script src="https://d3js.org/d3.v5.js"></script>
-<body>
-<p>&nbsp;</p>
-<h2>Estimated Number of Road Deaths</h2>
-<p>INSERT SLIDE 2 TEXT</p>
-<p>&nbsp;</p>
+<html><script src="https://d3js.org/d3.v5.js"></script>
+<title>Road Traffic Mortality Around the World\\\</title>
+
+
+<body onload='init()'>
+    <h1>Road Traffic Mortality Around the World</h1>
+
+<h2>INSERT HEADING FOR PAGE 2</h2>
+<p>INSERT PAGE 2 TEXT</p>
+    <svg width=1000 height=1500></svg>
+<div id="tooltip"></div>
+<select id="button"></select>
+<script>
+async function init() {
+
+  const data=await d3.csv('https://awang288.github.io/raw_data/Overall.csv');
+
+  var width=750;
+  var height=750;
+  var margin=100;
+
+  var xs=d3.scaleLog().domain([90,120000]).range([0,width]);
+  var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
+  var x=d3.scaleLog().domain([90,120000]).range([0,width]);
+  var y=d3.scaleLinear().domain([0,65]).range([height,0]);
+  var tooltip=d3.select("#tooltip").append("div")
+          .style("opacity",0)
+          .attr("class","tooltip")
+          .style("background-color","white")
+          .style("border","solid")
+          .style("border-width","2px")
+          .style("border-radius","5px")
+          .style("padding","5px")
+          .style("position","absolute")
+  const incomes=["High Income","Upper middle income","Lower middle income","Low Income"]
+  var years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019]
+  const colors=d3.scaleOrdinal().domain(incomes).range(d3.schemeSet2)
+  
+  d3.select("#button").selectAll("myOptions").data(years)
+  .enter().append("option").text(function (d) {return d;})
+  .attr("value",function(d) {return d;})
+    //Main graph
+d3.select("svg")
+  .attr("width",width+2*margin)
+  .attr("height",height+2*margin)
+  .append("g")
+  .attr("transform","translate("+margin+","+margin+")")
+  .selectAll("body").data(data).enter().append("circle")
+  .attr("cx",function(d) {return xs(d.GDP);})
+  .attr("cy",function(d) {return ys(d.Value);})
+  .attr("r",function(d) {return 8;})
+  .attr("fill",function(d){return colors(d["IncomeGroup"])})
+  .on("mouseover", function(d) {tooltip.style("opacity", 1);})
+  .on("mousemove",function(d) {tooltip.html("TBD: ")
+                .style("top", (event.pageY)-105+"px")
+                .style("left",(event.pageX)-60+"px");
+      })
+  .on("mouseleave", function(d) { tooltip.style("opacity", 0);})
+
+d3.select("svg").append("g")
+  .attr("transform","translate("+margin+","+margin+")")
+  .call(d3.axisLeft(y));
+
+  d3.select("svg").append("g")
+  .attr("transform","translate("+margin+","+(height+margin)+")")
+  .call(d3.axisBottom(x).ticks(5).tickValues([2000,2005,2010,2015,2020])
+  .tickFormat(function (d,i) {return xTickLabels[i]}))
+
+
+// Axes Labels
+  d3.select("svg").append("text")
+    .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
+    .style("text-anchor","middle")
+    .text("GDP per Capita");
+  d3.select("svg").append("text")
+    .attr("transform","rotate(-90)")
+    .attr("y", 0-margin.left)
+    .attr("x",-50-(height/2))
+    .attr("dy","1em")
+    .style("text-anchor","middle")
+    .text("Number of Traffic-Related Fatalities per 100,000 population");
+// Title
+  d3.select("svg").append("text")
+  .attr("x",(width/2-100))
+  .attr("y",margin/2)
+  .attr("text-anchor","center")
+  .attr("font-weight",600)
+  .style("font-size","24px")
+  .text("Traffic-Related Fatalities Around the World");
+
+    d3.select("#button").on("change", function(d) {
+        var selectedOption = d3.select(this).property("value");
+        d3.selectAll("circle").remove();
+        d3.select("svg")
+        .attr("width",width+2*margin)
+        .attr("height",height+2*margin)
+        .append("g")
+        .attr("transform","translate("+margin+","+margin+")")
+        .selectAll("body").data(data).enter().append("circle")
+        .attr("cx",function(d) {return xs(d.GDP);})
+        .attr("cy",function(d) {return ys(d.Value);})
+        .attr("r",function(d) {return 8;})
+        .attr("fill",function(d){return colors(d["IncomeGroup"])})
+        .on("mouseover", function(d) {tooltip.style("opacity", 1);})
+        .on("mousemove",function(d) {tooltip.html("TBD: ")
+                        .style("top", (event.pageY)-105+"px")
+                        .style("left",(event.pageX)-60+"px");
+            })
+        .on("mouseleave", function(d) { tooltip.style("opacity", 0);})
+
+    })
+
+}
+
+</script>
+<p>INSERT PAGE 2 TEXT</p>
 <p>
 <input type="button" onclick="location.href='index.html';" value="Previous" />
 <input type="button" onclick="location.href='distr.html';" value="Next" />
 </p>
+</body>
+</html>
