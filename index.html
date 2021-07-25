@@ -76,13 +76,13 @@ d3.select("svg")
     )
 // Axes Labels
   d3.select("svg").append("text")
-    .attr("transform","translate("+(width/2+200)+","+(height+margin+50)+")")
+    .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
     .style("text-anchor","middle")
     .text("Year");
   d3.select("svg").append("text")
     .attr("transform","rotate(-90)")
     .attr("y", 0-margin.left)
-    .attr("x",0-(height/2))
+    .attr("x",50-(height/2))
     .attr("dy","1em")
     .style("text-anchor","middle")
     .text("Number of Traffic-Related Fatalities per 100,000 population");
