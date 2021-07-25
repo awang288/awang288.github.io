@@ -53,7 +53,9 @@ d3.select("svg")
   .attr("r",function(d) {return 5;})
   .attr("fill",function(d){return colors(d["regions"])})
   .on("mouseover", function(d) {tooltip.style("opacity", 1);})
-  .on("mousemove",function(d) {tooltip.html("TBD: ")
+  .on("mousemove",function(d) {tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
+  +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
+  +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
                 .style("top", (event.pageY)-105+"px")
                 .style("left",(event.pageX)-60+"px");
       })
@@ -104,10 +106,12 @@ d3.select("svg").append("g")
         .attr("r",function(d) {return 5;})
         .attr("fill",function(d){return colors(d["regions"])})
         .on("mouseover", function(d) {tooltip.style("opacity", 1);})
-        .on("mousemove",function(d) {tooltip.html("TBD: ")
-                        .style("top", (event.pageY)-105+"px")
-                        .style("left",(event.pageX)-60+"px");
-            })
+        .on("mousemove",function(d) {tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
+            +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
+            +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
+            .style("top", (event.pageY)-105+"px")
+            .style("left",(event.pageX)-60+"px");
+      })
         .on("mouseleave", function(d) { tooltip.style("opacity", 0);})
 
     })
