@@ -34,11 +34,11 @@ async function init() {
     .attr("class", "tooltip")				
     .style("opacity", 0); 
 
+  /*
   d3.select("svg")
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
-    .append("g")
-    .attr("transform","translate("+margin+","+margin+")")
+    .append("g").attr("transform","translate("+margin+","+margin+")")
     .selectAll("body").data(data).enter().append("path")
     .datum(data)
     .attr("fill","none")
@@ -46,18 +46,17 @@ async function init() {
     .attr("stroke-width", 1.5)
     .attr("d", d3.line()
       .x(function(d) { return x(d.Year) })
-      .y(function(d) { return y(d.Value) })
-      )
-    //Main graph
+      .y(function(d) { return y(d.Value) }))
+  */
+
   d3.select("svg")
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
-    .append("g")
-    .attr("transform","translate("+margin+","+margin+")")
+    .append("g").attr("transform","translate("+margin+","+margin+")")
     .selectAll("body").data(data).enter().append("circle")
     .attr("cx",function(d) {return xs(d.Year);})
     .attr("cy",function(d) {return ys(d.Value);})
-    .attr("r",function(d) {return 5;})
+    .attr("r",5)
     .attr("fill",d3.color("blue"))
     .on("mouseover", function(d) {
       div.html("Year: "+d.Year+"<br>Number of Fatalities: "+d.Value+
@@ -66,11 +65,12 @@ async function init() {
         .style("left",(event.pageX)-60+"px")
         .style("opacity",.85);
         })
-    .on("mouseleave", function(d) { tooltip.style("opacity", 0);})
+    .on("mouseout", function(d) {div.style("opacity", 0);})
 
   d3.select("svg").append("g")
     .attr("transform","translate("+margin+","+margin+")")
-    .call(d3.axisLeft(ys));
+    .call(d3.axisLeft(ys))
+    .tickArguments([12,".0"]);
 
   d3.select("svg").append("g")
     .attr("transform","translate("+margin+","+(height+margin)+")")
