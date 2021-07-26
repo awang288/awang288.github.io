@@ -3,7 +3,7 @@
 
 <title>Road Traffic Mortality Around the World</title>
 <h1>Road Traffic Mortality Around the World</h1>
-<body>
+<body onload="init">
 <h2>INSERT HEADING FOR PAGE 2</h2>
 <p>INSERT PAGE 2 TEXT</p>
 <div id="my_dataviz"></div>
@@ -21,10 +21,9 @@
     .attr("width",height+2*margin)
     .append("g")
     .attr("transform", "translate(" + margin + ", " + margin + ")");
-
-  d3.csv('https://awang288.github.io/raw_data/Overall.csv',
     
-    async function(data){
+    async function init(){
+        const data=await d3.csv('https://awang288.github.io/raw_data/Overall.csv');
         // x axis
         var x=d3.scaleLog().domain([90,120000]).range([0,width])
         svg.append("g")
@@ -149,7 +148,7 @@
                 tooltip.style("opacity", 0)
                 .transition().duration('50');})
         })
-    })
+    }
 
 </script>
 <p>INSERT PAGE 2 TEXT</p>
