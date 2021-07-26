@@ -15,7 +15,7 @@
   #button {
     position: absolute;
     left: 50px;
-    top: 100px;
+    top: 140px;
     width: 60px;
     height: 30px;
   }
@@ -149,6 +149,49 @@ async function init() {
         div.style("opacity", 0);})
     })
 }
+
+d3.select("svg").append("rect")
+    .attr("x",800)
+    .attr("y",300)
+    .attr("width",350)
+    .attr("height",90)
+    .style("fill","black");
+d3.select("svg").append("rect")
+    .attr("x",805)
+    .attr("y",305)
+    .attr("width",340)
+    .attr("height",80)
+    .style("fill","white");
+
+var filter = function(d) {
+    d3.selectAll(".dots").style("opacity", .15)
+    d3.selectAll(".slr").style("opacity", 0)
+    d3.selectAll("."+d).style("opacity", 1)
+  };
+var unfilter = function(d) {
+    d3.selectAll(".dots").style("opacity", 1)
+    d3.selectAll(".slr").style("opacity", 0)
+    d3.selectAll(".All").style("opacity", 1)
+  };
+
+d3.select("svg").append("circle")
+    .data(["East Asia & Pacific"])
+    .attr('cx',800)
+    .attr('cy',335)
+    .attr('r',5)
+    .style('fill',"dodgerblue")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter);
+
+d3.select("svg").append("text")
+    .data(["East Asia & Pacific"])
+    .attr("transform","translate(814,340)")
+    .style("text-anchor", "left")
+    .style("fill", "dodgerblue")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter)
+    .text("East Asia & Pacific");
+
 
 </script>
 
