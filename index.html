@@ -65,9 +65,9 @@ async function init() {
     .attr("cx",function(d) {return xs(d.Year);})
     .attr("cy",function(d) {return ys(d.Value);})
     .attr("r",5)
-    .attr("stroke",d3.color("skyblue"))
+    .attr("stroke",d3.color("blue"))
     .attr("stroke-width",2)
-    .attr("fill",d3.color("skyblue"))
+    .attr("fill",d3.color("blue"))
     .on("mouseover", function(d) {
       div.html("Year: "+d.Year+"<br>Number of Fatalities: "+d.Value+
           "<br>% of Deaths-Female: "+d.Female+"%<br>% of Deaths-Male: "+d.Male+"%")
