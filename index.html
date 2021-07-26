@@ -24,7 +24,7 @@
 async function init() {
   data = await d3.csv("https://awang288.github.io/raw_data/US_data.csv");
   var width=750;
-  var height=500;
+  var height=750;
   var margin=100;
 
   var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
@@ -74,8 +74,12 @@ async function init() {
 
   d3.select("svg").append("g")
     .attr("transform","translate("+margin+","+(height+margin)+")")
-    .call(d3.axisBottom(xs).ticks(5).tickValues([2000,2005,2010,2015,2020])
-    .tickFormat(function (d,i) {return xTickLabels[i]}));
+    .call(d3.axisBottom(xs)
+          .ticks(5)
+          .tickValues([2000,2005,2010,2015,2020])
+          .tickFormat(function (d,i) {
+            return xTickLabels[i]})
+          );
 
   d3.select("svg").append("text")
     .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
