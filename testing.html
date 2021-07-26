@@ -8,9 +8,6 @@
 <p>INSERT PAGE 2 TEXT</p>
 <div id="my_dataviz"></div>
 <select id="button"></select>
-<style>
-    .myCircle:hover {fill: #E8336D;}
-</style>
 
 <script>
   var width=750;
@@ -31,7 +28,6 @@
             .call(d3.axisBottom(x).ticks(10))
         svg.append("text")
             .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
-            .attr("class","x label")
             .style("text-anchor","middle")
             .text("GDP per Capita");
         // y axis
@@ -41,10 +37,9 @@
             .call(d3.axisLeft(y).ticks(10));
         svg.append("text")
             .attr("transform","rotate(-90)")
-            .attr("class","y label")
             .attr("y", 0-margin.left)
             .attr("x",-50-(height/2))
-            //.attr("dy","1em")
+            .attr("dy","1em")
             .style("text-anchor","middle")
             .text("Number of Traffic-Related Fatalities per 100,000 population");
 
@@ -75,7 +70,6 @@
         const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
 
         svg.append("g").selectAll("datapoints").data(data).enter().append("circle")
-            .attr("class","myCircle")
             .filter(function(d) {return d.Year==2000;})
             .attr("cx",function(d) {return xs(d.GDP);})
             .attr("cy",function(d) {return ys(d.Value);})
@@ -135,18 +129,15 @@
             .attr("r",function(d) {return 7;})
             .attr("fill",function(d){return colors(d["Region"])})
             .on("mouseover", function(d) {
-                tooltip.style("opacity", 1)
-                .transition().duration('50');})
+                tooltip.style("opacity", 1);})
             .on("mousemove",function(d) {
                 tooltip.html("Country: "+d.Country+"<br>Region: "+d.regions
                 +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
                 +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
                 .style("top", (event.pageY)-105+"px")
-                .style("left",(event.pageX)-60+"px")
-                .transition().duration('50');})
+                .style("left",(event.pageX)-60+"px");})
             .on("mouseleave", function(d) { 
-                tooltip.style("opacity", 0)
-                .transition().duration('50');})
+                tooltip.style("opacity", 0);})
         })
     }
 
