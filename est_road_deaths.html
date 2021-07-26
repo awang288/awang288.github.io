@@ -85,7 +85,7 @@ async function init() {
         .attr("fill", function (d) { return colors(d['Region']) })
         .on("mouseover", function(d) {
             div.html("Country: "+d.Country+"<br>Region: "+d.Region
-                +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
+                +"<br>GDP per Capita: $"+d.GDP+"<br>Fatalities: "
                 +d.Value+"<br>% of Fatalities-Female: "+d.Female+"%<br>% of Fatalities-Male: "+d.Male+"%")
                 .style("top", (event.pageY)-150+"px")
                 .style("left",(event.pageX)-50+"px")
@@ -139,7 +139,7 @@ async function init() {
         .attr("fill", function (d) { return colors(d['Region']) })
         .on("mouseover", function(d) {
             div.html("Country: "+d.Country+"<br>Region: "+d.Region
-                +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
+                +"<br>GDP per Capita: $"+d.GDP+"<br>Fatalities: "
                 +d.Value+"<br>% of Fatalities-Female: "+d.Female+"%<br>% of Fatalities-Male: "+d.Male+"%")
                 .style("top", (event.pageY)-150+"px")
                 .style("left",(event.pageX)-50+"px")
