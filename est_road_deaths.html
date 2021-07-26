@@ -2,23 +2,28 @@
 <title>Road Traffic Mortality Around the World</title>
 <script src="https://d3js.org/d3.v5.js"></script>
 <style>
-div.tooltip {
-  position: absolute;
-  text-align: center;
-  background-color: white;
-  border: solid;
-  border-radius: 5px;
-  border-width: 2px;
-  padding: 5px;
-  pointer-events: none;
-}
-#button {
-        position: absolute;
-        left: 100px;
-        top: 50px;
-        width: 60px;
-        height: 30px;
-    }
+  div.tooltip {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px;
+    pointer-events: none;
+  }
+  #button {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 60px;
+    height: 30px;
+  }
+  .myCircle:hover {
+    border-radius: 2px;
+    border: solid;
+    border-color: black;
+  }
 </style>
 <body onload="init()">
 <h1>Road Traffic Mortality Around the World</h1>
@@ -53,6 +58,7 @@ async function init() {
         .append("g").attr("transform","translate("+margin+","+margin+")")
         .selectAll("body").data(data).enter().append("circle")
         .filter(function(d) {return d.Year==2000;})
+        .attr("class","myCircle")
         .attr("class", function(d) { return "dots " + d.Region})
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
@@ -101,6 +107,7 @@ async function init() {
         .append("g").attr("transform","translate("+margin+","+margin+")")
         .selectAll("body").data(data).enter().append("circle")
         .filter(function(d) {return d.Year==selectedOption})
+        .attr("class","myCircle")
         .attr("class", function(d) { return "dots " + d.Region})
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
