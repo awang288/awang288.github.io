@@ -89,7 +89,7 @@ AGO,Angola,2019,TRUE,26.13,35,65,2810,Lower middle income,Sub-Saharan Africa
 BWA,Botswana,2019,TRUE,26.41,35,65,7971,Upper middle income,Sub-Saharan Africa
 COM,Comoros,2019,TRUE,26.57,31,69,1370,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2019,TRUE,26.76,31,69,753,Low income,Sub-Saharan Africa
-CPV,Cabo Verde,2019,TRUE,26.78,21,79,3604,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2019,TRUE,26.78,21,79,3604,Lower middle income,Sub-Saharan Africa
 BEN,Benin,2019,TRUE,26.8,31,69,1220,Lower middle income,Sub-Saharan Africa
 GNQ,Equatorial Guinea,2019,TRUE,27.17,27,73,8420,Upper middle income,Sub-Saharan Africa
 IRQ,Iraq,2019,TRUE,27.29,26,74,5658,Upper middle income,Middle East & North Africa
@@ -268,7 +268,7 @@ BWA,Botswana,2018,FALSE,25.71,35,65,8280,Upper middle income,Sub-Saharan Africa
 AGO,Angola,2018,FALSE,25.99,35,65,3290,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2018,FALSE,26.1,31,69,826,Low income,Sub-Saharan Africa
 GNQ,Equatorial Guinea,2018,FALSE,26.29,27,73,10006,Upper middle income,Sub-Saharan Africa
-CPV,Cabo Verde,2018,FALSE,26.32,21,79,3617,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2018,FALSE,26.32,21,79,3617,Lower middle income,Sub-Saharan Africa
 COM,Comoros,2018,FALSE,26.59,31,69,1416,Lower middle income,Sub-Saharan Africa
 LCA,Saint Lucia,2018,FALSE,26.67,20,80,11358,Upper middle income,Latin America & Caribbean
 BEN,Benin,2018,FALSE,26.91,31,69,1241,Lower middle income,Sub-Saharan Africa
@@ -449,7 +449,7 @@ GNQ,Equatorial Guinea,2017,FALSE,25.44,28,72,9668,Upper middle income,Sub-Sahara
 AGO,Angola,2017,FALSE,25.47,35,65,4096,Lower middle income,Sub-Saharan Africa
 MRT,Mauritania,2017,FALSE,25.66,40,60,1578,Lower middle income,Sub-Saharan Africa
 NER,Niger,2017,FALSE,25.81,35,65,518,Low income,Sub-Saharan Africa
-CPV,Cabo Verde,2017,FALSE,25.86,21,79,3293,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2017,FALSE,25.86,21,79,3293,Lower middle income,Sub-Saharan Africa
 COM,Comoros,2017,FALSE,26.6,32,68,1324,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2017,FALSE,26.87,31,69,1103,Low income,Sub-Saharan Africa
 ETH,Ethiopia,2017,FALSE,26.98,29,71,769,Low income,Sub-Saharan Africa
@@ -619,7 +619,7 @@ GNQ,Equatorial Guinea,2016,FALSE,24.69,29,71,9250,Upper middle income,Sub-Sahara
 AGO,Angola,2016,FALSE,24.75,37,63,3506,Lower middle income,Sub-Saharan Africa
 BWA,Botswana,2016,FALSE,24.77,35,65,7244,Upper middle income,Sub-Saharan Africa
 LBY,Libya,2016,FALSE,25.19,28,72,4035,Upper middle income,Middle East & North Africa
-CPV,Cabo Verde,2016,FALSE,25.42,21,79,3131,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2016,FALSE,25.42,21,79,3131,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2016,FALSE,25.54,31,69,1325,Low income,Sub-Saharan Africa
 MRT,Mauritania,2016,FALSE,25.56,40,60,1537,Lower middle income,Sub-Saharan Africa
 ZAF,South Africa,2016,FALSE,25.81,22,78,5273,Upper middle income,Sub-Saharan Africa
@@ -808,7 +808,7 @@ LBY,Libya,2015,FALSE,24.27,27,73,4338,Upper middle income,Middle East & North Af
 GHA,Ghana,2015,FALSE,24.36,23,77,1706,Lower middle income,Sub-Saharan Africa
 GUY,Guyana,2015,FALSE,24.37,13,87,5577,Upper middle income,Latin America & Caribbean
 BWA,Botswana,2015,FALSE,24.8,35,65,6800,Upper middle income,Sub-Saharan Africa
-CPV,Cabo Verde,2015,FALSE,24.96,21,79,3043,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2015,FALSE,24.96,21,79,3043,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2015,FALSE,25.15,31,69,1657,Low income,Sub-Saharan Africa
 VNM,Vietnam,2015,FALSE,25.45,21,79,2085,Lower middle income,East Asia & Pacific
 BLZ,Belize,2015,FALSE,25.47,17,83,4770,Lower middle income,Latin America & Caribbean
@@ -984,7 +984,7 @@ SEN,Senegal,2014,FALSE,24.14,29,71,1397,Lower middle income,Sub-Saharan Africa
 BWA,Botswana,2014,FALSE,24.23,34,66,7781,Upper middle income,Sub-Saharan Africa
 BLZ,Belize,2014,FALSE,24.32,17,83,4718,Lower middle income,Latin America & Caribbean
 YEM,Yemen,2014,FALSE,24.32,32,68,1674,Low income,Middle East & North Africa
-CPV,Cabo Verde,2014,FALSE,24.5,22,78,3589,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2014,FALSE,24.5,22,78,3589,Lower middle income,Sub-Saharan Africa
 TCD,Chad,2014,FALSE,24.63,33,67,1020,Low income,Sub-Saharan Africa
 VNM,Vietnam,2014,FALSE,24.67,21,79,2030,Lower middle income,East Asia & Pacific
 SDN,Sudan,2014,FALSE,24.93,31,69,1625,Low income,Sub-Saharan Africa
@@ -1164,7 +1164,7 @@ MLI,Mali,2013,FALSE,23.67,38,62,805,Low income,Sub-Saharan Africa
 DJI,Djibouti,2013,FALSE,23.77,26,74,2313,Lower middle income,Middle East & North Africa
 JOR,Jordan,2013,FALSE,23.86,29,71,4044,Upper middle income,Middle East & North Africa
 TCD,Chad,2013,FALSE,23.99,34,66,980,Low income,Sub-Saharan Africa
-CPV,Cabo Verde,2013,FALSE,24.04,22,78,3616,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2013,FALSE,24.04,22,78,3616,Lower middle income,Sub-Saharan Africa
 MYS,Malaysia,2013,FALSE,24.19,18,82,10970,Upper middle income,East Asia & Pacific
 IRN,Iran,2013,FALSE,24.26,24,76,6018,Lower middle income,Middle East & North Africa
 SEN,Senegal,2013,FALSE,24.59,29,71,1373,Lower middle income,Sub-Saharan Africa
@@ -1335,7 +1335,7 @@ BOL,Bolivia,2012,FALSE,23.02,30,70,2610,Lower middle income,Latin America & Cari
 AGO,Angola,2012,FALSE,23.15,38,62,5100,Lower middle income,Sub-Saharan Africa
 GHA,Ghana,2012,FALSE,23.28,24,76,1588,Lower middle income,Sub-Saharan Africa
 YEM,Yemen,2012,FALSE,23.48,32,68,1447,Low income,Middle East & North Africa
-CPV,Cabo Verde,2012,FALSE,23.55,22,78,3447,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2012,FALSE,23.55,22,78,3447,Lower middle income,Sub-Saharan Africa
 KAZ,Kazakhstan,2012,FALSE,23.6,27,73,12387,Upper middle income,Europe & Central Asia
 DJI,Djibouti,2012,FALSE,23.61,26,74,1559,Lower middle income,Middle East & North Africa
 TCD,Chad,2012,FALSE,23.68,34,66,967,Low income,Sub-Saharan Africa
@@ -1508,7 +1508,7 @@ SUR,Suriname,2011,FALSE,22.24,20,80,8263,Upper middle income,Latin America & Car
 DZA,Algeria,2011,FALSE,22.31,32,68,5456,Lower middle income,Middle East & North Africa
 NGA,Nigeria,2011,FALSE,22.46,31,69,2488,Lower middle income,Sub-Saharan Africa
 GHA,Ghana,2011,FALSE,23.4,24,76,1549,Lower middle income,Sub-Saharan Africa
-CPV,Cabo Verde,2011,FALSE,23.45,21,79,3740,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2011,FALSE,23.45,21,79,3740,Lower middle income,Sub-Saharan Africa
 TUN,Tunisia,2011,FALSE,23.66,30,70,4265,Lower middle income,Middle East & North Africa
 BWA,Botswana,2011,FALSE,23.83,32,68,7617,Upper middle income,Sub-Saharan Africa
 NAM,Namibia,2011,FALSE,23.93,22,78,5807,Upper middle income,Sub-Saharan Africa
@@ -1689,7 +1689,7 @@ JOR,Jordan,2010,FALSE,22.45,29,71,3737,Upper middle income,Middle East & North A
 YEM,Yemen,2010,FALSE,23.13,33,67,1335,Low income,Middle East & North Africa
 ETH,Ethiopia,2010,FALSE,23.3,31,69,342,Low income,Sub-Saharan Africa
 MAR,Morocco,2010,FALSE,23.4,16,84,2840,Lower middle income,Middle East & North Africa
-CPV,Cabo Verde,2010,FALSE,23.55,21,79,3378,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2010,FALSE,23.55,21,79,3378,Lower middle income,Sub-Saharan Africa
 ZMB,Zambia,2010,FALSE,23.64,28,72,1489,Lower middle income,Sub-Saharan Africa
 GHA,Ghana,2010,FALSE,23.75,25,75,1299,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2010,FALSE,23.83,32,68,1490,Low income,Sub-Saharan Africa
@@ -1868,7 +1868,7 @@ JOR,Jordan,2009,FALSE,22.27,29,71,3560,Upper middle income,Middle East & North A
 DZA,Algeria,2009,FALSE,22.48,32,68,3883,Lower middle income,Middle East & North Africa
 ECU,Ecuador,2009,FALSE,22.96,21,79,4232,Upper middle income,Latin America & Caribbean
 YEM,Yemen,2009,FALSE,22.99,33,67,1116,Low income,Middle East & North Africa
-CPV,Cabo Verde,2009,FALSE,23.01,22,78,3517,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2009,FALSE,23.01,22,78,3517,Lower middle income,Sub-Saharan Africa
 ETH,Ethiopia,2009,FALSE,23.51,32,68,381,Low income,Sub-Saharan Africa
 PRY,Paraguay,2009,FALSE,23.57,16,84,3627,Upper middle income,Latin America & Caribbean
 MAR,Morocco,2009,FALSE,23.66,16,84,2867,Lower middle income,Middle East & North Africa
@@ -2052,7 +2052,7 @@ YEM,Yemen,2008,FALSE,22.2,33,67,1229,Low income,Middle East & North Africa
 DZA,Algeria,2008,FALSE,22.41,31,69,4924,Lower middle income,Middle East & North Africa
 BRA,Brazil,2008,FALSE,22.55,19,81,8831,Upper middle income,Latin America & Caribbean
 PRY,Paraguay,2008,FALSE,22.63,17,83,4048,Upper middle income,Latin America & Caribbean
-CPV,Cabo Verde,2008,FALSE,22.67,22,78,3721,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2008,FALSE,22.67,22,78,3721,Lower middle income,Sub-Saharan Africa
 QAT,Qatar,2008,FALSE,22.76,7,93,80234,High income,Middle East & North Africa
 SSD,South Sudan,2008,FALSE,23.01,34,66,1669,Low income,Sub-Saharan Africa
 GUY,Guyana,2008,FALSE,23.03,21,79,4051,Upper middle income,Latin America & Caribbean
@@ -2234,8 +2234,8 @@ JOR,Jordan,2007,FALSE,22.16,30,70,2735,Upper middle income,Middle East & North A
 DZA,Algeria,2007,FALSE,22.29,31,69,3951,Lower middle income,Middle East & North Africa
 MNG,Mongolia,2007,FALSE,22.32,24,76,1633,Lower middle income,East Asia & Pacific
 BRA,Brazil,2007,FALSE,22.53,18,82,7348,Upper middle income,Latin America & Caribbean
-SYR,Syrian Arab Republic,2007,FALSE,22.76,24,76,2033,Low income,Middle East & North Africa
-CPV,Cabo Verde,2007,FALSE,23.15,23,77,3187,Lower middle income,Sub-Saharan Africa
+SYR,Syria,2007,FALSE,22.76,24,76,2033,Low income,Middle East & North Africa
+CPV,Cape Verde,2007,FALSE,23.15,23,77,3187,Lower middle income,Sub-Saharan Africa
 BLR,Belarus,2007,FALSE,23.46,25,75,4736,Upper middle income,Europe & Central Asia
 ETH,Ethiopia,2007,FALSE,23.51,33,67,244,Low income,Sub-Saharan Africa
 TUN,Tunisia,2007,FALSE,23.75,30,70,3776,Lower middle income,Middle East & North Africa
@@ -2416,8 +2416,8 @@ YEM,Yemen,2006,FALSE,21.88,33,67,921,Low income,Middle East & North Africa
 BLR,Belarus,2006,FALSE,22.07,25,75,3847,Upper middle income,Europe & Central Asia
 DZA,Algeria,2006,FALSE,22.17,31,69,3479,Lower middle income,Middle East & North Africa
 JOR,Jordan,2006,FALSE,22.3,31,69,2513,Upper middle income,Middle East & North Africa
-SYR,Syrian Arab Republic,2006,FALSE,22.56,24,76,1749,Low income,Middle East & North Africa
-CPV,Cabo Verde,2006,FALSE,23.23,23,77,2361,Lower middle income,Sub-Saharan Africa
+SYR,Syria,2006,FALSE,22.56,24,76,1749,Low income,Middle East & North Africa
+CPV,Cape Verde,2006,FALSE,23.23,23,77,2361,Lower middle income,Sub-Saharan Africa
 NAM,Namibia,2006,FALSE,23.57,22,78,4059,Upper middle income,Sub-Saharan Africa
 TUN,Tunisia,2006,FALSE,23.86,30,70,3370,Lower middle income,Middle East & North Africa
 MLI,Mali,2006,FALSE,23.9,40,60,523,Low income,Sub-Saharan Africa
@@ -2594,7 +2594,7 @@ BHS,Bahamas,2005,FALSE,20.93,23,77,30279,High income,Latin America & Caribbean
 LBY,Libya,2005,FALSE,21.07,24,76,8163,Upper middle income,Middle East & North Africa
 LVA,Latvia,2005,FALSE,21.36,28,72,7575,High income,Europe & Central Asia
 MNG,Mongolia,2005,FALSE,21.73,24,76,999,Lower middle income,East Asia & Pacific
-SYR,Syrian Arab Republic,2005,FALSE,21.9,24,76,1572,Low income,Middle East & North Africa
+SYR,Syria,2005,FALSE,21.9,24,76,1572,Low income,Middle East & North Africa
 NAM,Namibia,2005,FALSE,21.93,21,79,3740,Upper middle income,Sub-Saharan Africa
 YEM,Yemen,2005,FALSE,21.98,34,66,833,Low income,Middle East & North Africa
 BLR,Belarus,2005,FALSE,22.06,25,75,3126,Upper middle income,Europe & Central Asia
@@ -2602,7 +2602,7 @@ DZA,Algeria,2005,FALSE,22.06,31,69,3113,Lower middle income,Middle East & North 
 GAB,Gabon,2005,FALSE,22.37,30,70,6891,Upper middle income,Sub-Saharan Africa
 BRA,Brazil,2005,FALSE,22.39,19,81,4790,Upper middle income,Latin America & Caribbean
 JOR,Jordan,2005,FALSE,22.58,32,68,2183,Upper middle income,Middle East & North Africa
-CPV,Cabo Verde,2005,FALSE,23.76,22,78,2099,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2005,FALSE,23.76,22,78,2099,Lower middle income,Sub-Saharan Africa
 MAR,Morocco,2005,FALSE,23.97,16,84,2018,Lower middle income,Middle East & North Africa
 TUN,Tunisia,2005,FALSE,24.06,30,70,3193,Lower middle income,Middle East & North Africa
 MLI,Mali,2005,FALSE,24.15,40,60,489,Low income,Sub-Saharan Africa
@@ -2775,7 +2775,7 @@ ARE,United Arab Emirates,2004,FALSE,20.89,15,85,36333,High income,Middle East & 
 IRQ,Iraq,2004,FALSE,21.06,31,69,1392,Upper middle income,Middle East & North Africa
 MNG,Mongolia,2004,FALSE,21.07,24,76,798,Lower middle income,East Asia & Pacific
 LBY,Libya,2004,FALSE,21.23,23,77,5801,Upper middle income,Middle East & North Africa
-SYR,Syrian Arab Republic,2004,FALSE,21.84,25,75,1407,Low income,Middle East & North Africa
+SYR,Syria,2004,FALSE,21.84,25,75,1407,Low income,Middle East & North Africa
 NAM,Namibia,2004,FALSE,22.02,22,78,3464,Upper middle income,Sub-Saharan Africa
 BRA,Brazil,2004,FALSE,22.23,19,81,3637,Upper middle income,Latin America & Caribbean
 YEM,Yemen,2004,FALSE,22.39,34,66,710,Low income,Middle East & North Africa
@@ -2788,7 +2788,7 @@ BLZ,Belize,2004,FALSE,23.5,19,81,3802,Lower middle income,Latin America & Caribb
 LVA,Latvia,2004,FALSE,23.52,28,72,6364,High income,Europe & Central Asia
 LTU,Lithuania,2004,FALSE,23.6,22,78,6700,High income,Europe & Central Asia
 MAR,Morocco,2004,FALSE,23.76,16,84,1953,Lower middle income,Middle East & North Africa
-CPV,Cabo Verde,2004,FALSE,23.87,23,77,2024,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2004,FALSE,23.87,23,77,2024,Lower middle income,Sub-Saharan Africa
 MLI,Mali,2004,FALSE,24.46,40,60,441,Low income,Sub-Saharan Africa
 ETH,Ethiopia,2004,FALSE,24.82,33,67,136,Low income,Sub-Saharan Africa
 VNM,Vietnam,2004,FALSE,24.88,21,79,547,Lower middle income,East Asia & Pacific
@@ -2959,7 +2959,7 @@ GNQ,Equatorial Guinea,2003,FALSE,20.76,38,62,3619,Upper middle income,Sub-Sahara
 BRA,Brazil,2003,FALSE,21.03,20,80,3071,Upper middle income,Latin America & Caribbean
 LBY,Libya,2003,FALSE,21.12,23,77,4673,Upper middle income,Middle East & North Africa
 CHN,China,2003,FALSE,21.13,26,74,1289,Upper middle income,East Asia & Pacific
-SYR,Syrian Arab Republic,2003,FALSE,21.93,25,75,1253,Low income,Middle East & North Africa
+SYR,Syria,2003,FALSE,21.93,25,75,1253,Low income,Middle East & North Africa
 YEM,Yemen,2003,FALSE,21.98,35,65,620,Low income,Middle East & North Africa
 IRQ,Iraq,2003,FALSE,22.01,31,69,855,Upper middle income,Middle East & North Africa
 DZA,Algeria,2003,FALSE,22.7,31,69,2103,Lower middle income,Middle East & North Africa
@@ -2968,7 +2968,7 @@ JOR,Jordan,2003,FALSE,22.86,32,68,1876,Upper middle income,Middle East & North A
 GAB,Gabon,2003,FALSE,23.14,33,67,4933,Upper middle income,Sub-Saharan Africa
 TUN,Tunisia,2003,FALSE,23.35,29,71,2760,Lower middle income,Middle East & North Africa
 LTU,Lithuania,2003,FALSE,23.55,24,76,5499,High income,Europe & Central Asia
-CPV,Cabo Verde,2003,FALSE,24,23,77,1809,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2003,FALSE,24,23,77,1809,Lower middle income,Sub-Saharan Africa
 MAR,Morocco,2003,FALSE,24.06,16,84,1725,Lower middle income,Middle East & North Africa
 VNM,Vietnam,2003,FALSE,24.2,21,79,481,Lower middle income,East Asia & Pacific
 ARE,United Arab Emirates,2003,FALSE,24.25,16,84,33499,High income,Middle East & North Africa
@@ -3130,7 +3130,7 @@ MDV,Maldives,2002,FALSE,2.04,29,71,3049,Upper middle income,South Asia
 ATG,Antigua and Barbuda,2002,FALSE,2.55,0,100,10401,High income,Latin America & Caribbean
 GNQ,Equatorial Guinea,2002,FALSE,20.29,38,62,2744,Upper middle income,Sub-Saharan Africa
 MMR,Myanmar,2002,FALSE,20.38,31,69,160,Lower middle income,East Asia & Pacific
-SYR,Syrian Arab Republic,2002,FALSE,20.78,26,74,1263,Low income,Middle East & North Africa
+SYR,Syria,2002,FALSE,20.78,26,74,1263,Low income,Middle East & North Africa
 IRQ,Iraq,2002,FALSE,20.9,30,70,1321,Upper middle income,Middle East & North Africa
 BRA,Brazil,2002,FALSE,21.21,19,81,2829,Upper middle income,Latin America & Caribbean
 PRT,Portugal,2002,FALSE,21.25,21,79,12875,High income,Europe & Central Asia
@@ -3145,7 +3145,7 @@ TUN,Tunisia,2002,FALSE,22.9,29,71,2344,Lower middle income,Middle East & North A
 NAM,Namibia,2002,FALSE,23.2,23,77,1809,Upper middle income,Sub-Saharan Africa
 JOR,Jordan,2002,FALSE,23.41,32,68,1802,Upper middle income,Middle East & North Africa
 GAB,Gabon,2002,FALSE,23.46,33,67,4141,Upper middle income,Sub-Saharan Africa
-CPV,Cabo Verde,2002,FALSE,23.48,24,76,1402,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2002,FALSE,23.48,24,76,1402,Lower middle income,Sub-Saharan Africa
 KWT,Kuwait,2002,FALSE,23.54,17,83,17846,High income,Middle East & North Africa
 LCA,Saint Lucia,2002,FALSE,23.84,22,78,5646,Upper middle income,Latin America & Caribbean
 MAR,Morocco,2002,FALSE,24,16,84,1416,Lower middle income,Middle East & North Africa
@@ -3316,7 +3316,7 @@ IRQ,Iraq,2001,FALSE,20.63,31,69,1494,Upper middle income,Middle East & North Afr
 BHS,Bahamas,2001,FALSE,20.95,24,76,27486,High income,Latin America & Caribbean
 KOR,Republic of Korea,2001,FALSE,20.96,28,72,11561,High income,East Asia & Pacific
 LBY,Libya,2001,FALSE,21.13,24,76,6266,Upper middle income,Middle East & North Africa
-SYR,Syrian Arab Republic,2001,FALSE,21.37,26,74,1258,Low income,Middle East & North Africa
+SYR,Syria,2001,FALSE,21.37,26,74,1258,Low income,Middle East & North Africa
 PRT,Portugal,2001,FALSE,21.51,22,78,11725,High income,Europe & Central Asia
 CHN,China,2001,FALSE,21.9,28,72,1053,Upper middle income,East Asia & Pacific
 YEM,Yemen,2001,FALSE,21.96,35,65,550,Low income,Middle East & North Africa
@@ -3326,7 +3326,7 @@ DZA,Algeria,2001,FALSE,22.68,30,70,1741,Lower middle income,Middle East & North 
 NAM,Namibia,2001,FALSE,22.8,23,77,1951,Upper middle income,Sub-Saharan Africa
 TUN,Tunisia,2001,FALSE,23.25,29,71,2253,Lower middle income,Middle East & North Africa
 JOR,Jordan,2001,FALSE,23.29,31,69,1720,Upper middle income,Middle East & North Africa
-CPV,Cabo Verde,2001,FALSE,23.41,24,76,1292,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2001,FALSE,23.41,24,76,1292,Lower middle income,Sub-Saharan Africa
 GAB,Gabon,2001,FALSE,23.5,33,67,3993,Upper middle income,Sub-Saharan Africa
 KWT,Kuwait,2001,FALSE,23.63,18,82,16587,High income,Middle East & North Africa
 MAR,Morocco,2001,FALSE,23.82,15,85,1339,Lower middle income,Middle East & North Africa
@@ -3494,13 +3494,13 @@ MMR,Myanmar,2000,FALSE,20.91,32,68,100,Lower middle income,East Asia & Pacific
 GAB,Gabon,2000,FALSE,21.25,33,67,4136,Upper middle income,Sub-Saharan Africa
 CHN,China,2000,FALSE,21.38,28,72,959,Upper middle income,East Asia & Pacific
 YEM,Yemen,2000,FALSE,21.91,36,64,554,Low income,Middle East & North Africa
-SYR,Syrian Arab Republic,2000,FALSE,22.02,25,75,1178,Low income,Middle East & North Africa
+SYR,Syria,2000,FALSE,22.02,25,75,1178,Low income,Middle East & North Africa
 GNQ,Equatorial Guinea,2000,FALSE,22.11,38,62,1726,Upper middle income,Sub-Saharan Africa
 OMN,Oman,2000,FALSE,22.35,19,81,8601,High income,Middle East & North Africa
 NAM,Namibia,2000,FALSE,22.54,24,76,2186,Upper middle income,Sub-Saharan Africa
 DZA,Algeria,2000,FALSE,22.54,30,70,1765,Lower middle income,Middle East & North Africa
 LTU,Lithuania,2000,FALSE,22.79,22,78,3293,High income,Europe & Central Asia
-CPV,Cabo Verde,2000,FALSE,22.89,25,75,1259,Lower middle income,Sub-Saharan Africa
+CPV,Cape Verde,2000,FALSE,22.89,25,75,1259,Lower middle income,Sub-Saharan Africa
 JOR,Jordan,2000,FALSE,23.23,31,69,1652,Upper middle income,Middle East & North Africa
 TUN,Tunisia,2000,FALSE,23.71,28,72,2212,Lower middle income,Middle East & North Africa
 MAR,Morocco,2000,FALSE,23.86,15,85,1335,Lower middle income,Middle East & North Africa
