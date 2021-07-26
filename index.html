@@ -39,14 +39,15 @@ async function init() {
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
     .append("g").attr("transform","translate("+margin+","+margin+")")
-    .selectAll("body").data(data).enter().append("path")
+    //.selectAll("body").data(data).enter()
+    .append("path")
     .datum(data)
     .attr("fill","none")
     .attr("stroke", "skyblue")
     .attr("stroke-width", 1.5)
     .attr("d", d3.line()
       .x(function(d) { return x(d.Year) })
-      .y(function(d) { return y(d.Value) }))
+      .y(function(d) { return y(d.Value) }));
   
 
   d3.select("svg")
