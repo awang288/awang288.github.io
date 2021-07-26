@@ -20,7 +20,7 @@ div.tooltip {
     <input type="button" onclick="location.href='testing.html';" value="Next" />
 </p>
 <p>&nbsp;</p>
-<p>We can also view the correlation between percentage of tickets sold and gross revenue.  Note that it <u>is</u> possible to have over 100% of tickets sold, as when a performance completely sells out, theatres are allowed to sell "Standing Room Only" tickets where patrons pay to stand in the back of the audience to watch.</p>
+<p>INSERT TEXT HERE</p>
 <svg width=1000 height=700></svg>
 <select id="button"></select>
 <script>
@@ -47,14 +47,7 @@ async function init() {
 d3.select("svg")
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
-    .selectAll("g")
-    .data([1])
-    .enter()
     .append("g").attr("transform","translate("+margin+","+margin+")")
-    .selectAll("circle")
-    .data(data)
-    .enter()
-    .append("circle")
     .selectAll("body").data(data).enter().append("circle")
     .filter(function(d) {return d.Year==2000;})
     .attr("class", function(d) { return "dots " + d.Region})
@@ -75,12 +68,12 @@ d3.select("svg")
 
 d3.select("svg").append("g")
     .attr("transform","translate("+margin+","+margin+")")
-    .call(d3.axisLeft(cy_scale)
+    .call(d3.axisLeft(ys)
       .tickArguments([12,"$.0s"])
 );
 d3.select("svg").append("g")
     .attr("transform","translate("+margin+","+(height+margin)+")")
-    .call(d3.axisBottom(cx_scale)
+    .call(d3.axisBottom(xs)
       .tickArguments([10,".0"])
 );
 
@@ -102,12 +95,7 @@ d3.select("#button").on("change", function(d) {
     d3.select("svg")
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
-    .append("g")
     .append("g").attr("transform","translate("+margin+","+margin+")")
-    .selectAll("circle")
-    .data(data)
-    .enter()
-    .append("circle")
     .selectAll("body").data(data).enter().append("circle")
     .filter(function(d) {return d.Year==selectedOption})
     .attr("class", function(d) { return "dots " + d.Region})
