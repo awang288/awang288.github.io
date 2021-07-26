@@ -37,18 +37,19 @@ async function init() {
 
   
   d3.select("svg")
-    .attr("width",width+2*margin)
-    .attr("height",height+2*margin)
-    .append("g").attr("transform","translate("+margin+","+margin+")")
-    .append("g")//.selectAll("body").data(data).enter()
+    //.attr("width",width+2*margin)
+    //.attr("height",height+2*margin)
+    .append("g")
+    .attr("transform","translate("+margin+","+margin+")")
+    .selectAll("body").data(data).enter()
     .append("path")
     .datum(data)
     .attr("d", d3.line()
       .x(function(d) { return x(d.Year) })
       .y(function(d) { return y(d.Value) }))
-    .attr("fill","none")
-    .attr("stroke", "skyblue")
-    .attr("stroke-width", 1.5);
+    //.attr("fill","none")
+    //.attr("stroke", "skyblue")
+    //.attr("stroke-width", 1.5);
   
 
   d3.select("svg")
