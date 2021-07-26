@@ -1,28 +1,27 @@
-<html><script src="https://d3js.org/d3.v5.js"></script>
+<html>
 <title>US Road Traffic Mortality</title>
-
+<script src="https://d3js.org/d3.v5.js"></script>
 
 <body onload='init()'>
-    <h1>US Road Traffic Mortality</h1>
+<h1>US Road Traffic Mortality</h1>
 <p>Amanda Wang</p>
 <p>July 23, 2021</p>
-<h2>Introduction</h2>
-<p>INSERT PAGE 1 TEXT</p>
-    <svg width=1000 height=1500></svg>
-<div id="tooltip"></div>
+<p>&nbsp;</p>
+<p>
+<input type="button" onclick="location.href='est_road_deaths.html';" value="Next" />
+</p>
+<p>&nbsp;</p>
+<p>INSERT TEXT HERE</p>
+<svg width=1000 height=700></svg>
 <script>
 async function init() {
-
-  const data=await d3.csv('https://awang288.github.io/raw_data/US_data.csv');
-
+  data = await d3.csv("https://awang288.github.io/raw_data/US_data.csv");
   var width=750;
-  var height=750;
+  var height=500;
   var margin=100;
 
   var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
   var ys=d3.scaleLinear().domain([11,16.5]).range([height,0]);
-  var x=d3.scaleLinear().domain([1999,2021]).range([0,width]);
-  var y=d3.scaleLinear().domain([11,16.5]).range([height,0]);
   var tooltip=d3.select("#tooltip").append("div")
           .style("opacity",0)
           .attr("class","tooltip")
