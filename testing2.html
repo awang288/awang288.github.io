@@ -1,0 +1,322 @@
+
+<title>Road Traffic Mortality Around the World</title>
+<script src="https://d3js.org/d3.v5.js"></script>
+<style>
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 110px;
+  background: white;
+  border: 2px;
+  pointer-events: none;
+}
+</style>
+<body onload="init()">
+<h1>Road Traffic Mortality Around the World</h1>
+<p>&nbsp;</p>
+<p>
+    <input type="button" onclick="location.href='index.html';" value="Previous" />
+    <input type="button" onclick="location.href='testing.html';" value="Next" />
+</p>
+<p>&nbsp;</p>
+<p>We can also view the correlation between percentage of tickets sold and gross revenue.  Note that it <u>is</u> possible to have over 100% of tickets sold, as when a performance completely sells out, theatres are allowed to sell "Standing Room Only" tickets where patrons pay to stand in the back of the audience to watch.</p>
+<svg width=1000 height=700></svg>
+<select id="button"></select>
+<script>
+async function init() {
+    data = await d3.csv("https://awang288.github.io/raw_data/Overall.csv");
+    var width=800;
+    var height=500;
+    var margin=100;
+    var xs=d3.scaleLog().domain([90,120000]).range([0,width]);
+    var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
+    const regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
+    "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
+    var years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019]
+    const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
+  
+    d3.select("#button").selectAll("myOptions").data(years)
+        .enter().append("option").text(function (d) {return d;})
+        .attr("value",function(d) {return d;})
+
+    div = d3.select("body").append("div")	
+        .attr("class", "tooltip")				
+        .style("opacity", 0); 
+
+d3.select("svg")
+    .attr("width",width+2*margin)
+    .attr("height",height+2*margin)
+    .selectAll("g")
+    .data([1])
+    .enter()
+    .append("g").attr("transform","translate("+margin+","+margin+")")
+    .selectAll("circle")
+    .data(data)
+    .enter()
+    .append("circle")
+    .selectAll("body").data(data).enter().append("circle")
+    .filter(function(d) {return d.Year==2000;})
+    .attr("class", function(d) { return "dots " + d.Region})
+    .attr("cx", function (d) { return xs(d.GDP); })
+    .attr("cy", function (d) { return ys(d.Value); })
+    .attr("r", 5)
+    .style("fill", function (d) { return colors(d['Region']) })
+    .on("mouseover", function(d) {
+          div.html("Country: "+d.Country+"<br>Region: "+d.regions
+            +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
+            +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
+            .style("top", (event.pageY)-105+"px")
+            .style("left",(event.pageX)-60+"px")
+            .style("opacity", .85);		
+        })					
+    .on("mouseout", function(d) {		
+      div.style("opacity", 0);})
+
+d3.select("svg").append("g")
+    .attr("transform","translate("+margin+","+margin+")")
+    .call(d3.axisLeft(cy_scale)
+      .tickArguments([12,"$.0s"])
+);
+d3.select("svg").append("g")
+    .attr("transform","translate("+margin+","+(height+margin)+")")
+    .call(d3.axisBottom(cx_scale)
+      .tickArguments([10,".0"])
+);
+
+d3.select("svg").append("text")
+    .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
+    .style("text-anchor","middle")
+    .text("GDP per Capita");
+d3.select("svg").append("text")
+    .attr("transform","rotate(-90)")
+    .attr("y", 0-margin.left)
+    .attr("x",-50-(height/2))
+    .attr("dy","1em")
+    .style("text-anchor","middle")
+    .text("Number of Traffic-Related Fatalities per 100,000 population");
+
+d3.select("#button").on("change", function(d) {
+    var selectedOption = d3.select(this).property("value");
+    d3.selectAll("circle").remove();
+    d3.select("svg")
+    .attr("width",width+2*margin)
+    .attr("height",height+2*margin)
+    .append("g")
+    .append("g").attr("transform","translate("+margin+","+margin+")")
+    .selectAll("circle")
+    .data(data)
+    .enter()
+    .append("circle")
+    .selectAll("body").data(data).enter().append("circle")
+    .filter(function(d) {return d.Year==selectedOption})
+    .attr("class", function(d) { return "dots " + d.Region})
+    .attr("cx", function (d) { return xs(d.GDP); })
+    .attr("cy", function (d) { return ys(d.Value); })
+    .attr("r", 5)
+    .style("fill", function (d) { return colors(d['Region']) })
+    .on("mouseover", function(d) {
+          div.html("Country: "+d.Country+"<br>Region: "+d.regions
+            +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
+            +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
+            .style("top", (event.pageY)-105+"px")
+            .style("left",(event.pageX)-60+"px")
+            .style("opacity", .85);		
+        })					
+    .on("mouseout", function(d) {		
+      div.style("opacity", 0);})
+    })
+}
+/*
+d3.select("svg").append("text")
+    .attr("class", function(d) { return "slr " + "All"})
+    .attr("transform","translate(190,180)")
+    .style("text-anchor", "middle")
+    .style("fill", "black")
+    .text("Trend Line for all shows");
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "All"})
+    .style("stroke", "black")
+    .style("stroke-width", 2)
+    .attr("x1", 70)
+    .attr("y1", 283)
+    .attr("x2", 909)
+    .attr("y2", 118);
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "All"})
+    .style("stroke", "black")
+    .style("stroke-width", 1)
+    .attr("x1", 208)
+    .attr("y1", 185)
+    .attr("x2", 270)
+    .attr("y2", 244);
+
+d3.select("svg").append("text")
+    .attr("class", function(d) { return "slr " + "Musical"})
+    .attr("transform","translate(190,180)")
+    .style("text-anchor", "middle")
+    .style("fill", "dodgerblue")
+    .style("opacity", 0)
+    .text("Trend Line for musicals");
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "Musical"})
+    .style("stroke", "dodgerblue")
+    .style("stroke-width", 2)
+    .style("opacity", 0)
+    .attr("x1", 70)
+    .attr("y1", 259)
+    .attr("x2", 909)
+    .attr("y2", 106);
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "Musical"})
+    .style("stroke", "dodgerblue")
+    .style("stroke-width", 1)
+    .style("opacity", 0)
+    .attr("x1", 208)
+    .attr("y1", 185)
+    .attr("x2", 252)
+    .attr("y2", 226);
+
+d3.select("svg").append("text")
+    .attr("class", function(d) { return "slr " + "Play"})
+    .attr("transform","translate(190,180)")
+    .style("text-anchor", "middle")
+    .style("fill", "darkorange")
+    .style("opacity", 0)
+    .text("Trend Line for plays");
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "Play"})
+    .style("stroke", "darkorange")
+    .style("stroke-width", 2)
+    .style("opacity", 0)
+    .attr("x1", 70)
+    .attr("y1", 269)
+    .attr("x2", 909)
+    .attr("y2", 139);
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "Play"})
+    .style("stroke", "darkorange")
+    .style("stroke-width", 1)
+    .style("opacity", 0)
+    .attr("x1", 208)
+    .attr("y1", 185)
+    .attr("x2", 264)
+    .attr("y2", 238);
+
+d3.select("svg").append("text")
+    .attr("class", function(d) { return "slr " + "Other"})
+    .attr("transform","translate(190,180)")
+    .style("text-anchor", "middle")
+    .style("fill", "darkgray")
+    .style("opacity", 0)
+    .text("Trend Line for other productions");
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "Other"})
+    .style("stroke", "darkgray")
+    .style("stroke-width", 2)
+    .style("opacity", 0)
+    .attr("x1", 70)
+    .attr("y1", 292)
+    .attr("x2", 909)
+    .attr("y2", 114);
+d3.select("svg").append("line")
+    .attr("class", function(d) { return "slr " + "Other"})
+    .style("stroke", "darkgray")
+    .style("stroke-width", 1)
+    .style("opacity", 0)
+    .attr("x1", 208)
+    .attr("y1", 185)
+    .attr("x2", 269)
+    .attr("y2", 252);
+
+d3.select("svg").append("rect")
+    .attr("x",550)
+    .attr("y",310)
+    .attr("width",350)
+    .attr("height",90)
+    .style("fill","black");
+d3.select("svg").append("rect")
+    .attr("x",553)
+    .attr("y",313)
+    .attr("width",344)
+    .attr("height",84)
+    .style("fill","white");
+
+
+var filter = function(d) {
+    d3.selectAll(".dots").style("opacity", .15)
+    d3.selectAll(".slr").style("opacity", 0)
+    d3.selectAll("."+d).style("opacity", 1)
+  };
+
+var unfilter = function(d) {
+    d3.selectAll(".dots").style("opacity", 1)
+    d3.selectAll(".slr").style("opacity", 0)
+    d3.selectAll(".All").style("opacity", 1)
+  };
+
+d3.select("svg").append("circle")
+    .data(["musical"])
+    .attr('cx',800)
+    .attr('cy',335)
+    .attr('r',5)
+    .style('fill',"dodgerblue")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter);
+
+d3.select("svg").append("text")
+    .data(["musical"])
+    .attr("transform","translate(814,340)")
+    .style("text-anchor", "left")
+    .style("fill", "dodgerblue")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter)
+    .text("Musical");
+
+d3.select("svg").append("circle")
+    .data(["play"])
+    .attr('cx',800)
+    .attr('cy',355)
+    .attr('r',5)
+    .style('fill',"darkorange")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter);
+
+d3.select("svg").append("text")
+    .data(["play"])
+    .attr("transform","translate(814,360)")
+    .style("text-anchor", "left")
+    .style("fill", "darkorange")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter)
+    .text("Play");
+
+d3.select("svg").append("circle")
+    .data(["other"])
+    .attr('cx',800)
+    .attr('cy',375)
+    .attr('r',5)
+    .style('fill',"darkgray")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter);
+
+d3.select("svg").append("text")
+    .data(["other"])
+    .attr("transform","translate(814,380)")
+    .style("text-anchor", "left")
+    .style("fill", "darkgray")
+    .on("mouseover", filter)
+    .on("mouseleave", unfilter)
+    .text("Other");
+
+d3.select("svg").append("text")
+    .attr("transform","translate(565,360)")
+    .style("text-anchor", "left")
+    .style("fill", "black")
+    .text("Move mouse over legend to filter:");
+
+*/
+</script>
+
+<p>INSERT TEXT HERE</p>
+</body>
