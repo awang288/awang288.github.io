@@ -174,7 +174,7 @@ var unfilter = function(d) {
   };
 
 d3.select("svg").append("circle")
-    .data(["East Asia & Pacific"])
+    .data(["Region"])
     .attr('cx',800)
     .attr('cy',120)
     .attr('r',5)
@@ -183,7 +183,7 @@ d3.select("svg").append("circle")
     .on("mouseleave", unfilter);
 
 d3.select("svg").append("text")
-    .data(["East Asia & Pacific"])
+    .data(["Region"])
     .attr("transform","translate(814,120)")
     .style("text-anchor", "left")
     .style("fill", "dodgerblue")
