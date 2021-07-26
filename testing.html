@@ -10,16 +10,19 @@
 <select id="button"></select>
 
 <script>
-  var width=750;
-  var height=750;
-  var margin=100;
-  var svg=d3.select("#my_dataviz").append("svg")
-    .attr("width",width+2*margin)
-    .attr("width",height+2*margin)
-    .append("g")
-    .attr("transform", "translate(" + margin + ", " + margin + ")");
+
     
     async function init(){
+
+        var width=750;
+        var height=750;
+        var margin=100;
+        var svg=d3.select("#my_dataviz").append("svg")
+            .attr("width",width+2*margin)
+            .attr("width",height+2*margin)
+            .append("g")
+            .attr("transform", "translate(" + margin + ", " + margin + ")");
+
         const data=await d3.csv('https://awang288.github.io/raw_data/Overall.csv');
         // x axis
         var x=d3.scaleLog().domain([90,120000]).range([0,width])
