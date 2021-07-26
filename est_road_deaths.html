@@ -152,13 +152,13 @@ async function init() {
 
 d3.select("svg").append("rect")
     .attr("x",800)
-    .attr("y",300)
+    .attr("y",150)
     .attr("width",350)
     .attr("height",90)
     .style("fill","black");
 d3.select("svg").append("rect")
     .attr("x",805)
-    .attr("y",305)
+    .attr("y",150)
     .attr("width",340)
     .attr("height",80)
     .style("fill","white");
@@ -176,7 +176,7 @@ var unfilter = function(d) {
 d3.select("svg").append("circle")
     .data(["East Asia & Pacific"])
     .attr('cx',800)
-    .attr('cy',335)
+    .attr('cy',120)
     .attr('r',5)
     .style('fill',"dodgerblue")
     .on("mouseover", filter)
@@ -184,7 +184,7 @@ d3.select("svg").append("circle")
 
 d3.select("svg").append("text")
     .data(["East Asia & Pacific"])
-    .attr("transform","translate(814,340)")
+    .attr("transform","translate(814,120)")
     .style("text-anchor", "left")
     .style("fill", "dodgerblue")
     .on("mouseover", filter)
