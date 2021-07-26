@@ -30,25 +30,26 @@ async function init() {
   var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
   var ys=d3.scaleLinear().domain([11,16.5]).range([height,0]);
   var xTickLabels=["2000","2005","2010","2015","2020"]
+
   div = d3.select("body").append("div")	
     .attr("class", "tooltip")				
     .style("opacity", 0); 
 
-  /*
+  
   d3.select("svg")
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
     .append("g").attr("transform","translate("+margin+","+margin+")")
-    //.selectAll("body").data(data).enter()
+    .append("g")//.selectAll("body").data(data).enter()
     .append("path")
     .datum(data)
-    .attr("fill","none")
-    .attr("stroke", "skyblue")
-    .attr("stroke-width", 1.5)
     .attr("d", d3.line()
       .x(function(d) { return x(d.Year) })
-      .y(function(d) { return y(d.Value) }));
-  */
+      .y(function(d) { return y(d.Value) }))
+    .attr("fill","none")
+    .attr("stroke", "skyblue")
+    .attr("stroke-width", 1.5);
+  
 
   d3.select("svg")
     .attr("width",width+2*margin)
