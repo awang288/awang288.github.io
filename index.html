@@ -24,7 +24,7 @@
 async function init() {
   data = await d3.csv("https://awang288.github.io/raw_data/US_data.csv");
   var width=750;
-  var height=750;
+  var height=500;
   var margin=100;
 
   var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
