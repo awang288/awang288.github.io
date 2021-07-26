@@ -60,6 +60,7 @@ async function init() {
     var years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019]
     const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
     const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
+    var xTickLabels=["$100","$1000","$10,000","$100,000"]
 
     d3.select("#button").selectAll("myOptions").data(years)
         .enter().append("option").text(function (d) {return d;})
@@ -78,7 +79,7 @@ async function init() {
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
-        .attr("r", 2)
+        .attr("r", 4)
         .attr("stroke",function (d) { return colors(d['Region']) })
         .attr("stroke-width",2)
         .attr("fill", function (d) { return colors(d['Region']) })
@@ -100,7 +101,11 @@ async function init() {
     d3.select("svg").append("g")
         .attr("transform","translate("+margin+","+(height+margin)+")")
         .call(d3.axisBottom(xs)
-        .tickArguments([5,".0"])
+        .ticks(4)
+        .tickValues([100,1000,10000,100000])
+        .tickFormat(function(d,i){
+          return xTickLabels[i]
+        })
     );
 
     d3.select("svg").append("text")
@@ -128,7 +133,7 @@ async function init() {
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
-        .attr("r", 2)
+        .attr("r", 4)
         .attr("stroke",function (d) { return colors(d['Region']) })
         .attr("stroke-width",2)
         .attr("fill", function (d) { return colors(d['Region']) })
@@ -137,7 +142,7 @@ async function init() {
                 +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
                 +d.Value+"<br>% of Fatalities-Female: "+d.Female+"%<br>% of Fatalities-Male: "+d.Male+"%")
                 .style("top", (event.pageY)-150+"px")
-                .style("left",(event.pageX)-60+"px")
+                .style("left",(event.pageX)-50+"px")
                 .style("opacity", .85);		
             })					
         .on("mouseout", function(d) {		
