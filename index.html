@@ -12,6 +12,10 @@
     padding: 5px;
     pointer-events: none;
   }
+  .myCircle:hover {
+    fill: #E8336D;
+  }
+
 </style>
 <body onload='init()'>
 <h1>US Road Traffic Mortality</h1>
@@ -57,6 +61,7 @@ async function init() {
     .attr("height",height+2*margin)
     .append("g").attr("transform","translate("+margin+","+margin+")")
     .selectAll("body").data(data).enter().append("circle")
+    .attr("class","myCircle")
     .attr("cx",function(d) {return xs(d.Year);})
     .attr("cy",function(d) {return ys(d.Value);})
     .attr("r",5)
