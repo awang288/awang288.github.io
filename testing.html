@@ -113,11 +113,11 @@
             .style("font-style", "normal")
             .style("font-weight", "900");
 
-        d3.select("#button").selectAll("myOptions").data(years)
+        d3.select("#my_dataviz").select("#button").selectAll("myOptions").data(years)
             .enter().append("option").text(function (d) {return d;})
             .attr("value",function(d) {return d;})
 
-        d3.select("#button").on("change", function(d) {
+        d3.select("#my_dataviz").select("#button").on("change", function(d) {
             var selectedOption = d3.select(this).property("value");
             d3.selectAll("circle").remove();
             svg
