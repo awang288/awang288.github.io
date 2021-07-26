@@ -1,6 +1,6 @@
 CountryCode,Country,Year,MostRecent,Value,Female,Male,GDP,IncomeGroup,Region
 ATG,Antigua and Barbuda,2019,TRUE,0,0,0,17113,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2019,TRUE,0.16,31,69,3585,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2019,TRUE,0.16,31,69,3585,Lower middle income,East Asia & Pacific
 MDV,Maldives,2019,TRUE,1.63,20,80,10626,Upper middle income,South Asia
 KIR,Kiribati,2019,TRUE,1.92,17,83,1655,Lower middle income,East Asia & Pacific
 EGY,Egypt,2019,TRUE,10.1,28,72,3019,Lower middle income,Middle East & North Africa
@@ -52,7 +52,7 @@ NIC,Nicaragua,2019,TRUE,16.94,15,85,1927,Lower middle income,Latin America & Car
 MAR,Morocco,2019,TRUE,16.96,15,85,3230,Lower middle income,Middle East & North Africa
 JOR,Jordan,2019,TRUE,17,28,72,4405,Upper middle income,Middle East & North Africa
 CHN,China,2019,TRUE,17.36,25,75,10217,Upper middle income,East Asia & Pacific
-LAO,Lao People's Democratic Republic,2019,TRUE,17.87,27,73,2545,Lower middle income,East Asia & Pacific
+LAO,Laos,2019,TRUE,17.87,27,73,2545,Lower middle income,East Asia & Pacific
 HTI,Haiti,2019,TRUE,18.77,28,72,1272,Lower middle income,Latin America & Caribbean
 KHM,Cambodia,2019,TRUE,19.55,26,74,1643,Lower middle income,East Asia & Pacific
 LKA,Sri Lanka,2019,TRUE,19.69,21,79,3852,Lower middle income,South Asia
@@ -68,9 +68,9 @@ NGA,Nigeria,2019,TRUE,20.75,31,69,2230,Lower middle income,Sub-Saharan Africa
 SLV,El Salvador,2019,TRUE,20.87,23,77,4168,Lower middle income,Latin America & Caribbean
 DZA,Algeria,2019,TRUE,20.9,32,68,3976,Lower middle income,Middle East & North Africa
 MNG,Mongolia,2019,TRUE,21.04,22,78,4340,Lower middle income,East Asia & Pacific
-BOL,Bolivia (Plurinational State of),2019,TRUE,21.11,30,70,3552,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2019,TRUE,21.11,30,70,3552,Lower middle income,Latin America & Caribbean
 LBY,Libya,2019,TRUE,21.3,28,72,7686,Upper middle income,Middle East & North Africa
-IRN,Iran (Islamic Republic of),2019,TRUE,21.47,23,77,3115,Lower middle income,Middle East & North Africa
+IRN,Iran,2019,TRUE,21.47,23,77,3115,Lower middle income,Middle East & North Africa
 PRY,Paraguay,2019,TRUE,22.03,16,84,5381,Upper middle income,Latin America & Caribbean
 ZAF,South Africa,2019,TRUE,22.22,23,77,6001,Upper middle income,Sub-Saharan Africa
 GUY,Guyana,2019,TRUE,22.34,12,88,6610,Upper middle income,Latin America & Caribbean
@@ -81,7 +81,7 @@ GTM,Guatemala,2019,TRUE,22.9,17,83,4639,Upper middle income,Latin America & Cari
 DJI,Djibouti,2019,TRUE,23.5,26,74,3415,Lower middle income,Middle East & North Africa
 SEN,Senegal,2019,TRUE,23.51,28,72,1430,Lower middle income,Sub-Saharan Africa
 GAB,Gabon,2019,TRUE,23.86,25,75,7767,Upper middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2019,TRUE,24.12,30,70,2276,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2019,TRUE,24.12,30,70,2276,Lower middle income,Sub-Saharan Africa
 NER,Niger,2019,TRUE,25.51,34,66,554,Low income,Sub-Saharan Africa
 MRT,Mauritania,2019,TRUE,25.6,40,60,1679,Lower middle income,Sub-Saharan Africa
 GHA,Ghana,2019,TRUE,25.67,22,78,2210,Lower middle income,Sub-Saharan Africa
@@ -107,7 +107,7 @@ COG,Congo,2019,TRUE,29.7,36,64,2359,Lower middle income,Sub-Saharan Africa
 LCA,Saint Lucia,2019,TRUE,29.84,20,80,11611,Upper middle income,Latin America & Caribbean
 IRL,Ireland,2019,TRUE,3.13,29,71,80779,High income,Europe & Central Asia
 SWE,Sweden,2019,TRUE,3.14,23,77,51687,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2019,TRUE,3.21,26,74,42354,High income,Europe & Central Asia
+GBR,United Kingdom,2019,TRUE,3.21,26,74,42354,High income,Europe & Central Asia
 JPN,Japan,2019,TRUE,3.6,33,67,40113,High income,East Asia & Pacific
 DNK,Denmark,2019,TRUE,3.7,28,72,60213,High income,Europe & Central Asia
 DEU,Germany,2019,TRUE,3.78,25,75,46468,High income,Europe & Central Asia
@@ -117,9 +117,9 @@ ESP,Spain,2019,TRUE,3.91,24,76,29565,High income,Europe & Central Asia
 NLD,Netherlands,2019,TRUE,3.98,28,72,52295,High income,Europe & Central Asia
 MOZ,Mozambique,2019,TRUE,30.02,26,74,504,Low income,Sub-Saharan Africa
 CMR,Cameroon,2019,TRUE,30.18,21,79,1507,Lower middle income,Sub-Saharan Africa
-VNM,Viet Nam,2019,TRUE,30.56,22,78,2715,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2019,TRUE,30.56,22,78,2715,Lower middle income,East Asia & Pacific
 BFA,Burkina Faso,2019,TRUE,31.02,34,66,787,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2019,TRUE,31.12,31,69,1086,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2019,TRUE,31.12,31,69,1086,Lower middle income,Sub-Saharan Africa
 LSO,Lesotho,2019,TRUE,31.92,22,78,1113,Lower middle income,Sub-Saharan Africa
 THA,Thailand,2019,TRUE,32.21,20,80,7817,Upper middle income,East Asia & Pacific
 GNB,Guinea-Bissau,2019,TRUE,32.23,33,67,749,Low income,Sub-Saharan Africa
@@ -142,7 +142,7 @@ AUS,Australia,2019,TRUE,4.94,27,73,55057,High income,East Asia & Pacific
 ZWE,Zimbabwe,2019,TRUE,41.22,21,79,1156,Lower middle income,Sub-Saharan Africa
 SVN,Slovenia,2019,TRUE,5.05,16,84,25941,High income,Europe & Central Asia
 FRA,France,2019,TRUE,5.13,26,74,40380,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2019,TRUE,5.15,22,78,6022,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2019,TRUE,5.15,22,78,6022,Upper middle income,Europe & Central Asia
 BHR,Bahrain,2019,TRUE,5.18,11,89,23443,High income,Middle East & North Africa
 ITA,Italy,2019,TRUE,5.32,23,77,33567,High income,Europe & Central Asia
 CAN,Canada,2019,TRUE,5.34,32,68,46327,High income,North America
@@ -153,10 +153,10 @@ SVK,Slovakia,2019,TRUE,6.07,29,71,19273,High income,Europe & Central Asia
 TUR,Turkey,2019,TRUE,6.68,25,75,9127,Upper middle income,Europe & Central Asia
 AZE,Azerbaijan,2019,TRUE,6.73,20,80,4806,Upper middle income,Europe & Central Asia
 DOM,Dominican Republic,2019,TRUE,64.6,14,86,8282,Upper middle income,Latin America & Caribbean
-MDA,Republic of Moldova,2019,TRUE,7.25,23,77,4494,Upper middle income,Europe & Central Asia
+MDA,Moldova,2019,TRUE,7.25,23,77,4494,Upper middle income,Europe & Central Asia
 QAT,Qatar,2019,TRUE,7.27,8,92,62088,High income,Middle East & North Africa
 VCT,Saint Vincent and the Grenadines,2019,TRUE,7.41,20,80,7457,Upper middle income,Latin America & Caribbean
-BRN,Brunei Darussalam,2019,TRUE,7.45,15,85,31086,High income,East Asia & Pacific
+BRN,Brunei,2019,TRUE,7.45,15,85,31086,High income,East Asia & Pacific
 SRB,Serbia,2019,TRUE,7.47,22,78,7412,Upper middle income,Europe & Central Asia
 MNE,Montenegro,2019,TRUE,7.64,26,74,8911,Upper middle income,Europe & Central Asia
 BLR,Belarus,2019,TRUE,7.64,28,72,6839,Upper middle income,Europe & Central Asia
@@ -177,7 +177,7 @@ TTO,Trinidad and Tobago,2019,TRUE,9.33,20,80,16637,High income,Latin America & C
 POL,Poland,2019,TRUE,9.38,25,75,15695,High income,Europe & Central Asia
 NZL,New Zealand,2019,TRUE,9.57,32,68,41999,High income,East Asia & Pacific
 ATG,Antigua and Barbuda,2018,FALSE,0,0,0,16673,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2018,FALSE,0.21,36,64,3568,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2018,FALSE,0.21,36,64,3568,Lower middle income,East Asia & Pacific
 MDV,Maldives,2018,FALSE,1.72,20,80,10277,Upper middle income,South Asia
 UKR,Ukraine,2018,FALSE,10.01,24,76,3097,Lower middle income,Europe & Central Asia
 TTO,Trinidad and Tobago,2018,FALSE,10.16,20,80,17038,High income,Latin America & Caribbean
@@ -226,7 +226,7 @@ COL,Colombia,2018,FALSE,16.32,18,82,6730,Upper middle income,Latin America & Car
 NIC,Nicaragua,2018,FALSE,16.59,14,86,2015,Lower middle income,Latin America & Caribbean
 SLB,Solomon Islands,2018,FALSE,16.62,24,76,2412,Lower middle income,East Asia & Pacific
 BRA,Brazil,2018,FALSE,17.12,17,83,9151,Upper middle income,Latin America & Caribbean
-LAO,Lao People's Democratic Republic,2018,FALSE,17.32,27,73,2542,Lower middle income,East Asia & Pacific
+LAO,Laos,2018,FALSE,17.32,27,73,2542,Lower middle income,East Asia & Pacific
 CHN,China,2018,FALSE,17.57,25,75,9977,Upper middle income,East Asia & Pacific
 JOR,Jordan,2018,FALSE,17.63,28,72,4308,Upper middle income,Middle East & North Africa
 MAR,Morocco,2018,FALSE,17.68,16,84,3227,Lower middle income,Middle East & North Africa
@@ -244,12 +244,12 @@ GTM,Guatemala,2018,FALSE,20.36,17,83,4478,Upper middle income,Latin America & Ca
 ARM,Armenia,2018,FALSE,20.39,22,78,4221,Upper middle income,Europe & Central Asia
 ZMB,Zambia,2018,FALSE,20.51,26,74,1516,Lower middle income,Sub-Saharan Africa
 ECU,Ecuador,2018,FALSE,20.7,22,78,6296,Upper middle income,Latin America & Caribbean
-BOL,Bolivia (Plurinational State of),2018,FALSE,20.71,30,70,3549,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2018,FALSE,20.71,30,70,3549,Lower middle income,Latin America & Caribbean
 SLV,El Salvador,2018,FALSE,20.75,23,77,4053,Lower middle income,Latin America & Caribbean
 MNG,Mongolia,2018,FALSE,20.9,23,77,4135,Lower middle income,East Asia & Pacific
 NGA,Nigeria,2018,FALSE,20.94,31,69,2028,Lower middle income,Sub-Saharan Africa
 DZA,Algeria,2018,FALSE,20.96,32,68,4154,Lower middle income,Middle East & North Africa
-IRN,Iran (Islamic Republic of),2018,FALSE,21.66,23,77,3598,Lower middle income,Middle East & North Africa
+IRN,Iran,2018,FALSE,21.66,23,77,3598,Lower middle income,Middle East & North Africa
 PRY,Paraguay,2018,FALSE,22.06,16,84,5783,Upper middle income,Latin America & Caribbean
 BLZ,Belize,2018,FALSE,22.46,16,84,5001,Lower middle income,Latin America & Caribbean
 GUY,Guyana,2018,FALSE,22.53,13,87,6146,Upper middle income,Latin America & Caribbean
@@ -259,7 +259,7 @@ MLI,Mali,2018,FALSE,22.85,36,64,895,Low income,Sub-Saharan Africa
 DJI,Djibouti,2018,FALSE,23.6,26,74,3142,Lower middle income,Middle East & North Africa
 SEN,Senegal,2018,FALSE,23.66,29,71,1458,Lower middle income,Sub-Saharan Africa
 GAB,Gabon,2018,FALSE,23.77,24,76,7957,Upper middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2018,FALSE,23.87,30,70,2314,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2018,FALSE,23.87,30,70,2314,Lower middle income,Sub-Saharan Africa
 TON,Tonga,2018,FALSE,23.9,24,76,4741,Upper middle income,East Asia & Pacific
 GHA,Ghana,2018,FALSE,25.29,22,78,2194,Lower middle income,Sub-Saharan Africa
 MRT,Mauritania,2018,FALSE,25.63,40,60,1601,Lower middle income,Sub-Saharan Africa
@@ -282,12 +282,12 @@ TGO,Togo,2018,FALSE,28.84,31,69,902,Low income,Sub-Saharan Africa
 MDG,Madagascar,2018,FALSE,29.03,34,66,518,Low income,Sub-Saharan Africa
 GMB,Gambia,2018,FALSE,29.12,27,73,733,Low income,Sub-Saharan Africa
 COG,Congo,2018,FALSE,29.17,37,63,2601,Lower middle income,Sub-Saharan Africa
-VNM,Viet Nam,2018,FALSE,29.17,22,78,2566,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2018,FALSE,29.17,22,78,2566,Lower middle income,East Asia & Pacific
 UGA,Uganda,2018,FALSE,29.66,23,77,770,Low income,Sub-Saharan Africa
 GIN,Guinea,2018,FALSE,29.73,36,64,955,Low income,Sub-Saharan Africa
 RWA,Rwanda,2018,FALSE,29.91,28,72,784,Low income,Sub-Saharan Africa
 CMR,Cameroon,2018,FALSE,29.92,21,79,1534,Lower middle income,Sub-Saharan Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2018,FALSE,3.02,25,75,42993,High income,Europe & Central Asia
+GBR,United Kingdom,2018,FALSE,3.02,25,75,42993,High income,Europe & Central Asia
 IRL,Ireland,2018,FALSE,3.03,28,72,79298,High income,Europe & Central Asia
 DNK,Denmark,2018,FALSE,3.19,32,68,61599,High income,Europe & Central Asia
 ISR,Israel,2018,FALSE,3.4,18,82,41705,High income,Middle East & North Africa
@@ -296,7 +296,7 @@ JPN,Japan,2018,FALSE,3.65,33,67,39159,High income,East Asia & Pacific
 MOZ,Mozambique,2018,FALSE,30.1,26,74,503,Low income,Sub-Saharan Africa
 TCD,Chad,2018,FALSE,30.62,33,67,726,Low income,Sub-Saharan Africa
 BFA,Burkina Faso,2018,FALSE,30.84,34,66,813,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2018,FALSE,31.02,31,69,1043,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2018,FALSE,31.02,31,69,1043,Lower middle income,Sub-Saharan Africa
 LSO,Lesotho,2018,FALSE,31.64,22,78,1192,Lower middle income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2018,FALSE,32.13,34,66,803,Low income,Sub-Saharan Africa
 SLE,Sierra Leone,2018,FALSE,32.18,35,65,534,Low income,Sub-Saharan Africa
@@ -319,7 +319,7 @@ AUS,Australia,2018,FALSE,4.79,26,74,57355,High income,East Asia & Pacific
 AUT,Austria,2018,FALSE,4.82,24,76,51453,High income,Europe & Central Asia
 ZWE,Zimbabwe,2018,FALSE,40.64,22,78,1352,Lower middle income,Sub-Saharan Africa
 FRA,France,2018,FALSE,5.15,26,74,41526,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2018,FALSE,5.18,22,78,6087,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2018,FALSE,5.18,22,78,6087,Upper middle income,Europe & Central Asia
 CAN,Canada,2018,FALSE,5.43,32,68,46455,High income,North America
 BEL,Belgium,2018,FALSE,5.43,26,74,47555,High income,Europe & Central Asia
 CYP,Cyprus,2018,FALSE,5.47,24,76,29089,High income,Europe & Central Asia
@@ -334,8 +334,8 @@ ISL,Iceland,2018,FALSE,6.96,22,78,74348,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2018,FALSE,7.14,21,79,7361,Upper middle income,Latin America & Caribbean
 SRB,Serbia,2018,FALSE,7.47,22,78,7252,Upper middle income,Europe & Central Asia
 LTU,Lithuania,2018,FALSE,7.51,29,71,19167,High income,Europe & Central Asia
-MDA,Republic of Moldova,2018,FALSE,7.68,24,76,4230,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2018,FALSE,7.76,17,83,31628,High income,East Asia & Pacific
+MDA,Moldova,2018,FALSE,7.68,24,76,4230,Upper middle income,Europe & Central Asia
+BRN,Brunei,2018,FALSE,7.76,17,83,31628,High income,East Asia & Pacific
 GRD,Grenada,2018,FALSE,7.79,6,94,10486,Upper middle income,Latin America & Caribbean
 MNE,Montenegro,2018,FALSE,7.81,26,74,8850,Upper middle income,Europe & Central Asia
 AZE,Azerbaijan,2018,FALSE,8.08,20,80,4740,Upper middle income,Europe & Central Asia
@@ -355,7 +355,7 @@ PRT,Portugal,2018,FALSE,8.99,22,78,23551,High income,Europe & Central Asia
 LVA,Latvia,2018,FALSE,9.07,23,77,17850,High income,Europe & Central Asia
 POL,Poland,2018,FALSE,9.22,24,76,15468,High income,Europe & Central Asia
 ATG,Antigua and Barbuda,2017,FALSE,0,0,0,15384,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2017,FALSE,0.28,30,70,3290,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2017,FALSE,0.28,30,70,3290,Lower middle income,East Asia & Pacific
 MDV,Maldives,2017,FALSE,1.78,19,81,9578,Upper middle income,South Asia
 UKR,Ukraine,2017,FALSE,10.34,24,76,2641,Lower middle income,Europe & Central Asia
 MNE,Montenegro,2017,FALSE,10.36,26,74,7803,Upper middle income,Europe & Central Asia
@@ -403,7 +403,7 @@ LBN,Lebanon,2017,FALSE,16.33,19,81,7793,Upper middle income,Middle East & North 
 ARM,Armenia,2017,FALSE,16.39,28,72,3915,Upper middle income,Europe & Central Asia
 KGZ,Kyrgyzstan,2017,FALSE,16.53,25,75,1243,Lower middle income,Europe & Central Asia
 SLB,Solomon Islands,2017,FALSE,16.72,24,76,2333,Lower middle income,East Asia & Pacific
-LAO,Lao People's Democratic Republic,2017,FALSE,16.78,27,73,2424,Lower middle income,East Asia & Pacific
+LAO,Laos,2017,FALSE,16.78,27,73,2424,Lower middle income,East Asia & Pacific
 KWT,Kuwait,2017,FALSE,17.09,10,90,29759,High income,Middle East & North Africa
 COL,Colombia,2017,FALSE,17.2,19,81,6377,Upper middle income,Latin America & Caribbean
 TON,Tonga,2017,FALSE,17.33,24,76,4513,Upper middle income,East Asia & Pacific
@@ -421,11 +421,11 @@ SGP,Singapore,2017,FALSE,2.48,28,72,61176,High income,East Asia & Pacific
 SWE,Sweden,2017,FALSE,2.73,23,77,53792,High income,Europe & Central Asia
 CHE,Switzerland,2017,FALSE,2.8,26,74,83352,High income,Europe & Central Asia
 MMR,Myanmar,2017,FALSE,20.03,25,75,1258,Lower middle income,East Asia & Pacific
-BOL,Bolivia (Plurinational State of),2017,FALSE,20.32,30,70,3351,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2017,FALSE,20.32,30,70,3351,Lower middle income,Latin America & Caribbean
 IRQ,Iraq,2017,FALSE,20.43,26,74,5077,Upper middle income,Middle East & North Africa
 ZMB,Zambia,2017,FALSE,20.57,26,74,1535,Lower middle income,Sub-Saharan Africa
 SLV,El Salvador,2017,FALSE,20.63,22,78,3910,Lower middle income,Latin America & Caribbean
-IRN,Iran (Islamic Republic of),2017,FALSE,20.7,23,77,5520,Lower middle income,Middle East & North Africa
+IRN,Iran,2017,FALSE,20.7,23,77,5520,Lower middle income,Middle East & North Africa
 MNG,Mongolia,2017,FALSE,20.75,23,77,3669,Lower middle income,East Asia & Pacific
 DZA,Algeria,2017,FALSE,21.01,32,68,4110,Lower middle income,Middle East & North Africa
 NGA,Nigeria,2017,FALSE,21.13,31,69,1969,Lower middle income,Sub-Saharan Africa
@@ -438,7 +438,7 @@ GUY,Guyana,2017,FALSE,22.73,13,87,6125,Upper middle income,Latin America & Carib
 MYS,Malaysia,2017,FALSE,22.9,18,82,10259,Upper middle income,East Asia & Pacific
 MLI,Mali,2017,FALSE,22.99,36,64,830,Low income,Sub-Saharan Africa
 ZAF,South Africa,2017,FALSE,23.18,22,78,6131,Upper middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2017,FALSE,23.63,30,70,2111,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2017,FALSE,23.63,30,70,2111,Lower middle income,Sub-Saharan Africa
 DJI,Djibouti,2017,FALSE,23.69,26,74,2914,Lower middle income,Middle East & North Africa
 SEN,Senegal,2017,FALSE,23.8,29,71,1362,Lower middle income,Sub-Saharan Africa
 LCA,Saint Lucia,2017,FALSE,23.84,20,80,11047,Upper middle income,Latin America & Caribbean
@@ -458,7 +458,7 @@ STP,Sao Tome and Principe,2017,FALSE,27.35,22,78,1814,Lower middle income,Sub-Sa
 SOM,Somalia,2017,FALSE,27.38,28,72,309,Low income,Sub-Saharan Africa
 YEM,Yemen,2017,FALSE,27.46,32,68,961,Low income,Middle East & North Africa
 KEN,Kenya,2017,FALSE,27.68,26,74,1572,Lower middle income,Sub-Saharan Africa
-VNM,Viet Nam,2017,FALSE,27.84,22,78,2366,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2017,FALSE,27.84,22,78,2366,Lower middle income,East Asia & Pacific
 GMB,Gambia,2017,FALSE,28.63,27,73,680,Low income,Sub-Saharan Africa
 COG,Congo,2017,FALSE,28.64,37,63,2174,Lower middle income,Sub-Saharan Africa
 MDG,Madagascar,2017,FALSE,28.81,34,66,515,Low income,Sub-Saharan Africa
@@ -467,7 +467,7 @@ TGO,Togo,2017,FALSE,29.16,31,69,831,Low income,Sub-Saharan Africa
 CMR,Cameroon,2017,FALSE,29.66,21,79,1425,Lower middle income,Sub-Saharan Africa
 GIN,Guinea,2017,FALSE,29.79,36,64,856,Low income,Sub-Saharan Africa
 UGA,Uganda,2017,FALSE,29.94,23,77,747,Low income,Sub-Saharan Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2017,FALSE,3.02,25,75,40305,High income,Europe & Central Asia
+GBR,United Kingdom,2017,FALSE,3.02,25,75,40305,High income,Europe & Central Asia
 DNK,Denmark,2017,FALSE,3.27,24,76,57610,High income,Europe & Central Asia
 IRL,Ireland,2017,FALSE,3.41,28,72,70413,High income,Europe & Central Asia
 NLD,Netherlands,2017,FALSE,3.71,27,73,48555,High income,Europe & Central Asia
@@ -477,7 +477,7 @@ MOZ,Mozambique,2017,FALSE,30.18,26,74,461,Low income,Sub-Saharan Africa
 RWA,Rwanda,2017,FALSE,30.38,28,72,772,Low income,Sub-Saharan Africa
 SAU,Saudi Arabia,2017,FALSE,30.64,18,82,20802,High income,Middle East & North Africa
 BFA,Burkina Faso,2017,FALSE,30.66,34,66,735,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2017,FALSE,30.92,31,69,1005,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2017,FALSE,30.92,31,69,1005,Lower middle income,Sub-Saharan Africa
 SLE,Sierra Leone,2017,FALSE,31.35,35,65,499,Low income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2017,FALSE,32.04,34,66,739,Low income,Sub-Saharan Africa
 SWZ,Eswatini,2017,FALSE,32.58,21,79,3914,Lower middle income,Sub-Saharan Africa
@@ -507,17 +507,17 @@ CAN,Canada,2017,FALSE,5.59,31,69,45129,High income,North America
 CZE,Czechia,2017,FALSE,5.59,27,73,20636,High income,Europe & Central Asia
 ITA,Italy,2017,FALSE,5.65,22,78,32327,High income,Europe & Central Asia
 CYP,Cyprus,2017,FALSE,5.96,11,89,26444,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2017,FALSE,6.06,22,78,5432,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2017,FALSE,6.06,22,78,5432,Upper middle income,Europe & Central Asia
 BHR,Bahrain,2017,FALSE,6.19,12,88,23743,High income,Middle East & North Africa
 SVK,Slovakia,2017,FALSE,6.23,28,72,17504,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2017,FALSE,6.88,22,78,7213,Upper middle income,Latin America & Caribbean
 GRD,Grenada,2017,FALSE,7.61,4,96,10153,Upper middle income,Latin America & Caribbean
 PRT,Portugal,2017,FALSE,7.99,24,76,21437,High income,Europe & Central Asia
 HUN,Hungary,2017,FALSE,7.99,25,75,14606,High income,Europe & Central Asia
-BRN,Brunei Darussalam,2017,FALSE,8.08,19,81,28572,High income,East Asia & Pacific
+BRN,Brunei,2017,FALSE,8.08,19,81,28572,High income,East Asia & Pacific
 LVA,Latvia,2017,FALSE,8.1,29,71,15643,High income,Europe & Central Asia
 LTU,Lithuania,2017,FALSE,8.18,32,68,16844,High income,Europe & Central Asia
-MDA,Republic of Moldova,2017,FALSE,8.45,18,82,3510,Upper middle income,Europe & Central Asia
+MDA,Moldova,2017,FALSE,8.45,18,82,3510,Upper middle income,Europe & Central Asia
 AZE,Azerbaijan,2017,FALSE,8.48,20,80,4147,Upper middle income,Europe & Central Asia
 BRB,Barbados,2017,FALSE,8.5,27,73,17392,High income,Latin America & Caribbean
 SRB,Serbia,2017,FALSE,8.56,23,77,6293,Upper middle income,Europe & Central Asia
@@ -534,7 +534,7 @@ KOR,Republic of Korea,2017,FALSE,9.52,27,73,31617,High income,East Asia & Pacifi
 BGR,Bulgaria,2017,FALSE,9.9,26,74,8334,Upper middle income,Europe & Central Asia
 ATG,Antigua and Barbuda,2016,FALSE,0,0,0,15199,High income,Latin America & Caribbean
 MDV,Maldives,2016,FALSE,0.86,21,79,9209,Upper middle income,South Asia
-FSM,Micronesia (Federated States of),2016,FALSE,1.81,32,68,3015,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2016,FALSE,1.81,32,68,3015,Lower middle income,East Asia & Pacific
 BGR,Bulgaria,2016,FALSE,10.21,21,79,7549,Upper middle income,Europe & Central Asia
 ROU,Romania,2016,FALSE,10.33,26,74,9549,Upper middle income,Europe & Central Asia
 MNE,Montenegro,2016,FALSE,10.68,27,73,7034,Upper middle income,Europe & Central Asia
@@ -564,7 +564,7 @@ LKA,Sri Lanka,2016,FALSE,14.73,19,81,3886,Lower middle income,South Asia
 AFG,Afghanistan,2016,FALSE,14.81,19,81,509,Low income,South Asia
 GEO,Georgia,2016,FALSE,14.92,22,78,4062,Upper middle income,Europe & Central Asia
 KGZ,Kyrgyzstan,2016,FALSE,15.08,25,75,1121,Lower middle income,Europe & Central Asia
-BOL,Bolivia (Plurinational State of),2016,FALSE,15.29,30,70,3077,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2016,FALSE,15.29,30,70,3077,Lower middle income,Latin America & Caribbean
 IND,India,2016,FALSE,15.33,22,78,1733,Lower middle income,South Asia
 VUT,Vanuatu,2016,FALSE,15.45,26,74,2806,Lower middle income,East Asia & Pacific
 SYC,Seychelles,2016,FALSE,15.67,20,80,15069,High income,Sub-Saharan Africa
@@ -575,7 +575,7 @@ NIC,Nicaragua,2016,FALSE,16.12,15,85,2108,Lower middle income,Latin America & Ca
 LBN,Lebanon,2016,FALSE,16.23,18,82,7626,Upper middle income,Middle East & North Africa
 BIH,Bosnia and Herzegovina,2016,FALSE,16.3,22,78,4995,Upper middle income,Europe & Central Asia
 MNG,Mongolia,2016,FALSE,16.33,23,77,3660,Lower middle income,East Asia & Pacific
-LAO,Lao People's Democratic Republic,2016,FALSE,16.36,27,73,2309,Lower middle income,East Asia & Pacific
+LAO,Laos,2016,FALSE,16.36,27,73,2309,Lower middle income,East Asia & Pacific
 HND,Honduras,2016,FALSE,16.37,35,65,2343,Lower middle income,Latin America & Caribbean
 CRI,Costa Rica,2016,FALSE,16.57,16,84,12011,Upper middle income,Latin America & Caribbean
 GTM,Guatemala,2016,FALSE,16.63,17,83,4173,Upper middle income,Latin America & Caribbean
@@ -598,7 +598,7 @@ CHE,Switzerland,2016,FALSE,2.66,29,71,83073,High income,Europe & Central Asia
 NOR,Norway,2016,FALSE,2.72,18,82,70461,High income,Europe & Central Asia
 SGP,Singapore,2016,FALSE,2.74,27,73,56848,High income,East Asia & Pacific
 IRQ,Iraq,2016,FALSE,20.4,27,73,4551,Upper middle income,Middle East & North Africa
-IRN,Iran (Islamic Republic of),2016,FALSE,20.65,23,77,5253,Lower middle income,Middle East & North Africa
+IRN,Iran,2016,FALSE,20.65,23,77,5253,Lower middle income,Middle East & North Africa
 DZA,Algeria,2016,FALSE,21.05,32,68,3946,Lower middle income,Middle East & North Africa
 ECU,Ecuador,2016,FALSE,21.16,22,78,6060,Upper middle income,Latin America & Caribbean
 ZMB,Zambia,2016,FALSE,21.22,26,74,1281,Lower middle income,Sub-Saharan Africa
@@ -608,7 +608,7 @@ PRY,Paraguay,2016,FALSE,22.56,16,84,5325,Upper middle income,Latin America & Car
 TUN,Tunisia,2016,FALSE,22.96,29,71,3698,Lower middle income,Middle East & North Africa
 GAB,Gabon,2016,FALSE,23.09,25,75,6984,Upper middle income,Sub-Saharan Africa
 MLI,Mali,2016,FALSE,23.15,37,63,781,Low income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2016,FALSE,23.43,30,70,2013,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2016,FALSE,23.43,30,70,2013,Lower middle income,Sub-Saharan Africa
 DJI,Djibouti,2016,FALSE,23.79,26,74,2802,Lower middle income,Middle East & North Africa
 MYS,Malaysia,2016,FALSE,24.03,18,82,9818,Upper middle income,East Asia & Pacific
 SEN,Senegal,2016,FALSE,24.07,29,71,1270,Lower middle income,Sub-Saharan Africa
@@ -626,7 +626,7 @@ ZAF,South Africa,2016,FALSE,25.81,22,78,5273,Upper middle income,Sub-Saharan Afr
 NER,Niger,2016,FALSE,26.04,35,65,498,Low income,Sub-Saharan Africa
 ETH,Ethiopia,2016,FALSE,26.38,29,71,717,Low income,Sub-Saharan Africa
 COM,Comoros,2016,FALSE,26.52,32,68,1273,Lower middle income,Sub-Saharan Africa
-VNM,Viet Nam,2016,FALSE,26.67,21,79,2192,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2016,FALSE,26.67,21,79,2192,Lower middle income,East Asia & Pacific
 STP,Sao Tome and Principe,2016,FALSE,27.06,22,78,1700,Lower middle income,Sub-Saharan Africa
 YEM,Yemen,2016,FALSE,27.3,32,68,1139,Low income,Middle East & North Africa
 SOM,Somalia,2016,FALSE,27.38,29,71,296,Low income,Sub-Saharan Africa
@@ -641,7 +641,7 @@ SAU,Saudi Arabia,2016,FALSE,28.7,18,82,19879,High income,Middle East & North Afr
 CMR,Cameroon,2016,FALSE,29.53,21,79,1364,Lower middle income,Sub-Saharan Africa
 TGO,Togo,2016,FALSE,29.61,32,68,803,Low income,Sub-Saharan Africa
 GIN,Guinea,2016,FALSE,29.73,36,64,732,Low income,Sub-Saharan Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2016,FALSE,3.05,24,76,41048,High income,Europe & Central Asia
+GBR,United Kingdom,2016,FALSE,3.05,24,76,41048,High income,Europe & Central Asia
 SWE,Sweden,2016,FALSE,3.13,24,76,51965,High income,Europe & Central Asia
 NLD,Netherlands,2016,FALSE,3.82,27,73,46008,High income,Europe & Central Asia
 DNK,Denmark,2016,FALSE,3.97,29,71,54664,High income,Europe & Central Asia
@@ -649,7 +649,7 @@ RWA,Rwanda,2016,FALSE,30.29,28,72,745,Low income,Sub-Saharan Africa
 UGA,Uganda,2016,FALSE,30.36,23,77,733,Low income,Sub-Saharan Africa
 BFA,Burkina Faso,2016,FALSE,30.49,34,66,688,Low income,Sub-Saharan Africa
 SLE,Sierra Leone,2016,FALSE,30.52,36,64,501,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2016,FALSE,30.64,31,69,967,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2016,FALSE,30.64,31,69,967,Lower middle income,Sub-Saharan Africa
 LSO,Lesotho,2016,FALSE,30.78,22,78,1019,Lower middle income,Sub-Saharan Africa
 MOZ,Mozambique,2016,FALSE,31.14,26,74,429,Low income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2016,FALSE,31.7,34,66,661,Low income,Sub-Saharan Africa
@@ -685,7 +685,7 @@ EST,Estonia,2016,FALSE,6.08,31,69,18437,High income,Europe & Central Asia
 LUX,Luxembourg,2016,FALSE,6.21,24,76,104278,High income,Europe & Central Asia
 SVK,Slovakia,2016,FALSE,6.31,28,72,16509,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2016,FALSE,6.39,23,77,7075,Upper middle income,Latin America & Caribbean
-MKD,The former Yugoslav Republic of Macedonia,2016,FALSE,6.44,22,78,5133,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2016,FALSE,6.44,22,78,5133,Upper middle income,Europe & Central Asia
 SVN,Slovenia,2016,FALSE,6.46,23,77,21664,High income,Europe & Central Asia
 ISL,Iceland,2016,FALSE,6.62,33,67,61988,High income,Europe & Central Asia
 BHR,Bahrain,2016,FALSE,6.94,13,87,22608,High income,Middle East & North Africa
@@ -700,23 +700,23 @@ CUB,Cuba,2016,FALSE,8.6,20,80,8061,Upper middle income,Latin America & Caribbean
 AZE,Azerbaijan,2016,FALSE,8.68,20,80,3881,Upper middle income,Europe & Central Asia
 BLR,Belarus,2016,FALSE,8.91,27,73,5023,Upper middle income,Europe & Central Asia
 QAT,Qatar,2016,FALSE,9,8,92,57163,High income,Middle East & North Africa
-BRN,Brunei Darussalam,2016,FALSE,9.05,18,82,27158,High income,East Asia & Pacific
+BRN,Brunei,2016,FALSE,9.05,18,82,27158,High income,East Asia & Pacific
 GRD,Grenada,2016,FALSE,9.07,7,93,9628,Upper middle income,Latin America & Caribbean
 LVA,Latvia,2016,FALSE,9.32,23,77,14316,High income,Europe & Central Asia
 TUR,Turkey,2016,FALSE,9.43,25,75,10895,Upper middle income,Europe & Central Asia
 GRC,Greece,2016,FALSE,9.67,21,79,17885,High income,Europe & Central Asia
-MDA,Republic of Moldova,2016,FALSE,9.69,25,75,2880,Upper middle income,Europe & Central Asia
+MDA,Moldova,2016,FALSE,9.69,25,75,2880,Upper middle income,Europe & Central Asia
 POL,Poland,2016,FALSE,9.73,24,76,12447,High income,Europe & Central Asia
 KOR,Republic of Korea,2016,FALSE,9.79,29,71,29289,High income,East Asia & Pacific
 EGY,Egypt,2016,FALSE,9.83,27,73,3520,Lower middle income,Middle East & North Africa
 FJI,Fiji,2016,FALSE,9.86,26,74,5651,Upper middle income,East Asia & Pacific
 ATG,Antigua and Barbuda,2015,FALSE,0,0,0,14285,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2015,FALSE,0.92,31,69,2907,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2015,FALSE,0.92,31,69,2907,Lower middle income,East Asia & Pacific
 ROU,Romania,2015,FALSE,10,25,75,8969,Upper middle income,Europe & Central Asia
 BLR,Belarus,2015,FALSE,10.07,27,73,5949,Upper middle income,Europe & Central Asia
 BGR,Bulgaria,2015,FALSE,10.14,22,78,7056,Upper middle income,Europe & Central Asia
 AZE,Azerbaijan,2015,FALSE,10.34,20,80,5500,Upper middle income,Europe & Central Asia
-MDA,Republic of Moldova,2015,FALSE,10.37,19,81,2732,Upper middle income,Europe & Central Asia
+MDA,Moldova,2015,FALSE,10.37,19,81,2732,Upper middle income,Europe & Central Asia
 LTU,Lithuania,2015,FALSE,10.47,29,71,14258,High income,Europe & Central Asia
 KOR,Republic of Korea,2015,FALSE,10.62,29,71,28732,High income,East Asia & Pacific
 FJI,Fiji,2015,FALSE,10.71,26,74,5391,Upper middle income,East Asia & Pacific
@@ -748,7 +748,7 @@ PNG,Papua New Guinea,2015,FALSE,14.09,25,75,2679,Lower middle income,East Asia &
 PAN,Panama,2015,FALSE,14.24,19,81,13630,Upper middle income,Latin America & Caribbean
 AFG,Afghanistan,2015,FALSE,14.36,19,81,578,Low income,South Asia
 BTN,Bhutan,2015,FALSE,15.11,28,72,2753,Lower middle income,South Asia
-LAO,Lao People's Democratic Republic,2015,FALSE,15.22,28,72,2135,Lower middle income,East Asia & Pacific
+LAO,Laos,2015,FALSE,15.22,28,72,2135,Lower middle income,East Asia & Pacific
 URY,Uruguay,2015,FALSE,15.3,23,77,15614,High income,Latin America & Caribbean
 VUT,Vanuatu,2015,FALSE,15.49,26,74,2696,Lower middle income,East Asia & Pacific
 IND,India,2015,FALSE,15.61,22,78,1606,Lower middle income,South Asia
@@ -773,7 +773,7 @@ ARE,United Arab Emirates,2015,FALSE,18.09,15,85,38663,High income,Middle East & 
 CHN,China,2015,FALSE,18.25,25,75,8067,Upper middle income,East Asia & Pacific
 TJK,Tajikistan,2015,FALSE,18.36,20,80,978,Lower middle income,Europe & Central Asia
 KAZ,Kazakhstan,2015,FALSE,18.39,27,73,10511,Upper middle income,Europe & Central Asia
-BOL,Bolivia (Plurinational State of),2015,FALSE,18.8,30,70,3036,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2015,FALSE,18.8,30,70,3036,Lower middle income,Latin America & Caribbean
 KWT,Kuwait,2015,FALSE,18.85,11,89,29870,High income,Middle East & North Africa
 LCA,Saint Lucia,2015,FALSE,18.98,20,80,10094,Upper middle income,Latin America & Caribbean
 MNG,Mongolia,2015,FALSE,19.44,24,76,3919,Lower middle income,East Asia & Pacific
@@ -782,7 +782,7 @@ MAR,Morocco,2015,FALSE,19.74,16,84,2875,Lower middle income,Middle East & North 
 NOR,Norway,2015,FALSE,2.56,27,73,74356,High income,Europe & Central Asia
 MDV,Maldives,2015,FALSE,2.64,20,80,9033,Upper middle income,South Asia
 MLT,Malta,2015,FALSE,2.77,33,67,24922,High income,Middle East & North Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2015,FALSE,2.93,24,76,45039,High income,Europe & Central Asia
+GBR,United Kingdom,2015,FALSE,2.93,24,76,45039,High income,Europe & Central Asia
 SGP,Singapore,2015,FALSE,2.99,16,84,55647,High income,East Asia & Pacific
 IRQ,Iraq,2015,FALSE,20.46,26,74,4688,Upper middle income,Middle East & North Africa
 BRA,Brazil,2015,FALSE,20.79,18,82,8814,Upper middle income,Latin America & Caribbean
@@ -790,12 +790,12 @@ SLV,El Salvador,2015,FALSE,20.82,20,80,3706,Lower middle income,Latin America & 
 ZMB,Zambia,2015,FALSE,20.86,26,74,1338,Lower middle income,Sub-Saharan Africa
 DZA,Algeria,2015,FALSE,21.18,32,68,4178,Lower middle income,Middle East & North Africa
 NGA,Nigeria,2015,FALSE,21.39,31,69,2687,Lower middle income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2015,FALSE,21.78,24,76,4904,Lower middle income,Middle East & North Africa
+IRN,Iran,2015,FALSE,21.78,24,76,4904,Lower middle income,Middle East & North Africa
 PRY,Paraguay,2015,FALSE,22.01,15,85,5414,Upper middle income,Latin America & Caribbean
 MYS,Malaysia,2015,FALSE,22.84,18,82,9955,Upper middle income,East Asia & Pacific
 TUN,Tunisia,2015,FALSE,22.89,29,71,3862,Lower middle income,Middle East & North Africa
 GAB,Gabon,2015,FALSE,22.9,25,75,7385,Upper middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2015,FALSE,23.16,30,70,1973,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2015,FALSE,23.16,30,70,1973,Lower middle income,Sub-Saharan Africa
 MLI,Mali,2015,FALSE,23.25,37,63,751,Low income,Sub-Saharan Africa
 ECU,Ecuador,2015,FALSE,23.46,21,79,6124,Upper middle income,Latin America & Caribbean
 AGO,Angola,2015,FALSE,23.62,38,62,4167,Lower middle income,Sub-Saharan Africa
@@ -810,7 +810,7 @@ GUY,Guyana,2015,FALSE,24.37,13,87,5577,Upper middle income,Latin America & Carib
 BWA,Botswana,2015,FALSE,24.8,35,65,6800,Upper middle income,Sub-Saharan Africa
 CPV,Cabo Verde,2015,FALSE,24.96,21,79,3043,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2015,FALSE,25.15,31,69,1657,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2015,FALSE,25.45,21,79,2085,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2015,FALSE,25.45,21,79,2085,Lower middle income,East Asia & Pacific
 BLZ,Belize,2015,FALSE,25.47,17,83,4770,Lower middle income,Latin America & Caribbean
 TCD,Chad,2015,FALSE,25.72,34,66,776,Low income,Sub-Saharan Africa
 MRT,Mauritania,2015,FALSE,25.75,41,59,1524,Lower middle income,Sub-Saharan Africa
@@ -841,7 +841,7 @@ UGA,Uganda,2015,FALSE,30.28,23,77,844,Low income,Sub-Saharan Africa
 SLE,Sierra Leone,2015,FALSE,30.35,36,64,588,Low income,Sub-Saharan Africa
 BFA,Burkina Faso,2015,FALSE,30.42,34,66,653,Low income,Sub-Saharan Africa
 MOZ,Mozambique,2015,FALSE,30.71,26,74,590,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2015,FALSE,30.8,31,69,948,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2015,FALSE,30.8,31,69,948,Lower middle income,Sub-Saharan Africa
 SWZ,Eswatini,2015,FALSE,31.52,21,79,3680,Lower middle income,Sub-Saharan Africa
 NAM,Namibia,2015,FALSE,31.97,24,76,4897,Upper middle income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2015,FALSE,32.06,34,66,603,Low income,Sub-Saharan Africa
@@ -875,7 +875,7 @@ CYP,Cyprus,2015,FALSE,6.72,35,65,23408,High income,Europe & Central Asia
 SRB,Serbia,2015,FALSE,6.73,23,77,5589,Upper middle income,Europe & Central Asia
 TON,Tonga,2015,FALSE,6.95,24,76,4336,Upper middle income,East Asia & Pacific
 CZE,Czechia,2015,FALSE,7.18,22,78,17830,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2015,FALSE,7.36,22,78,4843,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2015,FALSE,7.36,22,78,4843,Upper middle income,Europe & Central Asia
 BHR,Bahrain,2015,FALSE,7.51,14,86,22634,High income,Middle East & North Africa
 NZL,New Zealand,2015,FALSE,7.71,30,70,38631,High income,East Asia & Pacific
 HUN,Hungary,2015,FALSE,7.84,26,74,12707,High income,Europe & Central Asia
@@ -883,14 +883,14 @@ GRD,Grenada,2015,FALSE,8.21,7,93,9097,Upper middle income,Latin America & Caribb
 BHS,Bahamas,2015,FALSE,8.26,22,78,31296,High income,Latin America & Caribbean
 PRT,Portugal,2015,FALSE,8.26,20,80,19242,High income,Europe & Central Asia
 MNE,Montenegro,2015,FALSE,8.45,27,73,6517,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2015,FALSE,8.92,22,78,31164,High income,East Asia & Pacific
+BRN,Brunei,2015,FALSE,8.92,22,78,31164,High income,East Asia & Pacific
 CUB,Cuba,2015,FALSE,9.01,21,79,7694,Upper middle income,Latin America & Caribbean
 HRV,Croatia,2015,FALSE,9.26,21,79,11782,High income,Europe & Central Asia
 GRC,Greece,2015,FALSE,9.27,20,80,18050,High income,Europe & Central Asia
 POL,Poland,2015,FALSE,9.34,23,77,12578,High income,Europe & Central Asia
 TUR,Turkey,2015,FALSE,9.89,26,74,11006,Upper middle income,Europe & Central Asia
 ATG,Antigua and Barbuda,2014,FALSE,0.55,100,0,13502,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2014,FALSE,0.93,32,68,2972,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2014,FALSE,0.93,32,68,2972,Lower middle income,East Asia & Pacific
 ISL,Iceland,2014,FALSE,1.83,29,71,54577,High income,Europe & Central Asia
 POL,Poland,2014,FALSE,10.36,23,77,14271,High income,Europe & Central Asia
 MNE,Montenegro,2014,FALSE,10.69,27,73,7388,Upper middle income,Europe & Central Asia
@@ -898,7 +898,7 @@ KOR,Republic of Korea,2014,FALSE,10.87,28,72,29250,High income,East Asia & Pacif
 UZB,Uzbekistan,2014,FALSE,10.87,20,80,2492,Lower middle income,Europe & Central Asia
 PHL,Philippines,2014,FALSE,10.92,21,79,2960,Lower middle income,East Asia & Pacific
 LTU,Lithuania,2014,FALSE,11.21,27,73,16551,High income,Europe & Central Asia
-MDA,Republic of Moldova,2014,FALSE,11.27,20,80,3329,Upper middle income,Europe & Central Asia
+MDA,Moldova,2014,FALSE,11.27,20,80,3329,Upper middle income,Europe & Central Asia
 USA,United States of America,2014,FALSE,11.32,29,71,55050,High income,North America
 WSM,Samoa,2014,FALSE,11.45,32,68,3938,Lower middle income,East Asia & Pacific
 BLR,Belarus,2014,FALSE,11.48,26,74,8319,Upper middle income,Europe & Central Asia
@@ -939,7 +939,7 @@ NIC,Nicaragua,2014,FALSE,16.17,13,87,1934,Lower middle income,Latin America & Ca
 SUR,Suriname,2014,FALSE,16.27,21,79,9472,Upper middle income,Latin America & Caribbean
 URY,Uruguay,2014,FALSE,16.32,20,80,16832,High income,Latin America & Caribbean
 TKM,Turkmenistan,2014,FALSE,16.34,20,80,7962,Upper middle income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2014,FALSE,16.37,28,72,1998,Lower middle income,East Asia & Pacific
+LAO,Laos,2014,FALSE,16.37,28,72,1998,Lower middle income,East Asia & Pacific
 ARM,Armenia,2014,FALSE,16.65,25,75,3986,Upper middle income,Europe & Central Asia
 SLB,Solomon Islands,2014,FALSE,16.86,24,76,2275,Lower middle income,East Asia & Pacific
 COL,Colombia,2014,FALSE,16.91,20,80,8114,Upper middle income,Latin America & Caribbean
@@ -953,7 +953,7 @@ KWT,Kuwait,2014,FALSE,19.05,12,88,44062,High income,Middle East & North Africa
 KAZ,Kazakhstan,2014,FALSE,19.29,27,73,12807,Upper middle income,Europe & Central Asia
 MMR,Myanmar,2014,FALSE,19.62,25,75,1141,Lower middle income,East Asia & Pacific
 MAR,Morocco,2014,FALSE,19.84,16,84,3172,Lower middle income,Middle East & North Africa
-BOL,Bolivia (Plurinational State of),2014,FALSE,19.89,30,70,3082,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2014,FALSE,19.89,30,70,3082,Lower middle income,Latin America & Caribbean
 MLT,Malta,2014,FALSE,2.32,32,68,26754,High income,Middle East & North Africa
 MDV,Maldives,2014,FALSE,2.53,21,79,8499,Upper middle income,South Asia
 RUS,Russian Federation,2014,FALSE,20.35,26,74,14096,Upper middle income,Europe & Central Asia
@@ -964,11 +964,11 @@ OMN,Oman,2014,FALSE,20.88,16,84,20035,High income,Middle East & North Africa
 DZA,Algeria,2014,FALSE,21.21,32,68,5493,Lower middle income,Middle East & North Africa
 PRY,Paraguay,2014,FALSE,21.79,16,84,6118,Upper middle income,Latin America & Caribbean
 NGA,Nigeria,2014,FALSE,21.94,31,69,3099,Lower middle income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2014,FALSE,22.46,24,76,5586,Lower middle income,Middle East & North Africa
+IRN,Iran,2014,FALSE,22.46,24,76,5586,Lower middle income,Middle East & North Africa
 TUN,Tunisia,2014,FALSE,22.75,29,71,4305,Lower middle income,Middle East & North Africa
 GAB,Gabon,2014,FALSE,22.79,25,75,9663,Upper middle income,Sub-Saharan Africa
 GNQ,Equatorial Guinea,2014,FALSE,22.99,30,70,19394,Upper middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2014,FALSE,23.03,30,70,1561,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2014,FALSE,23.03,30,70,1561,Lower middle income,Sub-Saharan Africa
 MYS,Malaysia,2014,FALSE,23.04,18,82,11319,Upper middle income,East Asia & Pacific
 AGO,Angola,2014,FALSE,23.19,38,62,5408,Lower middle income,Sub-Saharan Africa
 MLI,Mali,2014,FALSE,23.42,38,62,848,Low income,Sub-Saharan Africa
@@ -986,7 +986,7 @@ BLZ,Belize,2014,FALSE,24.32,17,83,4718,Lower middle income,Latin America & Carib
 YEM,Yemen,2014,FALSE,24.32,32,68,1674,Low income,Middle East & North Africa
 CPV,Cabo Verde,2014,FALSE,24.5,22,78,3589,Lower middle income,Sub-Saharan Africa
 TCD,Chad,2014,FALSE,24.63,33,67,1020,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2014,FALSE,24.67,21,79,2030,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2014,FALSE,24.67,21,79,2030,Lower middle income,East Asia & Pacific
 SDN,Sudan,2014,FALSE,24.93,31,69,1625,Low income,Sub-Saharan Africa
 SAU,Saudi Arabia,2014,FALSE,24.96,18,82,24464,High income,Middle East & North Africa
 MRT,Mauritania,2014,FALSE,25.59,41,59,1677,Lower middle income,Sub-Saharan Africa
@@ -1010,7 +1010,7 @@ NOR,Norway,2014,FALSE,3.01,23,77,97019,High income,Europe & Central Asia
 CHE,Switzerland,2014,FALSE,3.06,26,74,89685,High income,Europe & Central Asia
 SGP,Singapore,2014,FALSE,3.15,18,82,57563,High income,East Asia & Pacific
 SWE,Sweden,2014,FALSE,3.17,30,70,60020,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2014,FALSE,3.22,25,75,47452,High income,Europe & Central Asia
+GBR,United Kingdom,2014,FALSE,3.22,25,75,47452,High income,Europe & Central Asia
 DNK,Denmark,2014,FALSE,3.46,22,78,62549,High income,Europe & Central Asia
 NLD,Netherlands,2014,FALSE,3.48,28,72,52830,High income,Europe & Central Asia
 ISR,Israel,2014,FALSE,3.56,17,83,37738,High income,Middle East & North Africa
@@ -1018,7 +1018,7 @@ UGA,Uganda,2014,FALSE,30.22,24,76,880,Low income,Sub-Saharan Africa
 BFA,Burkina Faso,2014,FALSE,30.23,34,66,793,Low income,Sub-Saharan Africa
 TGO,Togo,2014,FALSE,30.27,32,68,641,Low income,Sub-Saharan Africa
 MOZ,Mozambique,2014,FALSE,30.44,26,74,674,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2014,FALSE,30.62,31,69,1030,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2014,FALSE,30.62,31,69,1030,Lower middle income,Sub-Saharan Africa
 NAM,Namibia,2014,FALSE,31.05,23,77,5470,Upper middle income,Sub-Saharan Africa
 SWZ,Eswatini,2014,FALSE,31.14,21,79,4039,Lower middle income,Sub-Saharan Africa
 DOM,Dominican Republic,2014,FALSE,31.69,16,84,6609,Upper middle income,Latin America & Caribbean
@@ -1049,7 +1049,7 @@ ITA,Italy,2014,FALSE,5.84,23,77,35518,High income,Europe & Central Asia
 TON,Tonga,2014,FALSE,5.94,24,76,4354,Upper middle income,East Asia & Pacific
 EST,Estonia,2014,FALSE,6.08,35,65,20367,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2014,FALSE,6.43,21,79,6684,Upper middle income,Latin America & Caribbean
-MKD,The former Yugoslav Republic of Macedonia,2014,FALSE,6.45,22,78,5468,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2014,FALSE,6.45,22,78,5468,Upper middle income,Europe & Central Asia
 LUX,Luxembourg,2014,FALSE,6.49,23,77,118824,High income,Europe & Central Asia
 SVK,Slovakia,2014,FALSE,6.56,29,71,18674,High income,Europe & Central Asia
 BEL,Belgium,2014,FALSE,6.68,24,76,47701,High income,Europe & Central Asia
@@ -1064,21 +1064,21 @@ HRV,Croatia,2014,FALSE,8.15,21,79,13599,High income,Europe & Central Asia
 BRB,Barbados,2014,FALSE,8.43,27,73,16489,High income,Latin America & Caribbean
 PRT,Portugal,2014,FALSE,8.48,22,78,22074,High income,Europe & Central Asia
 CUB,Cuba,2014,FALSE,8.49,20,80,7133,Upper middle income,Latin America & Caribbean
-BRN,Brunei Darussalam,2014,FALSE,8.54,25,75,41726,High income,East Asia & Pacific
+BRN,Brunei,2014,FALSE,8.54,25,75,41726,High income,East Asia & Pacific
 GRC,Greece,2014,FALSE,9.29,19,81,21602,High income,Europe & Central Asia
 BGR,Bulgaria,2014,FALSE,9.38,24,76,7877,Upper middle income,Europe & Central Asia
 TUR,Turkey,2014,FALSE,9.65,25,75,12158,Upper middle income,Europe & Central Asia
 ROU,Romania,2014,FALSE,9.96,25,75,10044,Upper middle income,Europe & Central Asia
 KIR,Kiribati,2013,FALSE,0.93,17,83,1716,Lower middle income,East Asia & Pacific
 ATG,Antigua and Barbuda,2013,FALSE,1.68,33,67,12911,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2013,FALSE,1.89,32,68,2995,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2013,FALSE,1.89,32,68,2995,Lower middle income,East Asia & Pacific
 TUR,Turkey,2013,FALSE,10.31,26,74,12615,Upper middle income,Europe & Central Asia
 GRC,Greece,2013,FALSE,10.33,22,78,21749,High income,Europe & Central Asia
 EGY,Egypt,2013,FALSE,10.5,26,74,3263,Lower middle income,Middle East & North Africa
 PHL,Philippines,2013,FALSE,10.63,21,79,2871,Lower middle income,East Asia & Pacific
 JAM,Jamaica,2013,FALSE,10.72,31,69,4990,Upper middle income,Latin America & Caribbean
 POL,Poland,2013,FALSE,10.76,22,78,13696,High income,Europe & Central Asia
-MDA,Republic of Moldova,2013,FALSE,10.77,19,81,3322,Upper middle income,Europe & Central Asia
+MDA,Moldova,2013,FALSE,10.77,19,81,3322,Upper middle income,Europe & Central Asia
 USA,United States of America,2013,FALSE,11.43,30,70,53107,High income,North America
 UZB,Uzbekistan,2013,FALSE,11.63,21,79,2281,Lower middle income,Europe & Central Asia
 KOR,Republic of Korea,2013,FALSE,11.78,29,71,27183,High income,East Asia & Pacific
@@ -1105,7 +1105,7 @@ PER,Peru,2013,FALSE,14,27,73,6757,Upper middle income,Latin America & Caribbean
 BRB,Barbados,2013,FALSE,14.1,20,80,16451,High income,Latin America & Caribbean
 BHS,Bahamas,2013,FALSE,14.13,23,77,28784,High income,Latin America & Caribbean
 QAT,Qatar,2013,FALSE,14.21,7,93,85051,High income,Middle East & North Africa
-LAO,Lao People's Democratic Republic,2013,FALSE,14.34,28,72,1826,Lower middle income,East Asia & Pacific
+LAO,Laos,2013,FALSE,14.34,28,72,1826,Lower middle income,East Asia & Pacific
 ARG,Argentina,2013,FALSE,14.34,21,79,13080,Upper middle income,Latin America & Caribbean
 SUR,Suriname,2013,FALSE,14.43,20,80,9402,Upper middle income,Latin America & Caribbean
 UKR,Ukraine,2013,FALSE,14.56,24,76,4030,Lower middle income,Europe & Central Asia
@@ -1133,7 +1133,7 @@ SLV,El Salvador,2013,FALSE,19.02,19,81,3510,Lower middle income,Latin America & 
 MMR,Myanmar,2013,FALSE,19.49,25,75,1122,Lower middle income,East Asia & Pacific
 CHN,China,2013,FALSE,19.62,25,75,7051,Upper middle income,East Asia & Pacific
 GUY,Guyana,2013,FALSE,19.76,12,88,5489,Upper middle income,Latin America & Caribbean
-GBR,United Kingdom of Great Britain and Northern Ireland,2013,FALSE,2.86,26,74,43401,High income,Europe & Central Asia
+GBR,United Kingdom,2013,FALSE,2.86,26,74,43401,High income,Europe & Central Asia
 MDV,Maldives,2013,FALSE,2.89,22,78,7928,Upper middle income,South Asia
 MAR,Morocco,2013,FALSE,20.08,16,84,3122,Lower middle income,Middle East & North Africa
 KGZ,Kyrgyzstan,2013,FALSE,20.17,24,76,1282,Lower middle income,Europe & Central Asia
@@ -1157,8 +1157,8 @@ BRA,Brazil,2013,FALSE,23.14,18,82,12300,Upper middle income,Latin America & Cari
 PRY,Paraguay,2013,FALSE,23.22,16,84,5937,Upper middle income,Latin America & Caribbean
 YEM,Yemen,2013,FALSE,23.4,32,68,1607,Low income,Middle East & North Africa
 GHA,Ghana,2013,FALSE,23.43,23,77,2361,Lower middle income,Sub-Saharan Africa
-BOL,Bolivia (Plurinational State of),2013,FALSE,23.49,30,70,2908,Lower middle income,Latin America & Caribbean
-CIV,Côte d’Ivoire,2013,FALSE,23.53,29,71,1416,Lower middle income,Sub-Saharan Africa
+BOL,Bolivia,2013,FALSE,23.49,30,70,2908,Lower middle income,Latin America & Caribbean
+CIV,Ivory Coast,2013,FALSE,23.53,29,71,1416,Lower middle income,Sub-Saharan Africa
 GAB,Gabon,2013,FALSE,23.63,26,74,9684,Upper middle income,Sub-Saharan Africa
 MLI,Mali,2013,FALSE,23.67,38,62,805,Low income,Sub-Saharan Africa
 DJI,Djibouti,2013,FALSE,23.77,26,74,2313,Lower middle income,Middle East & North Africa
@@ -1166,9 +1166,9 @@ JOR,Jordan,2013,FALSE,23.86,29,71,4044,Upper middle income,Middle East & North A
 TCD,Chad,2013,FALSE,23.99,34,66,980,Low income,Sub-Saharan Africa
 CPV,Cabo Verde,2013,FALSE,24.04,22,78,3616,Lower middle income,Sub-Saharan Africa
 MYS,Malaysia,2013,FALSE,24.19,18,82,10970,Upper middle income,East Asia & Pacific
-IRN,Iran (Islamic Republic of),2013,FALSE,24.26,24,76,6018,Lower middle income,Middle East & North Africa
+IRN,Iran,2013,FALSE,24.26,24,76,6018,Lower middle income,Middle East & North Africa
 SEN,Senegal,2013,FALSE,24.59,29,71,1373,Lower middle income,Sub-Saharan Africa
-VNM,Viet Nam,2013,FALSE,24.99,21,79,1887,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2013,FALSE,24.99,21,79,1887,Lower middle income,East Asia & Pacific
 OMN,Oman,2013,FALSE,24.99,16,84,20866,High income,Middle East & North Africa
 MRT,Mauritania,2013,FALSE,25.46,41,59,1892,Lower middle income,Sub-Saharan Africa
 ETH,Ethiopia,2013,FALSE,25.77,30,70,500,Low income,Sub-Saharan Africa
@@ -1197,7 +1197,7 @@ ISR,Israel,2013,FALSE,3.7,21,79,36316,High income,Middle East & North Africa
 NOR,Norway,2013,FALSE,3.8,27,73,102913,High income,Europe & Central Asia
 NAM,Namibia,2013,FALSE,30.27,23,77,5392,Upper middle income,Sub-Saharan Africa
 MOZ,Mozambique,2013,FALSE,30.28,26,74,664,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2013,FALSE,30.29,31,69,970,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2013,FALSE,30.29,31,69,970,Lower middle income,Sub-Saharan Africa
 TGO,Togo,2013,FALSE,30.67,32,68,621,Low income,Sub-Saharan Africa
 SWZ,Eswatini,2013,FALSE,30.73,21,79,4230,Lower middle income,Sub-Saharan Africa
 SSD,South Sudan,2013,FALSE,31.18,33,67,1779,Low income,Sub-Saharan Africa
@@ -1243,13 +1243,13 @@ SRB,Serbia,2013,FALSE,8.42,23,77,6755,Upper middle income,Europe & Central Asia
 BGR,Bulgaria,2013,FALSE,8.5,22,78,7655,Upper middle income,Europe & Central Asia
 SYC,Seychelles,2013,FALSE,8.57,21,79,14766,High income,Sub-Saharan Africa
 HRV,Croatia,2013,FALSE,9.24,25,75,13674,High income,Europe & Central Asia
-BRN,Brunei Darussalam,2013,FALSE,9.64,21,79,44741,High income,East Asia & Pacific
+BRN,Brunei,2013,FALSE,9.64,21,79,44741,High income,East Asia & Pacific
 LTU,Lithuania,2013,FALSE,9.7,27,73,15730,High income,Europe & Central Asia
 BHR,Bahrain,2013,FALSE,9.73,15,85,24744,High income,Middle East & North Africa
 ROU,Romania,2013,FALSE,9.75,27,73,9548,Upper middle income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2013,FALSE,9.83,26,74,5210,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2013,FALSE,9.83,26,74,5210,Upper middle income,Europe & Central Asia
 LVA,Latvia,2013,FALSE,9.88,27,73,15123,High income,Europe & Central Asia
-FSM,Micronesia (Federated States of),2012,FALSE,0,0,0,3131,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2012,FALSE,0,0,0,3131,Lower middle income,East Asia & Pacific
 ATG,Antigua and Barbuda,2012,FALSE,0.74,100,0,13273,High income,Latin America & Caribbean
 MDV,Maldives,2012,FALSE,1.28,25,75,7266,Upper middle income,South Asia
 LVA,Latvia,2012,FALSE,10.05,30,70,13923,High income,Europe & Central Asia
@@ -1275,12 +1275,12 @@ ARG,Argentina,2012,FALSE,13.1,21,79,13083,Upper middle income,Latin America & Ca
 VUT,Vanuatu,2012,FALSE,13.23,26,74,2997,Lower middle income,East Asia & Pacific
 AFG,Afghanistan,2012,FALSE,13.79,21,79,642,Low income,South Asia
 ALB,Albania,2012,FALSE,13.83,22,78,4248,Upper middle income,Europe & Central Asia
-MDA,Republic of Moldova,2012,FALSE,13.84,23,77,3046,Upper middle income,Europe & Central Asia
+MDA,Moldova,2012,FALSE,13.84,23,77,3046,Upper middle income,Europe & Central Asia
 PAK,Pakistan,2012,FALSE,13.84,47,53,1198,Lower middle income,South Asia
 AZE,Azerbaijan,2012,FALSE,14.03,20,80,7496,Upper middle income,Europe & Central Asia
 MUS,Mauritius,2012,FALSE,14.04,14,86,9291,Upper middle income,Sub-Saharan Africa
 PAN,Panama,2012,FALSE,14.11,17,83,10722,Upper middle income,Latin America & Caribbean
-LAO,Lao People's Democratic Republic,2012,FALSE,14.21,29,71,1581,Lower middle income,East Asia & Pacific
+LAO,Laos,2012,FALSE,14.21,29,71,1581,Lower middle income,East Asia & Pacific
 PER,Peru,2012,FALSE,14.57,27,73,6529,Upper middle income,Latin America & Caribbean
 MEX,Mexico,2012,FALSE,14.58,21,79,10242,Upper middle income,Latin America & Caribbean
 TLS,Timor-Leste,2012,FALSE,14.65,31,69,1013,Lower middle income,East Asia & Pacific
@@ -1314,7 +1314,7 @@ SLV,El Salvador,2012,FALSE,19,20,80,3428,Lower middle income,Latin America & Car
 KGZ,Kyrgyzstan,2012,FALSE,19.1,24,76,1178,Lower middle income,Europe & Central Asia
 MMR,Myanmar,2012,FALSE,19.52,25,75,1036,Lower middle income,East Asia & Pacific
 MLT,Malta,2012,FALSE,2.84,25,75,22528,High income,Middle East & North Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2012,FALSE,2.99,25,75,42449,High income,Europe & Central Asia
+GBR,United Kingdom,2012,FALSE,2.99,25,75,42449,High income,Europe & Central Asia
 CHN,China,2012,FALSE,20.33,25,75,6317,Upper middle income,East Asia & Pacific
 MAR,Morocco,2012,FALSE,20.34,16,84,2913,Lower middle income,Middle East & North Africa
 ZMB,Zambia,2012,FALSE,20.44,28,72,1763,Lower middle income,Sub-Saharan Africa
@@ -1331,7 +1331,7 @@ ECU,Ecuador,2012,FALSE,22.26,21,79,5682,Upper middle income,Latin America & Cari
 LBY,Libya,2012,FALSE,22.26,27,73,13025,Upper middle income,Middle East & North Africa
 TUN,Tunisia,2012,FALSE,22.88,29,71,4153,Lower middle income,Middle East & North Africa
 PRY,Paraguay,2012,FALSE,22.89,16,84,5185,Upper middle income,Latin America & Caribbean
-BOL,Bolivia (Plurinational State of),2012,FALSE,23.02,30,70,2610,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2012,FALSE,23.02,30,70,2610,Lower middle income,Latin America & Caribbean
 AGO,Angola,2012,FALSE,23.15,38,62,5100,Lower middle income,Sub-Saharan Africa
 GHA,Ghana,2012,FALSE,23.28,24,76,1588,Lower middle income,Sub-Saharan Africa
 YEM,Yemen,2012,FALSE,23.48,32,68,1447,Low income,Middle East & North Africa
@@ -1341,16 +1341,16 @@ DJI,Djibouti,2012,FALSE,23.61,26,74,1559,Lower middle income,Middle East & North
 TCD,Chad,2012,FALSE,23.68,34,66,967,Low income,Sub-Saharan Africa
 MLI,Mali,2012,FALSE,23.68,38,62,779,Low income,Sub-Saharan Africa
 JOR,Jordan,2012,FALSE,23.68,29,71,3910,Upper middle income,Middle East & North Africa
-CIV,Côte d’Ivoire,2012,FALSE,23.96,29,71,1243,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2012,FALSE,23.96,29,71,1243,Lower middle income,Sub-Saharan Africa
 GAB,Gabon,2012,FALSE,24.06,26,74,9814,Upper middle income,Sub-Saharan Africa
 MYS,Malaysia,2012,FALSE,24.53,18,82,10817,Upper middle income,East Asia & Pacific
 SEN,Senegal,2012,FALSE,24.68,29,71,1318,Lower middle income,Sub-Saharan Africa
 KWT,Kuwait,2012,FALSE,24.72,12,88,51979,High income,Middle East & North Africa
 BRA,Brazil,2012,FALSE,24.83,19,81,12370,Upper middle income,Latin America & Caribbean
-VNM,Viet Nam,2012,FALSE,25.37,21,79,1735,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2012,FALSE,25.37,21,79,1735,Lower middle income,East Asia & Pacific
 MRT,Mauritania,2012,FALSE,25.44,41,59,1815,Lower middle income,Sub-Saharan Africa
 STP,Sao Tome and Principe,2012,FALSE,26.01,22,78,1331,Lower middle income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2012,FALSE,26.05,24,76,7928,Lower middle income,Middle East & North Africa
+IRN,Iran,2012,FALSE,26.05,24,76,7928,Lower middle income,Middle East & North Africa
 NER,Niger,2012,FALSE,26.18,35,65,530,Low income,Sub-Saharan Africa
 ETH,Ethiopia,2012,FALSE,26.23,30,70,467,Low income,Sub-Saharan Africa
 GMB,Gambia,2012,FALSE,26.4,27,73,743,Low income,Sub-Saharan Africa
@@ -1378,7 +1378,7 @@ ISR,Israel,2012,FALSE,3.56,27,73,32510,High income,Middle East & North Africa
 IRL,Ireland,2012,FALSE,3.65,33,67,48915,High income,Europe & Central Asia
 GRD,Grenada,2012,FALSE,3.72,24,76,7444,Upper middle income,Latin America & Caribbean
 DOM,Dominican Republic,2012,FALSE,30.24,16,84,6110,Upper middle income,Latin America & Caribbean
-TZA,United Republic of Tanzania,2012,FALSE,30.31,31,69,868,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2012,FALSE,30.31,31,69,868,Lower middle income,Sub-Saharan Africa
 MOZ,Mozambique,2012,FALSE,30.39,27,73,658,Low income,Sub-Saharan Africa
 SWZ,Eswatini,2012,FALSE,30.48,21,79,4528,Lower middle income,Sub-Saharan Africa
 TGO,Togo,2012,FALSE,30.65,32,68,572,Low income,Sub-Saharan Africa
@@ -1407,7 +1407,7 @@ CYP,Cyprus,2012,FALSE,6.07,25,75,28912,High income,Europe & Central Asia
 LUX,Luxembourg,2012,FALSE,6.43,32,68,106749,High income,Europe & Central Asia
 AUT,Austria,2012,FALSE,6.43,26,74,48568,High income,Europe & Central Asia
 ITA,Italy,2012,FALSE,6.52,21,79,35054,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2012,FALSE,6.56,21,79,4697,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2012,FALSE,6.56,21,79,4697,Upper middle income,Europe & Central Asia
 SVN,Slovenia,2012,FALSE,6.61,24,76,22643,High income,Europe & Central Asia
 CAN,Canada,2012,FALSE,6.75,31,69,52669,High income,North America
 EST,Estonia,2012,FALSE,6.8,22,78,17534,High income,Europe & Central Asia
@@ -1423,12 +1423,12 @@ HUN,Hungary,2012,FALSE,8.23,27,73,12951,High income,Europe & Central Asia
 CUB,Cuba,2012,FALSE,8.33,19,81,6497,Upper middle income,Latin America & Caribbean
 BGR,Bulgaria,2012,FALSE,8.45,21,79,7396,Upper middle income,Europe & Central Asia
 SRB,Serbia,2012,FALSE,8.94,22,78,6016,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2012,FALSE,9.02,28,72,47740,High income,East Asia & Pacific
+BRN,Brunei,2012,FALSE,9.02,28,72,47740,High income,East Asia & Pacific
 LCA,Saint Lucia,2012,FALSE,9.06,21,79,9086,Upper middle income,Latin America & Caribbean
 JAM,Jamaica,2012,FALSE,9.11,30,70,5210,Upper middle income,Latin America & Caribbean
 BHR,Bahrain,2012,FALSE,9.46,15,85,23654,High income,Middle East & North Africa
 HRV,Croatia,2012,FALSE,9.59,16,84,13258,High income,Europe & Central Asia
-FSM,Micronesia (Federated States of),2011,FALSE,0,0,0,3009,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2011,FALSE,0,0,0,3009,Lower middle income,East Asia & Pacific
 KIR,Kiribati,2011,FALSE,1.91,17,83,1735,Lower middle income,East Asia & Pacific
 ROU,Romania,2011,FALSE,10.41,24,76,9099,Upper middle income,Europe & Central Asia
 PHL,Philippines,2011,FALSE,10.47,20,80,2451,Lower middle income,East Asia & Pacific
@@ -1441,7 +1441,7 @@ UZB,Uzbekistan,2011,FALSE,11.26,21,79,1926,Lower middle income,Europe & Central 
 USA,United States of America,2011,FALSE,11.6,30,70,49883,High income,North America
 LTU,Lithuania,2011,FALSE,11.77,27,73,14377,High income,Europe & Central Asia
 SYC,Seychelles,2011,FALSE,11.97,20,80,12189,High income,Sub-Saharan Africa
-BRN,Brunei Darussalam,2011,FALSE,12.19,29,71,47056,High income,East Asia & Pacific
+BRN,Brunei,2011,FALSE,12.19,29,71,47056,High income,East Asia & Pacific
 CHL,Chile,2011,FALSE,12.23,21,79,14637,High income,Latin America & Caribbean
 GRC,Greece,2011,FALSE,12.25,21,79,25451,High income,Europe & Central Asia
 AZE,Azerbaijan,2011,FALSE,12.37,20,80,7190,Upper middle income,Europe & Central Asia
@@ -1455,11 +1455,11 @@ GEO,Georgia,2011,FALSE,13.28,22,78,4022,Upper middle income,Europe & Central Asi
 CRI,Costa Rica,2011,FALSE,13.3,20,80,9230,Upper middle income,Latin America & Caribbean
 QAT,Qatar,2011,FALSE,13.31,7,93,82410,High income,Middle East & North Africa
 VUT,Vanuatu,2011,FALSE,13.6,26,74,3174,Lower middle income,East Asia & Pacific
-MDA,Republic of Moldova,2011,FALSE,13.63,22,78,2942,Upper middle income,Europe & Central Asia
+MDA,Moldova,2011,FALSE,13.63,22,78,2942,Upper middle income,Europe & Central Asia
 IDN,Indonesia,2011,FALSE,13.76,23,77,3643,Lower middle income,East Asia & Pacific
 ARG,Argentina,2011,FALSE,13.86,22,78,12849,Upper middle income,Latin America & Caribbean
 PAN,Panama,2011,FALSE,14,16,84,9358,Upper middle income,Latin America & Caribbean
-LAO,Lao People's Democratic Republic,2011,FALSE,14.02,29,71,1378,Lower middle income,East Asia & Pacific
+LAO,Laos,2011,FALSE,14.02,29,71,1378,Lower middle income,East Asia & Pacific
 LKA,Sri Lanka,2011,FALSE,14.14,18,82,3201,Lower middle income,South Asia
 AFG,Afghanistan,2011,FALSE,14.22,21,79,591,Low income,South Asia
 ALB,Albania,2011,FALSE,14.31,35,65,4437,Upper middle income,Europe & Central Asia
@@ -1483,7 +1483,7 @@ PNG,Papua New Guinea,2011,FALSE,16.84,24,76,2407,Lower middle income,East Asia &
 SLB,Solomon Islands,2011,FALSE,17.36,24,76,1939,Lower middle income,East Asia & Pacific
 IND,India,2011,FALSE,17.43,19,81,1458,Lower middle income,South Asia
 URY,Uruguay,2011,FALSE,17.51,23,77,14237,High income,Latin America & Caribbean
-BOL,Bolivia (Plurinational State of),2011,FALSE,17.52,31,69,2346,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2011,FALSE,17.52,31,69,2346,Lower middle income,Latin America & Caribbean
 ARM,Armenia,2011,FALSE,17.73,25,75,3526,Upper middle income,Europe & Central Asia
 KHM,Cambodia,2011,FALSE,17.96,26,74,882,Lower middle income,East Asia & Pacific
 BLZ,Belize,2011,FALSE,18.17,19,81,4423,Lower middle income,Latin America & Caribbean
@@ -1524,12 +1524,12 @@ MYS,Malaysia,2011,FALSE,24.75,18,82,10399,Upper middle income,East Asia & Pacifi
 TCD,Chad,2011,FALSE,24.78,34,66,985,Low income,Sub-Saharan Africa
 DJI,Djibouti,2011,FALSE,25.19,26,74,1452,Lower middle income,Middle East & North Africa
 JOR,Jordan,2011,FALSE,25.34,29,71,3853,Upper middle income,Middle East & North Africa
-VNM,Viet Nam,2011,FALSE,25.34,21,79,1525,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2011,FALSE,25.34,21,79,1525,Lower middle income,East Asia & Pacific
 AGO,Angola,2011,FALSE,25.39,37,63,4615,Lower middle income,Sub-Saharan Africa
 SEN,Senegal,2011,FALSE,25.66,30,70,1367,Lower middle income,Sub-Saharan Africa
 DOM,Dominican Republic,2011,FALSE,25.68,17,83,5913,Upper middle income,Latin America & Caribbean
 KEN,Kenya,2011,FALSE,25.71,24,76,972,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2011,FALSE,25.82,29,71,1209,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2011,FALSE,25.82,29,71,1209,Lower middle income,Sub-Saharan Africa
 STP,Sao Tome and Principe,2011,FALSE,26.01,23,77,1255,Lower middle income,Sub-Saharan Africa
 ETH,Ethiopia,2011,FALSE,26.04,31,69,354,Low income,Sub-Saharan Africa
 GUY,Guyana,2011,FALSE,26.06,17,83,4909,Upper middle income,Latin America & Caribbean
@@ -1543,13 +1543,13 @@ COM,Comoros,2011,FALSE,27.03,33,67,1448,Lower middle income,Sub-Saharan Africa
 NER,Niger,2011,FALSE,27.34,35,65,513,Low income,Sub-Saharan Africa
 SSD,South Sudan,2011,FALSE,27.38,33,67,1516,Low income,Sub-Saharan Africa
 LSO,Lesotho,2011,FALSE,27.45,23,77,1287,Lower middle income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2011,FALSE,27.72,25,75,7781,Lower middle income,Middle East & North Africa
+IRN,Iran,2011,FALSE,27.72,25,75,7781,Lower middle income,Middle East & North Africa
 ZAF,South Africa,2011,FALSE,27.79,25,75,8007,Upper middle income,Sub-Saharan Africa
 BEN,Benin,2011,FALSE,28.07,31,69,1130,Lower middle income,Sub-Saharan Africa
 UGA,Uganda,2011,FALSE,28.4,23,77,829,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2011,FALSE,28.6,31,69,781,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2011,FALSE,28.6,31,69,781,Lower middle income,Sub-Saharan Africa
 CMR,Cameroon,2011,FALSE,28.98,21,79,1405,Lower middle income,Sub-Saharan Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2011,FALSE,3.36,24,76,42048,High income,Europe & Central Asia
+GBR,United Kingdom,2011,FALSE,3.36,24,76,42048,High income,Europe & Central Asia
 SWE,Sweden,2011,FALSE,3.38,25,75,60756,High income,Europe & Central Asia
 NOR,Norway,2011,FALSE,3.5,32,68,100601,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2011,FALSE,3.69,17,83,6242,Upper middle income,Latin America & Caribbean
@@ -1598,7 +1598,7 @@ EST,Estonia,2011,FALSE,8.13,25,75,17624,High income,Europe & Central Asia
 BEL,Belgium,2011,FALSE,8.19,24,76,47349,High income,Europe & Central Asia
 GRD,Grenada,2011,FALSE,8.43,15,85,7292,Upper middle income,Latin America & Caribbean
 HUN,Hungary,2011,FALSE,8.52,26,74,14216,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2011,FALSE,8.54,16,84,5064,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2011,FALSE,8.54,16,84,5064,Upper middle income,Europe & Central Asia
 TON,Tonga,2011,FALSE,8.69,24,76,4003,Upper middle income,East Asia & Pacific
 ATG,Antigua and Barbuda,2011,FALSE,8.75,18,82,12747,High income,Latin America & Caribbean
 SVK,Slovakia,2011,FALSE,8.75,25,75,18362,High income,Europe & Central Asia
@@ -1626,7 +1626,7 @@ BHS,Bahamas,2010,FALSE,12.72,22,78,28444,High income,Latin America & Caribbean
 ARG,Argentina,2010,FALSE,12.84,21,79,10386,Upper middle income,Latin America & Caribbean
 WSM,Samoa,2010,FALSE,12.91,32,68,3566,Lower middle income,East Asia & Pacific
 GRC,Greece,2010,FALSE,13.12,20,80,26691,High income,Europe & Central Asia
-MDA,Republic of Moldova,2010,FALSE,13.17,21,79,2438,Upper middle income,Europe & Central Asia
+MDA,Moldova,2010,FALSE,13.17,21,79,2438,Upper middle income,Europe & Central Asia
 PER,Peru,2010,FALSE,13.18,28,72,5082,Upper middle income,Latin America & Caribbean
 PAN,Panama,2010,FALSE,13.2,19,81,8082,Upper middle income,Latin America & Caribbean
 MUS,Mauritius,2010,FALSE,13.3,15,85,8000,Upper middle income,Sub-Saharan Africa
@@ -1641,7 +1641,7 @@ CRI,Costa Rica,2010,FALSE,13.98,14,86,8227,Upper middle income,Latin America & C
 ALB,Albania,2010,FALSE,14.08,25,75,4094,Upper middle income,Europe & Central Asia
 LKA,Sri Lanka,2010,FALSE,14.19,16,84,2800,Lower middle income,South Asia
 SYC,Seychelles,2010,FALSE,14.24,21,79,10805,High income,Sub-Saharan Africa
-LAO,Lao People's Democratic Republic,2010,FALSE,14.31,29,71,1141,Lower middle income,East Asia & Pacific
+LAO,Laos,2010,FALSE,14.31,29,71,1141,Lower middle income,East Asia & Pacific
 AFG,Afghanistan,2010,FALSE,14.42,21,79,543,Low income,South Asia
 NIC,Nicaragua,2010,FALSE,14.47,18,82,1504,Lower middle income,Latin America & Caribbean
 MEX,Mexico,2010,FALSE,14.51,22,78,9271,Upper middle income,Latin America & Caribbean
@@ -1661,7 +1661,7 @@ URY,Uruguay,2010,FALSE,17.06,25,75,11992,High income,Latin America & Caribbean
 PNG,Papua New Guinea,2010,FALSE,17.08,24,76,1949,Lower middle income,East Asia & Pacific
 IND,India,2010,FALSE,17.18,19,81,1358,Lower middle income,South Asia
 GEO,Georgia,2010,FALSE,17.22,20,80,3233,Upper middle income,Europe & Central Asia
-BOL,Bolivia (Plurinational State of),2010,FALSE,17.26,31,69,1955,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2010,FALSE,17.26,31,69,1955,Lower middle income,Latin America & Caribbean
 SLB,Solomon Islands,2010,FALSE,17.81,24,76,1604,Lower middle income,East Asia & Pacific
 GUY,Guyana,2010,FALSE,18.01,21,79,4581,Upper middle income,Latin America & Caribbean
 KGZ,Kyrgyzstan,2010,FALSE,18.02,24,76,880,Lower middle income,Europe & Central Asia
@@ -1674,7 +1674,7 @@ MMR,Myanmar,2010,FALSE,19.08,27,73,1018,Lower middle income,East Asia & Pacific
 ARE,United Arab Emirates,2010,FALSE,19.4,11,89,33893,High income,Middle East & North Africa
 SUR,Suriname,2010,FALSE,19.47,20,80,8256,Upper middle income,Latin America & Caribbean
 ISL,Iceland,2010,FALSE,2.57,27,73,43237,High income,Europe & Central Asia
-FSM,Micronesia (Federated States of),2010,FALSE,2.92,32,68,2885,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2010,FALSE,2.92,32,68,2885,Lower middle income,East Asia & Pacific
 KWT,Kuwait,2010,FALSE,20.09,13,87,38577,High income,Middle East & North Africa
 TTO,Trinidad and Tobago,2010,FALSE,20.18,21,79,16683,High income,Latin America & Caribbean
 CHN,China,2010,FALSE,20.27,25,75,4550,Upper middle income,East Asia & Pacific
@@ -1705,9 +1705,9 @@ PRY,Paraguay,2010,FALSE,24.92,20,80,4359,Upper middle income,Latin America & Car
 NGA,Nigeria,2010,FALSE,25.08,31,69,2280,Lower middle income,Sub-Saharan Africa
 MYS,Malaysia,2010,FALSE,25.12,18,82,9041,Upper middle income,East Asia & Pacific
 SSD,South Sudan,2010,FALSE,25.32,33,67,1536,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2010,FALSE,25.61,21,79,1318,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2010,FALSE,25.61,21,79,1318,Lower middle income,East Asia & Pacific
 KEN,Kenya,2010,FALSE,25.68,24,76,952,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2010,FALSE,25.78,29,71,1213,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2010,FALSE,25.78,29,71,1213,Lower middle income,Sub-Saharan Africa
 SEN,Senegal,2010,FALSE,25.79,30,70,1272,Lower middle income,Sub-Saharan Africa
 AGO,Angola,2010,FALSE,25.8,40,60,3588,Lower middle income,Sub-Saharan Africa
 KAZ,Kazakhstan,2010,FALSE,25.95,27,73,9070,Upper middle income,Europe & Central Asia
@@ -1725,13 +1725,13 @@ DOM,Dominican Republic,2010,FALSE,27.84,17,83,5555,Upper middle income,Latin Ame
 BEN,Benin,2010,FALSE,28.21,31,69,1037,Lower middle income,Sub-Saharan Africa
 DJI,Djibouti,2010,FALSE,28.21,26,74,1343,Lower middle income,Middle East & North Africa
 ZAF,South Africa,2010,FALSE,28.64,25,75,7329,Upper middle income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2010,FALSE,28.83,30,70,743,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2010,FALSE,28.83,30,70,743,Lower middle income,Sub-Saharan Africa
 CMR,Cameroon,2010,FALSE,28.86,21,79,1287,Lower middle income,Sub-Saharan Africa
 SLE,Sierra Leone,2010,FALSE,29.99,36,64,402,Low income,Sub-Saharan Africa
 MDV,Maldives,2010,FALSE,3.01,24,76,7077,Upper middle income,South Asia
 SWE,Sweden,2010,FALSE,3.04,28,72,52869,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2010,FALSE,3.68,10,90,6292,Upper middle income,Latin America & Caribbean
-GBR,United Kingdom of Great Britain and Northern Ireland,2010,FALSE,3.69,26,74,39537,High income,Europe & Central Asia
+GBR,United Kingdom,2010,FALSE,3.69,26,74,39537,High income,Europe & Central Asia
 MLT,Malta,2010,FALSE,3.93,26,74,21799,High income,Middle East & North Africa
 NLD,Netherlands,2010,FALSE,3.96,27,73,50950,High income,Europe & Central Asia
 SWZ,Eswatini,2010,FALSE,30.07,22,78,4168,Lower middle income,Sub-Saharan Africa
@@ -1744,7 +1744,7 @@ TGO,Togo,2010,FALSE,31.07,31,69,534,Low income,Sub-Saharan Africa
 VEN,Venezuela (Bolivarian Republic of),2010,FALSE,31.21,18,82,13825,Upper middle income,Latin America & Caribbean
 GNB,Guinea-Bissau,2010,FALSE,31.46,36,64,558,Low income,Sub-Saharan Africa
 UGA,Uganda,2010,FALSE,32.25,23,77,819,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2010,FALSE,32.5,25,75,6600,Lower middle income,Middle East & North Africa
+IRN,Iran,2010,FALSE,32.5,25,75,6600,Lower middle income,Middle East & North Africa
 LBR,Liberia,2010,FALSE,33.1,34,66,513,Low income,Sub-Saharan Africa
 BDI,Burundi,2010,FALSE,33.17,31,69,234,Low income,Sub-Saharan Africa
 ERI,Eritrea,2010,FALSE,34,26,74,501,Low income,Sub-Saharan Africa
@@ -1775,9 +1775,9 @@ TUR,Turkey,2010,FALSE,6.82,28,72,10743,Upper middle income,Europe & Central Asia
 SVN,Slovenia,2010,FALSE,7.19,22,78,23510,High income,Europe & Central Asia
 ITA,Italy,2010,FALSE,7.32,22,78,36001,High income,Europe & Central Asia
 CAN,Canada,2010,FALSE,7.34,32,68,47562,High income,North America
-BRN,Brunei Darussalam,2010,FALSE,7.72,23,77,35271,High income,East Asia & Pacific
+BRN,Brunei,2010,FALSE,7.72,23,77,35271,High income,East Asia & Pacific
 CZE,Czechia,2010,FALSE,7.85,23,77,19960,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2010,FALSE,8.06,23,77,4545,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2010,FALSE,8.06,23,77,4545,Upper middle income,Europe & Central Asia
 BEL,Belgium,2010,FALSE,8.13,25,75,44142,High income,Europe & Central Asia
 CYP,Cyprus,2010,FALSE,8.25,21,79,31024,High income,Europe & Central Asia
 CUB,Cuba,2010,FALSE,8.33,23,77,5730,Upper middle income,Latin America & Caribbean
@@ -1792,7 +1792,7 @@ HUN,Hungary,2009,FALSE,10.43,25,75,13046,High income,Europe & Central Asia
 PHL,Philippines,2009,FALSE,10.57,22,78,1906,Lower middle income,East Asia & Pacific
 TON,Tonga,2009,FALSE,10.59,23,77,3007,Upper middle income,East Asia & Pacific
 SRB,Serbia,2009,FALSE,10.68,21,79,6169,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2009,FALSE,11.46,24,76,27956,High income,East Asia & Pacific
+BRN,Brunei,2009,FALSE,11.46,24,76,27956,High income,East Asia & Pacific
 AZE,Azerbaijan,2009,FALSE,11.6,21,79,4950,Upper middle income,Europe & Central Asia
 PRT,Portugal,2009,FALSE,11.98,24,76,23060,High income,Europe & Central Asia
 MUS,Mauritius,2009,FALSE,12.06,13,87,7318,Upper middle income,Sub-Saharan Africa
@@ -1811,10 +1811,10 @@ BHR,Bahrain,2009,FALSE,13.5,14,86,19356,High income,Middle East & North Africa
 PAN,Panama,2009,FALSE,13.55,14,86,7576,Upper middle income,Latin America & Caribbean
 BTN,Bhutan,2009,FALSE,13.56,29,71,1819,Lower middle income,South Asia
 LTU,Lithuania,2009,FALSE,13.58,22,78,11821,High income,Europe & Central Asia
-MDA,Republic of Moldova,2009,FALSE,13.79,25,75,1899,Upper middle income,Europe & Central Asia
+MDA,Moldova,2009,FALSE,13.79,25,75,1899,Upper middle income,Europe & Central Asia
 IDN,Indonesia,2009,FALSE,13.9,23,77,2261,Lower middle income,East Asia & Pacific
 ROU,Romania,2009,FALSE,13.97,25,75,8548,Upper middle income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2009,FALSE,14.21,30,70,949,Lower middle income,East Asia & Pacific
+LAO,Laos,2009,FALSE,14.21,30,70,949,Lower middle income,East Asia & Pacific
 LKA,Sri Lanka,2009,FALSE,14.33,14,86,2090,Lower middle income,South Asia
 ALB,Albania,2009,FALSE,14.4,24,76,4114,Upper middle income,Europe & Central Asia
 AFG,Afghanistan,2009,FALSE,14.42,21,79,438,Low income,South Asia
@@ -1834,7 +1834,7 @@ BHS,Bahamas,2009,FALSE,16.28,21,79,28553,High income,Latin America & Caribbean
 HND,Honduras,2009,FALSE,16.31,36,64,1790,Lower middle income,Latin America & Caribbean
 URY,Uruguay,2009,FALSE,16.48,22,78,9452,High income,Latin America & Caribbean
 MNE,Montenegro,2009,FALSE,16.53,25,75,6727,Upper middle income,Europe & Central Asia
-BOL,Bolivia (Plurinational State of),2009,FALSE,16.56,31,69,1754,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2009,FALSE,16.56,31,69,1754,Lower middle income,Latin America & Caribbean
 TKM,Turkmenistan,2009,FALSE,16.71,20,80,4036,Upper middle income,Europe & Central Asia
 BLZ,Belize,2009,FALSE,16.83,19,81,4187,Lower middle income,Latin America & Caribbean
 BGD,Bangladesh,2009,FALSE,16.92,18,82,702,Lower middle income,South Asia
@@ -1881,14 +1881,14 @@ SSD,South Sudan,2009,FALSE,24,33,67,1338,Low income,Sub-Saharan Africa
 BWA,Botswana,2009,FALSE,24.03,29,71,5256,Upper middle income,Sub-Saharan Africa
 SDN,Sudan,2009,FALSE,24.17,32,68,1164,Low income,Sub-Saharan Africa
 MLI,Mali,2009,FALSE,24.23,38,62,702,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2009,FALSE,24.59,21,79,1217,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2009,FALSE,24.59,21,79,1217,Lower middle income,East Asia & Pacific
 SLV,El Salvador,2009,FALSE,24.64,19,81,2858,Lower middle income,Latin America & Caribbean
 TCD,Chad,2009,FALSE,24.93,34,66,804,Low income,Sub-Saharan Africa
 MYS,Malaysia,2009,FALSE,25.07,18,82,7292,Upper middle income,East Asia & Pacific
 GAB,Gabon,2009,FALSE,25.2,28,72,7721,Upper middle income,Sub-Saharan Africa
 NGA,Nigeria,2009,FALSE,25.27,31,69,1891,Lower middle income,Sub-Saharan Africa
 SEN,Senegal,2009,FALSE,25.5,30,70,1309,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2009,FALSE,25.52,29,71,1215,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2009,FALSE,25.52,29,71,1215,Lower middle income,Sub-Saharan Africa
 KAZ,Kazakhstan,2009,FALSE,25.55,27,73,7165,Upper middle income,Europe & Central Asia
 KWT,Kuwait,2009,FALSE,25.59,13,87,37562,High income,Middle East & North Africa
 KEN,Kenya,2009,FALSE,26.05,23,77,905,Lower middle income,Sub-Saharan Africa
@@ -1907,12 +1907,12 @@ DJI,Djibouti,2009,FALSE,27.9,27,73,1267,Lower middle income,Middle East & North 
 BEN,Benin,2009,FALSE,27.92,31,69,1089,Lower middle income,Sub-Saharan Africa
 CMR,Cameroon,2009,FALSE,28.5,21,79,1320,Lower middle income,Sub-Saharan Africa
 ZAF,South Africa,2009,FALSE,28.64,25,75,5863,Upper middle income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2009,FALSE,28.66,30,70,695,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2009,FALSE,28.66,30,70,695,Lower middle income,Sub-Saharan Africa
 BFA,Burkina Faso,2009,FALSE,29.43,35,65,624,Low income,Sub-Saharan Africa
 SWZ,Eswatini,2009,FALSE,29.65,22,78,3386,Lower middle income,Sub-Saharan Africa
 WSM,Samoa,2009,FALSE,29.8,32,68,3168,Lower middle income,East Asia & Pacific
 GRD,Grenada,2009,FALSE,3.78,8,92,7291,Upper middle income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2009,FALSE,3.88,32,68,2722,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2009,FALSE,3.88,32,68,2722,Lower middle income,East Asia & Pacific
 SLE,Sierra Leone,2009,FALSE,30.47,36,64,391,Low income,Sub-Saharan Africa
 GIN,Guinea,2009,FALSE,30.61,36,64,674,Low income,Sub-Saharan Africa
 MWI,Malawi,2009,FALSE,30.86,24,76,438,Low income,Sub-Saharan Africa
@@ -1921,7 +1921,7 @@ TGO,Togo,2009,FALSE,31.26,32,68,541,Low income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2009,FALSE,31.27,36,64,559,Low income,Sub-Saharan Africa
 UGA,Uganda,2009,FALSE,31.89,23,77,797,Low income,Sub-Saharan Africa
 CAF,Central African Republic,2009,FALSE,32.03,37,63,475,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2009,FALSE,32.48,25,75,5710,Lower middle income,Middle East & North Africa
+IRN,Iran,2009,FALSE,32.48,25,75,5710,Lower middle income,Middle East & North Africa
 BDI,Burundi,2009,FALSE,33.03,31,69,212,Low income,Sub-Saharan Africa
 LBR,Liberia,2009,FALSE,33.4,34,66,471,Low income,Sub-Saharan Africa
 ERI,Eritrea,2009,FALSE,33.98,25,75,595,Low income,Sub-Saharan Africa
@@ -1932,7 +1932,7 @@ VEN,Venezuela (Bolivarian Republic of),2009,FALSE,36.85,18,82,11765,Upper middle
 ZWE,Zimbabwe,2009,FALSE,37.94,21,79,772,Lower middle income,Sub-Saharan Africa
 THA,Thailand,2009,FALSE,38.66,22,78,4213,Upper middle income,East Asia & Pacific
 SWE,Sweden,2009,FALSE,4.12,26,74,46947,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2009,FALSE,4.3,24,76,38737,High income,Europe & Central Asia
+GBR,United Kingdom,2009,FALSE,4.3,24,76,38737,High income,Europe & Central Asia
 SGP,Singapore,2009,FALSE,4.41,17,83,38927,High income,East Asia & Pacific
 ISR,Israel,2009,FALSE,4.46,19,81,27720,High income,Middle East & North Africa
 NLD,Netherlands,2009,FALSE,4.46,28,72,52514,High income,Europe & Central Asia
@@ -1955,7 +1955,7 @@ CAN,Canada,2009,FALSE,7.17,30,70,40876,High income,North America
 FJI,Fiji,2009,FALSE,7.26,27,73,3363,Upper middle income,East Asia & Pacific
 VCT,Saint Vincent and the Grenadines,2009,FALSE,7.78,8,92,6232,Upper middle income,Latin America & Caribbean
 AUT,Austria,2009,FALSE,7.8,25,75,47963,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2009,FALSE,7.97,22,78,4546,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2009,FALSE,7.97,22,78,4546,Upper middle income,Europe & Central Asia
 ITA,Italy,2009,FALSE,8.03,22,78,37080,High income,Europe & Central Asia
 EST,Estonia,2009,FALSE,8.76,30,70,14795,High income,Europe & Central Asia
 CUB,Cuba,2009,FALSE,8.84,20,80,5530,Upper middle income,Latin America & Caribbean
@@ -1968,9 +1968,9 @@ SVK,Slovakia,2009,FALSE,9.56,26,74,16532,High income,Europe & Central Asia
 NZL,New Zealand,2009,FALSE,9.6,33,67,28209,High income,East Asia & Pacific
 LUX,Luxembourg,2009,FALSE,9.86,26,74,103199,High income,Europe & Central Asia
 SYC,Seychelles,2009,FALSE,9.91,22,78,9707,High income,Sub-Saharan Africa
-FSM,Micronesia (Federated States of),2008,FALSE,1.93,32,68,2541,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2008,FALSE,1.93,32,68,2541,Lower middle income,East Asia & Pacific
 PHL,Philippines,2008,FALSE,10.04,23,77,1991,Lower middle income,East Asia & Pacific
-BRN,Brunei Darussalam,2008,FALSE,10.54,23,77,37935,High income,East Asia & Pacific
+BRN,Brunei,2008,FALSE,10.54,23,77,37935,High income,East Asia & Pacific
 UZB,Uzbekistan,2008,FALSE,10.6,21,79,1082,Lower middle income,Europe & Central Asia
 CZE,Czechia,2008,FALSE,10.64,27,73,22805,High income,Europe & Central Asia
 SVN,Slovenia,2008,FALSE,11.07,18,82,27483,High income,Europe & Central Asia
@@ -1989,7 +1989,7 @@ VUT,Vanuatu,2008,FALSE,13.35,25,75,2629,Lower middle income,East Asia & Pacific
 USA,United States of America,2008,FALSE,13.42,29,71,48383,High income,North America
 BHR,Bahrain,2008,FALSE,13.55,14,86,23066,High income,Middle East & North Africa
 IDN,Indonesia,2008,FALSE,13.55,23,77,2167,Lower middle income,East Asia & Pacific
-LAO,Lao People's Democratic Republic,2008,FALSE,14.11,30,70,900,Lower middle income,East Asia & Pacific
+LAO,Laos,2008,FALSE,14.11,30,70,900,Lower middle income,East Asia & Pacific
 LKA,Sri Lanka,2008,FALSE,14.22,13,87,2037,Lower middle income,South Asia
 PAK,Pakistan,2008,FALSE,14.23,48,52,991,Lower middle income,South Asia
 CHL,Chile,2008,FALSE,14.29,21,79,10751,High income,Latin America & Caribbean
@@ -2013,7 +2013,7 @@ HRV,Croatia,2008,FALSE,15.74,21,79,16297,High income,Europe & Central Asia
 NPL,Nepal,2008,FALSE,15.86,32,68,470,Lower middle income,South Asia
 URY,Uruguay,2008,FALSE,15.9,22,78,9091,High income,Latin America & Caribbean
 HND,Honduras,2008,FALSE,16.07,36,64,1739,Lower middle income,Latin America & Caribbean
-MDA,Republic of Moldova,2008,FALSE,16.29,21,79,2111,Upper middle income,Europe & Central Asia
+MDA,Moldova,2008,FALSE,16.29,21,79,2111,Upper middle income,Europe & Central Asia
 PER,Peru,2008,FALSE,16.37,28,72,4221,Upper middle income,Latin America & Caribbean
 POL,Poland,2008,FALSE,16.56,24,76,13996,High income,Europe & Central Asia
 GTM,Guatemala,2008,FALSE,16.63,17,83,2802,Upper middle income,Latin America & Caribbean
@@ -2022,7 +2022,7 @@ CRI,Costa Rica,2008,FALSE,16.83,15,85,6901,Upper middle income,Latin America & C
 BGD,Bangladesh,2008,FALSE,16.86,19,81,635,Lower middle income,South Asia
 BIH,Bosnia and Herzegovina,2008,FALSE,17.13,22,78,5091,Upper middle income,Europe & Central Asia
 IND,India,2008,FALSE,17.15,19,81,999,Lower middle income,South Asia
-BOL,Bolivia (Plurinational State of),2008,FALSE,17.2,31,69,1715,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2008,FALSE,17.2,31,69,1715,Lower middle income,Latin America & Caribbean
 ARM,Armenia,2008,FALSE,17.33,20,80,4011,Upper middle income,Europe & Central Asia
 TON,Tonga,2008,FALSE,17.41,24,76,3332,Upper middle income,East Asia & Pacific
 PNG,Papua New Guinea,2008,FALSE,17.44,24,76,1673,Lower middle income,East Asia & Pacific
@@ -2068,14 +2068,14 @@ GAB,Gabon,2008,FALSE,24.23,29,71,10254,Upper middle income,Sub-Saharan Africa
 SUR,Suriname,2008,FALSE,24.37,21,79,6832,Upper middle income,Latin America & Caribbean
 SDN,Sudan,2008,FALSE,24.68,32,68,1305,Low income,Sub-Saharan Africa
 MYS,Malaysia,2008,FALSE,24.71,18,82,8475,Upper middle income,East Asia & Pacific
-VNM,Viet Nam,2008,FALSE,24.78,21,79,1149,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2008,FALSE,24.78,21,79,1149,Lower middle income,East Asia & Pacific
 TTO,Trinidad and Tobago,2008,FALSE,24.8,21,79,21204,High income,Latin America & Caribbean
 UKR,Ukraine,2008,FALSE,24.81,22,78,3887,Lower middle income,Europe & Central Asia
 TCD,Chad,2008,FALSE,24.96,34,66,929,Low income,Sub-Saharan Africa
 AGO,Angola,2008,FALSE,24.96,42,58,4081,Lower middle income,Sub-Saharan Africa
 NGA,Nigeria,2008,FALSE,25.13,31,69,2243,Lower middle income,Sub-Saharan Africa
 SEN,Senegal,2008,FALSE,25.4,31,69,1404,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2008,FALSE,25.45,28,72,1241,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2008,FALSE,25.45,28,72,1241,Lower middle income,Sub-Saharan Africa
 MDG,Madagascar,2008,FALSE,25.48,35,65,536,Low income,Sub-Saharan Africa
 RUS,Russian Federation,2008,FALSE,25.49,27,73,11635,Upper middle income,Europe & Central Asia
 SAU,Saudi Arabia,2008,FALSE,25.72,20,80,20078,High income,Middle East & North Africa
@@ -2091,7 +2091,7 @@ DJI,Djibouti,2008,FALSE,27.44,27,73,1224,Lower middle income,Middle East & North
 LSO,Lesotho,2008,FALSE,27.63,22,78,889,Lower middle income,Sub-Saharan Africa
 BEN,Benin,2008,FALSE,27.64,31,69,1125,Lower middle income,Sub-Saharan Africa
 CMR,Cameroon,2008,FALSE,28.36,21,79,1377,Lower middle income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2008,FALSE,28.36,30,70,687,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2008,FALSE,28.36,30,70,687,Lower middle income,Sub-Saharan Africa
 SLV,El Salvador,2008,FALSE,28.38,21,79,2933,Lower middle income,Latin America & Caribbean
 KWT,Kuwait,2008,FALSE,28.46,13,87,55495,High income,Middle East & North Africa
 SWZ,Eswatini,2008,FALSE,28.95,22,78,3137,Lower middle income,Sub-Saharan Africa
@@ -2108,7 +2108,7 @@ MOZ,Mozambique,2008,FALSE,31.4,28,72,564,Low income,Sub-Saharan Africa
 UGA,Uganda,2008,FALSE,31.75,23,77,475,Low income,Sub-Saharan Africa
 CAF,Central African Republic,2008,FALSE,32.32,37,63,465,Low income,Sub-Saharan Africa
 BDI,Burundi,2008,FALSE,33.03,31,69,198,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2008,FALSE,33.4,24,76,5717,Lower middle income,Middle East & North Africa
+IRN,Iran,2008,FALSE,33.4,24,76,5717,Lower middle income,Middle East & North Africa
 RWA,Rwanda,2008,FALSE,33.65,31,69,544,Low income,Sub-Saharan Africa
 BLZ,Belize,2008,FALSE,33.76,18,82,4404,Lower middle income,Latin America & Caribbean
 LBR,Liberia,2008,FALSE,33.86,35,65,478,Low income,Sub-Saharan Africa
@@ -2123,7 +2123,7 @@ ISL,Iceland,2008,FALSE,4.5,20,80,56943,High income,Europe & Central Asia
 NLD,Netherlands,2008,FALSE,4.67,26,74,57644,High income,Europe & Central Asia
 SWE,Sweden,2008,FALSE,4.77,29,71,56153,High income,Europe & Central Asia
 CHE,Switzerland,2008,FALSE,4.83,24,76,74572,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2008,FALSE,5.19,26,74,47267,High income,Europe & Central Asia
+GBR,United Kingdom,2008,FALSE,5.19,26,74,47267,High income,Europe & Central Asia
 NOR,Norway,2008,FALSE,5.51,23,77,96944,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2008,FALSE,5.52,7,93,6415,Upper middle income,Latin America & Caribbean
 JPN,Japan,2008,FALSE,5.52,33,67,39339,High income,East Asia & Pacific
@@ -2141,7 +2141,7 @@ AUS,Australia,2008,FALSE,7.12,26,74,49602,High income,East Asia & Pacific
 LUX,Luxembourg,2008,FALSE,7.42,28,72,114294,High income,Europe & Central Asia
 DNK,Denmark,2008,FALSE,7.62,26,74,64322,High income,Europe & Central Asia
 CAN,Canada,2008,FALSE,8.04,30,70,46711,High income,North America
-MKD,The former Yugoslav Republic of Macedonia,2008,FALSE,8.08,20,80,4794,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2008,FALSE,8.08,20,80,4794,Upper middle income,Europe & Central Asia
 AUT,Austria,2008,FALSE,8.39,26,74,51709,High income,Europe & Central Asia
 ITA,Italy,2008,FALSE,8.87,21,79,40778,High income,Europe & Central Asia
 CUB,Cuba,2008,FALSE,9.16,23,77,5411,Upper middle income,Latin America & Caribbean
@@ -2172,7 +2172,7 @@ AZE,Azerbaijan,2007,FALSE,13.74,21,79,3851,Upper middle income,Europe & Central 
 PAK,Pakistan,2007,FALSE,14.06,47,53,908,Lower middle income,South Asia
 MEX,Mexico,2007,FALSE,14.06,22,78,9643,Upper middle income,Latin America & Caribbean
 ARG,Argentina,2007,FALSE,14.1,24,76,7245,Upper middle income,Latin America & Caribbean
-LAO,Lao People's Democratic Republic,2007,FALSE,14.16,30,70,710,Lower middle income,East Asia & Pacific
+LAO,Laos,2007,FALSE,14.16,30,70,710,Lower middle income,East Asia & Pacific
 BGR,Bulgaria,2007,FALSE,14.32,25,75,5885,Upper middle income,Europe & Central Asia
 ROU,Romania,2007,FALSE,14.35,26,74,8360,Upper middle income,Europe & Central Asia
 URY,Uruguay,2007,FALSE,14.38,25,75,7027,High income,Latin America & Caribbean
@@ -2185,7 +2185,7 @@ ALB,Albania,2007,FALSE,14.8,23,77,3595,Upper middle income,Europe & Central Asia
 LBN,Lebanon,2007,FALSE,14.91,19,81,5208,Upper middle income,Middle East & North Africa
 USA,United States of America,2007,FALSE,14.92,30,70,47976,High income,North America
 AFG,Afghanistan,2007,FALSE,14.96,22,78,360,Low income,South Asia
-BOL,Bolivia (Plurinational State of),2007,FALSE,15.04,31,69,1373,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2007,FALSE,15.04,31,69,1373,Lower middle income,Latin America & Caribbean
 TLS,Timor-Leste,2007,FALSE,15.24,33,67,524,Lower middle income,East Asia & Pacific
 KOR,Republic of Korea,2007,FALSE,15.35,28,72,24086,High income,East Asia & Pacific
 SVN,Slovenia,2007,FALSE,15.61,20,80,23788,High income,Europe & Central Asia
@@ -2202,13 +2202,13 @@ LCA,Saint Lucia,2007,FALSE,16.7,22,78,7970,Upper middle income,Latin America & C
 BGD,Bangladesh,2007,FALSE,16.94,21,79,558,Lower middle income,South Asia
 TKM,Turkmenistan,2007,FALSE,16.94,20,80,2600,Upper middle income,Europe & Central Asia
 EST,Estonia,2007,FALSE,17.03,24,76,16742,High income,Europe & Central Asia
-MDA,Republic of Moldova,2007,FALSE,17.05,28,72,1532,Upper middle income,Europe & Central Asia
+MDA,Moldova,2007,FALSE,17.05,28,72,1532,Upper middle income,Europe & Central Asia
 PRY,Paraguay,2007,FALSE,17.22,19,81,2977,Upper middle income,Latin America & Caribbean
 KHM,Cambodia,2007,FALSE,17.39,27,73,632,Lower middle income,East Asia & Pacific
 BIH,Bosnia and Herzegovina,2007,FALSE,17.46,22,78,4193,Upper middle income,Europe & Central Asia
 PNG,Papua New Guinea,2007,FALSE,17.54,24,76,1402,Lower middle income,East Asia & Pacific
 ARM,Armenia,2007,FALSE,17.56,34,66,3139,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2007,FALSE,17.6,26,74,32663,High income,East Asia & Pacific
+BRN,Brunei,2007,FALSE,17.6,26,74,32663,High income,East Asia & Pacific
 ARE,United Arab Emirates,2007,FALSE,17.65,11,89,41809,High income,Middle East & North Africa
 SLB,Solomon Islands,2007,FALSE,17.68,24,76,1260,Lower middle income,East Asia & Pacific
 SYC,Seychelles,2007,FALSE,17.76,22,78,12155,High income,Sub-Saharan Africa
@@ -2219,7 +2219,7 @@ HTI,Haiti,2007,FALSE,18.52,33,67,981,Lower middle income,Latin America & Caribbe
 GNQ,Equatorial Guinea,2007,FALSE,18.99,36,64,15908,Upper middle income,Sub-Saharan Africa
 MMR,Myanmar,2007,FALSE,19.04,29,71,513,Lower middle income,East Asia & Pacific
 ECU,Ecuador,2007,FALSE,19.12,22,78,3568,Upper middle income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2007,FALSE,2.87,33,67,2459,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2007,FALSE,2.87,33,67,2459,Lower middle income,East Asia & Pacific
 GTM,Guatemala,2007,FALSE,20.09,18,82,2491,Upper middle income,Latin America & Caribbean
 LVA,Latvia,2007,FALSE,20.11,26,74,14091,High income,Europe & Central Asia
 IRQ,Iraq,2007,FALSE,20.24,30,70,3183,Upper middle income,Middle East & North Africa
@@ -2246,12 +2246,12 @@ GHA,Ghana,2007,FALSE,24,27,73,1081,Lower middle income,Sub-Saharan Africa
 ZMB,Zambia,2007,FALSE,24.13,29,71,1124,Lower middle income,Sub-Saharan Africa
 DOM,Dominican Republic,2007,FALSE,24.19,19,81,4708,Upper middle income,Latin America & Caribbean
 MYS,Malaysia,2007,FALSE,24.24,18,82,7243,Upper middle income,East Asia & Pacific
-VNM,Viet Nam,2007,FALSE,24.33,20,80,906,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2007,FALSE,24.33,20,80,906,Lower middle income,East Asia & Pacific
 TCD,Chad,2007,FALSE,24.57,35,65,800,Low income,Sub-Saharan Africa
 SDN,Sudan,2007,FALSE,24.72,32,68,1128,Low income,Sub-Saharan Africa
 GAB,Gabon,2007,FALSE,24.95,29,71,8458,Upper middle income,Sub-Saharan Africa
 SUR,Suriname,2007,FALSE,25.43,21,79,5745,Upper middle income,Latin America & Caribbean
-CIV,Côte d’Ivoire,2007,FALSE,25.43,28,72,1063,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2007,FALSE,25.43,28,72,1063,Lower middle income,Sub-Saharan Africa
 SEN,Senegal,2007,FALSE,25.46,31,69,1198,Lower middle income,Sub-Saharan Africa
 AGO,Angola,2007,FALSE,25.47,41,59,3122,Lower middle income,Sub-Saharan Africa
 MDG,Madagascar,2007,FALSE,25.56,35,65,439,Low income,Sub-Saharan Africa
@@ -2272,7 +2272,7 @@ LSO,Lesotho,2007,FALSE,27.83,21,79,847,Lower middle income,Sub-Saharan Africa
 CMR,Cameroon,2007,FALSE,28.08,21,79,1196,Lower middle income,Sub-Saharan Africa
 RUS,Russian Federation,2007,FALSE,28.17,27,73,9101,Upper middle income,Europe & Central Asia
 SWZ,Eswatini,2007,FALSE,28.78,22,78,3327,Lower middle income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2007,FALSE,28.8,30,70,553,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2007,FALSE,28.8,30,70,553,Lower middle income,Sub-Saharan Africa
 UKR,Ukraine,2007,FALSE,29.49,22,78,3066,Lower middle income,Europe & Central Asia
 KWT,Kuwait,2007,FALSE,29.51,14,86,45782,High income,Middle East & North Africa
 BFA,Burkina Faso,2007,FALSE,29.63,36,64,535,Low income,Sub-Saharan Africa
@@ -2290,7 +2290,7 @@ UGA,Uganda,2007,FALSE,31.78,24,76,404,Low income,Sub-Saharan Africa
 BLZ,Belize,2007,FALSE,32.36,19,81,4252,Lower middle income,Latin America & Caribbean
 ZAF,South Africa,2007,FALSE,32.44,27,73,6096,Upper middle income,Sub-Saharan Africa
 CAF,Central African Republic,2007,FALSE,32.65,37,63,404,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2007,FALSE,33.12,24,76,4905,Lower middle income,Middle East & North Africa
+IRN,Iran,2007,FALSE,33.12,24,76,4905,Lower middle income,Middle East & North Africa
 BDI,Burundi,2007,FALSE,33.36,32,68,172,Low income,Sub-Saharan Africa
 LBR,Liberia,2007,FALSE,33.58,35,65,397,Low income,Sub-Saharan Africa
 ERI,Eritrea,2007,FALSE,33.77,25,75,440,Low income,Sub-Saharan Africa
@@ -2307,7 +2307,7 @@ NOR,Norway,2007,FALSE,5.09,29,71,85140,High income,Europe & Central Asia
 CHE,Switzerland,2007,FALSE,5.25,23,77,65360,High income,Europe & Central Asia
 SWE,Sweden,2007,FALSE,5.29,29,71,53700,High income,Europe & Central Asia
 ISR,Israel,2007,FALSE,5.75,21,79,24939,High income,Middle East & North Africa
-GBR,United Kingdom of Great Britain and Northern Ireland,2007,FALSE,5.83,25,75,50445,High income,Europe & Central Asia
+GBR,United Kingdom,2007,FALSE,5.83,25,75,50445,High income,Europe & Central Asia
 SGP,Singapore,2007,FALSE,6.03,19,81,39433,High income,East Asia & Pacific
 JPN,Japan,2007,FALSE,6.18,34,66,35275,High income,East Asia & Pacific
 KIR,Kiribati,2007,FALSE,6.22,17,83,1374,Lower middle income,East Asia & Pacific
@@ -2323,12 +2323,12 @@ IRL,Ireland,2007,FALSE,8.05,26,74,61337,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2007,FALSE,8.24,9,91,6307,Upper middle income,Latin America & Caribbean
 AUT,Austria,2007,FALSE,8.56,26,74,46856,High income,Europe & Central Asia
 CUB,Cuba,2007,FALSE,8.59,22,78,5209,Upper middle income,Latin America & Caribbean
-MKD,The former Yugoslav Republic of Macedonia,2007,FALSE,8.62,18,82,4037,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2007,FALSE,8.62,18,82,4037,Upper middle income,Europe & Central Asia
 ESP,Spain,2007,FALSE,8.7,21,79,32550,High income,Europe & Central Asia
 CAN,Canada,2007,FALSE,8.88,29,71,44660,High income,North America
 ITA,Italy,2007,FALSE,9.68,20,80,37823,High income,Europe & Central Asia
 LUX,Luxembourg,2007,FALSE,9.69,18,82,106018,High income,Europe & Central Asia
-FSM,Micronesia (Federated States of),2006,FALSE,1.9,32,68,2406,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2006,FALSE,1.9,32,68,2406,Lower middle income,East Asia & Pacific
 NZL,New Zealand,2006,FALSE,10.06,30,70,26655,High income,East Asia & Pacific
 ITA,Italy,2006,FALSE,10.26,21,79,33502,High income,Europe & Central Asia
 BEL,Belgium,2006,FALSE,10.5,25,75,38673,High income,Europe & Central Asia
@@ -2338,7 +2338,7 @@ EGY,Egypt,2006,FALSE,11.08,29,71,1397,Lower middle income,Middle East & North Af
 SRB,Serbia,2006,FALSE,11.46,24,76,4383,Upper middle income,Europe & Central Asia
 SYC,Seychelles,2006,FALSE,12.29,22,78,12014,High income,Sub-Saharan Africa
 MUS,Mauritius,2006,FALSE,12.54,17,83,5696,Upper middle income,Sub-Saharan Africa
-BRN,Brunei Darussalam,2006,FALSE,12.69,28,72,30980,High income,East Asia & Pacific
+BRN,Brunei,2006,FALSE,12.69,28,72,30980,High income,East Asia & Pacific
 WSM,Samoa,2006,FALSE,12.72,29,71,2797,Lower middle income,East Asia & Pacific
 VCT,Saint Vincent and the Grenadines,2006,FALSE,12.89,17,83,5625,Upper middle income,Latin America & Caribbean
 ARG,Argentina,2006,FALSE,13.11,25,75,5919,Upper middle income,Latin America & Caribbean
@@ -2347,7 +2347,7 @@ AZE,Azerbaijan,2006,FALSE,13.24,21,79,2473,Upper middle income,Europe & Central 
 BTN,Bhutan,2006,FALSE,13.39,29,71,1331,Lower middle income,South Asia
 VUT,Vanuatu,2006,FALSE,13.53,25,75,2050,Lower middle income,East Asia & Pacific
 SVN,Slovenia,2006,FALSE,13.73,17,83,19673,High income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2006,FALSE,13.92,31,69,591,Lower middle income,East Asia & Pacific
+LAO,Laos,2006,FALSE,13.92,31,69,591,Lower middle income,East Asia & Pacific
 SVK,Slovakia,2006,FALSE,13.94,21,79,13160,High income,Europe & Central Asia
 PAK,Pakistan,2006,FALSE,14.05,48,52,837,Lower middle income,South Asia
 JAM,Jamaica,2006,FALSE,14.08,28,72,4331,Upper middle income,Latin America & Caribbean
@@ -2358,7 +2358,7 @@ LKA,Sri Lanka,2006,FALSE,14.39,20,80,1436,Lower middle income,South Asia
 URY,Uruguay,2006,FALSE,14.46,22,78,5888,High income,Latin America & Caribbean
 HRV,Croatia,2006,FALSE,14.48,23,77,11696,High income,Europe & Central Asia
 TON,Tonga,2006,FALSE,14.75,24,76,2873,Upper middle income,East Asia & Pacific
-MDA,Republic of Moldova,2006,FALSE,14.83,24,76,1183,Upper middle income,Europe & Central Asia
+MDA,Moldova,2006,FALSE,14.83,24,76,1183,Upper middle income,Europe & Central Asia
 BHS,Bahamas,2006,FALSE,14.85,23,77,30714,High income,Latin America & Caribbean
 ALB,Albania,2006,FALSE,14.89,24,76,2973,Upper middle income,Europe & Central Asia
 FJI,Fiji,2006,FALSE,14.98,26,74,3716,Upper middle income,East Asia & Pacific
@@ -2407,7 +2407,7 @@ LVA,Latvia,2006,FALSE,20,26,74,9700,High income,Europe & Central Asia
 TTO,Trinidad and Tobago,2006,FALSE,20.11,23,77,14103,High income,Latin America & Caribbean
 KGZ,Kyrgyzstan,2006,FALSE,20.51,24,76,543,Lower middle income,Europe & Central Asia
 CHN,China,2006,FALSE,20.74,25,75,2099,Upper middle income,East Asia & Pacific
-BOL,Bolivia (Plurinational State of),2006,FALSE,20.9,31,69,1219,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2006,FALSE,20.9,31,69,1219,Lower middle income,Latin America & Caribbean
 LBY,Libya,2006,FALSE,21.3,24,76,9336,Upper middle income,Middle East & North Africa
 MNG,Mongolia,2006,FALSE,21.65,24,76,1334,Lower middle income,East Asia & Pacific
 BHR,Bahrain,2006,FALSE,21.81,15,85,19308,High income,Middle East & North Africa
@@ -2425,7 +2425,7 @@ ETH,Ethiopia,2006,FALSE,23.93,33,67,195,Low income,Sub-Saharan Africa
 MAR,Morocco,2006,FALSE,23.94,16,84,2196,Lower middle income,Middle East & North Africa
 GAB,Gabon,2006,FALSE,24.01,30,70,7221,Upper middle income,Sub-Saharan Africa
 TCD,Chad,2006,FALSE,24.48,34,66,710,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2006,FALSE,24.49,20,80,784,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2006,FALSE,24.49,20,80,784,Lower middle income,East Asia & Pacific
 AGO,Angola,2006,FALSE,24.58,43,57,2600,Lower middle income,Sub-Saharan Africa
 GHA,Ghana,2006,FALSE,24.61,27,73,913,Lower middle income,Sub-Saharan Africa
 BWA,Botswana,2006,FALSE,24.66,24,76,5522,Upper middle income,Sub-Saharan Africa
@@ -2440,7 +2440,7 @@ COG,Congo,2006,FALSE,25.5,41,59,2153,Lower middle income,Sub-Saharan Africa
 DOM,Dominican Republic,2006,FALSE,25.63,19,81,4109,Upper middle income,Latin America & Caribbean
 MDG,Madagascar,2006,FALSE,25.74,35,65,339,Low income,Sub-Saharan Africa
 KEN,Kenya,2006,FALSE,25.81,24,76,686,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2006,FALSE,25.82,27,73,950,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2006,FALSE,25.82,27,73,950,Lower middle income,Sub-Saharan Africa
 MRT,Mauritania,2006,FALSE,26.03,42,58,1260,Lower middle income,Sub-Saharan Africa
 NGA,Nigeria,2006,FALSE,26.42,31,69,1656,Lower middle income,Sub-Saharan Africa
 COM,Comoros,2006,FALSE,26.5,35,65,1115,Lower middle income,Sub-Saharan Africa
@@ -2456,7 +2456,7 @@ CMR,Cameroon,2006,FALSE,28.14,21,79,1063,Lower middle income,Sub-Saharan Africa
 BEN,Benin,2006,FALSE,28.15,31,69,856,Lower middle income,Sub-Saharan Africa
 SWZ,Eswatini,2006,FALSE,28.56,22,78,3177,Lower middle income,Sub-Saharan Africa
 BLZ,Belize,2006,FALSE,28.8,20,80,4155,Lower middle income,Latin America & Caribbean
-TZA,United Republic of Tanzania,2006,FALSE,28.8,29,71,485,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2006,FALSE,28.8,29,71,485,Lower middle income,Sub-Saharan Africa
 KWT,Kuwait,2006,FALSE,29.03,14,86,42782,High income,Middle East & North Africa
 BFA,Burkina Faso,2006,FALSE,29.43,36,64,473,Low income,Sub-Saharan Africa
 GIN,Guinea,2006,FALSE,30.69,38,62,453,Low income,Sub-Saharan Africa
@@ -2480,7 +2480,7 @@ COD,Democratic Republic of the Congo,2006,FALSE,36.62,38,62,255,Low income,Sub-S
 THA,Thailand,2006,FALSE,38.68,22,78,3370,Upper middle income,East Asia & Pacific
 KAZ,Kazakhstan,2006,FALSE,39.79,26,74,5292,Upper middle income,Europe & Central Asia
 GTM,Guatemala,2006,FALSE,4.61,18,82,2251,Upper middle income,Latin America & Caribbean
-IRN,Iran (Islamic Republic of),2006,FALSE,40.28,24,76,3774,Lower middle income,Middle East & North Africa
+IRN,Iran,2006,FALSE,40.28,24,76,3774,Lower middle income,Middle East & North Africa
 ZAF,South Africa,2006,FALSE,41.07,28,72,5602,Upper middle income,Sub-Saharan Africa
 NLD,Netherlands,2006,FALSE,5.09,29,71,44863,High income,Europe & Central Asia
 CHE,Switzerland,2006,FALSE,5.11,27,73,59301,High income,Europe & Central Asia
@@ -2491,10 +2491,10 @@ DNK,Denmark,2006,FALSE,5.79,29,71,52027,High income,Europe & Central Asia
 LCA,Saint Lucia,2006,FALSE,6.05,22,78,7669,Upper middle income,Latin America & Caribbean
 ISR,Israel,2006,FALSE,6.39,24,76,21855,High income,Middle East & North Africa
 FIN,Finland,2006,FALSE,6.56,28,72,41188,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2006,FALSE,6.56,24,76,44473,High income,Europe & Central Asia
+GBR,United Kingdom,2006,FALSE,6.56,24,76,44473,High income,Europe & Central Asia
 DEU,Germany,2006,FALSE,6.57,27,73,36323,High income,Europe & Central Asia
 TUR,Turkey,2006,FALSE,6.95,29,71,8102,Upper middle income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2006,FALSE,6.98,18,82,3326,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2006,FALSE,6.98,18,82,3326,Upper middle income,Europe & Central Asia
 FRA,France,2006,FALSE,7.89,24,76,36444,High income,Europe & Central Asia
 BRB,Barbados,2006,FALSE,7.93,23,77,15200,High income,Latin America & Caribbean
 AUS,Australia,2006,FALSE,8.03,26,74,36045,High income,East Asia & Pacific
@@ -2509,7 +2509,7 @@ CUB,Cuba,2006,FALSE,9.7,19,81,4684,Upper middle income,Latin America & Caribbean
 PHL,Philippines,2006,FALSE,9.83,22,78,1452,Lower middle income,East Asia & Pacific
 UZB,Uzbekistan,2006,FALSE,9.96,21,79,654,Lower middle income,Europe & Central Asia
 ATG,Antigua and Barbuda,2005,FALSE,0,0,0,12558,High income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2005,FALSE,0,0,0,2358,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2005,FALSE,0,0,0,2358,Lower middle income,East Asia & Pacific
 SRB,Serbia,2005,FALSE,10,23,77,3720,Upper middle income,Europe & Central Asia
 PHL,Philippines,2005,FALSE,10.14,24,76,1244,Lower middle income,East Asia & Pacific
 SYC,Seychelles,2005,FALSE,10.15,22,78,11093,High income,Sub-Saharan Africa
@@ -2541,11 +2541,11 @@ PAN,Panama,2005,FALSE,13.78,20,80,4917,Upper middle income,Latin America & Carib
 VUT,Vanuatu,2005,FALSE,13.86,24,76,1887,Lower middle income,East Asia & Pacific
 TON,Tonga,2005,FALSE,13.87,24,76,2594,Upper middle income,East Asia & Pacific
 AZE,Azerbaijan,2005,FALSE,13.88,21,79,1578,Upper middle income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2005,FALSE,13.98,31,69,476,Lower middle income,East Asia & Pacific
+LAO,Laos,2005,FALSE,13.98,31,69,476,Lower middle income,East Asia & Pacific
 HRV,Croatia,2005,FALSE,14.07,23,77,10528,High income,Europe & Central Asia
 GEO,Georgia,2005,FALSE,14.23,23,77,1643,Upper middle income,Europe & Central Asia
 IDN,Indonesia,2005,FALSE,14.3,23,77,1263,Lower middle income,East Asia & Pacific
-BRN,Brunei Darussalam,2005,FALSE,14.43,25,75,26105,High income,East Asia & Pacific
+BRN,Brunei,2005,FALSE,14.43,25,75,26105,High income,East Asia & Pacific
 PAK,Pakistan,2005,FALSE,14.43,46,54,749,Lower middle income,South Asia
 PRY,Paraguay,2005,FALSE,14.46,19,81,1844,Upper middle income,Latin America & Caribbean
 CRI,Costa Rica,2005,FALSE,14.47,16,84,4676,Upper middle income,Latin America & Caribbean
@@ -2553,9 +2553,9 @@ EST,Estonia,2005,FALSE,14.68,24,76,10406,High income,Europe & Central Asia
 HUN,Hungary,2005,FALSE,14.79,24,76,11201,High income,Europe & Central Asia
 LKA,Sri Lanka,2005,FALSE,14.85,19,81,1249,Lower middle income,South Asia
 ALB,Albania,2005,FALSE,14.93,22,78,2674,Upper middle income,Europe & Central Asia
-BOL,Bolivia (Plurinational State of),2005,FALSE,15.16,31,69,1034,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2005,FALSE,15.16,31,69,1034,Lower middle income,Latin America & Caribbean
 AFG,Afghanistan,2005,FALSE,15.17,22,78,242,Low income,South Asia
-MDA,Republic of Moldova,2005,FALSE,15.48,24,76,1035,Upper middle income,Europe & Central Asia
+MDA,Moldova,2005,FALSE,15.48,24,76,1035,Upper middle income,Europe & Central Asia
 TLS,Timor-Leste,2005,FALSE,15.58,34,66,465,Lower middle income,East Asia & Pacific
 BHR,Bahrain,2005,FALSE,15.63,16,84,17959,High income,Middle East & North Africa
 MEX,Mexico,2005,FALSE,15.64,22,78,8278,Upper middle income,Latin America & Caribbean
@@ -2607,7 +2607,7 @@ MAR,Morocco,2005,FALSE,23.97,16,84,2018,Lower middle income,Middle East & North 
 TUN,Tunisia,2005,FALSE,24.06,30,70,3193,Lower middle income,Middle East & North Africa
 MLI,Mali,2005,FALSE,24.15,40,60,489,Low income,Sub-Saharan Africa
 ETH,Ethiopia,2005,FALSE,24.53,33,67,162,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2005,FALSE,24.65,21,79,687,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2005,FALSE,24.65,21,79,687,Lower middle income,East Asia & Pacific
 TCD,Chad,2005,FALSE,24.76,34,66,659,Low income,Sub-Saharan Africa
 SEN,Senegal,2005,FALSE,24.77,32,68,998,Lower middle income,Sub-Saharan Africa
 BWA,Botswana,2005,FALSE,24.77,24,76,5513,Upper middle income,Sub-Saharan Africa
@@ -2623,7 +2623,7 @@ SAU,Saudi Arabia,2005,FALSE,25.89,22,78,13791,High income,Middle East & North Af
 AGO,Angola,2005,FALSE,26.06,44,56,1902,Lower middle income,Sub-Saharan Africa
 GMB,Gambia,2005,FALSE,26.23,29,71,666,Low income,Sub-Saharan Africa
 KEN,Kenya,2005,FALSE,26.27,24,76,512,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2005,FALSE,26.33,27,73,931,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2005,FALSE,26.33,27,73,931,Lower middle income,Sub-Saharan Africa
 SUR,Suriname,2005,FALSE,26.43,21,79,3591,Upper middle income,Latin America & Caribbean
 MRT,Mauritania,2005,FALSE,26.45,42,58,971,Lower middle income,Sub-Saharan Africa
 COM,Comoros,2005,FALSE,26.81,34,66,1069,Lower middle income,Sub-Saharan Africa
@@ -2642,7 +2642,7 @@ DOM,Dominican Republic,2005,FALSE,28.87,18,82,3933,Upper middle income,Latin Ame
 BFA,Burkina Faso,2005,FALSE,29.17,37,63,458,Low income,Sub-Saharan Africa
 KWT,Kuwait,2005,FALSE,29.47,15,85,35591,High income,Middle East & North Africa
 SLV,El Salvador,2005,FALSE,29.69,18,82,2429,Lower middle income,Latin America & Caribbean
-TZA,United Republic of Tanzania,2005,FALSE,29.79,29,71,493,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2005,FALSE,29.79,29,71,493,Lower middle income,Sub-Saharan Africa
 BDI,Burundi,2005,FALSE,29.91,30,70,152,Low income,Sub-Saharan Africa
 SWZ,Eswatini,2005,FALSE,29.92,23,77,3084,Lower middle income,Sub-Saharan Africa
 GIN,Guinea,2005,FALSE,30.68,38,62,322,Low income,Sub-Saharan Africa
@@ -2665,7 +2665,7 @@ ZAF,South Africa,2005,FALSE,38.05,28,72,5384,Upper middle income,Sub-Saharan Afr
 THA,Thailand,2005,FALSE,38.86,20,80,2894,Upper middle income,East Asia & Pacific
 MLT,Malta,2005,FALSE,4.2,16,84,15888,High income,Middle East & North Africa
 GTM,Guatemala,2005,FALSE,4.38,19,81,2069,Upper middle income,Latin America & Caribbean
-IRN,Iran (Islamic Republic of),2005,FALSE,41,24,76,3246,Lower middle income,Middle East & North Africa
+IRN,Iran,2005,FALSE,41,24,76,3246,Lower middle income,Middle East & North Africa
 MDV,Maldives,2005,FALSE,5.01,25,75,3640,Upper middle income,South Asia
 SGP,Singapore,2005,FALSE,5.02,16,84,29961,High income,East Asia & Pacific
 NLD,Netherlands,2005,FALSE,5.14,27,73,41979,High income,Europe & Central Asia
@@ -2673,12 +2673,12 @@ SWE,Sweden,2005,FALSE,5.27,27,73,43437,High income,Europe & Central Asia
 NOR,Norway,2005,FALSE,5.29,31,69,66810,High income,Europe & Central Asia
 CHE,Switzerland,2005,FALSE,5.71,25,75,56547,High income,Europe & Central Asia
 DNK,Denmark,2005,FALSE,6.49,25,75,48800,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2005,FALSE,6.63,24,76,41933,High income,Europe & Central Asia
+GBR,United Kingdom,2005,FALSE,6.63,24,76,41933,High income,Europe & Central Asia
 ISL,Iceland,2005,FALSE,6.78,37,63,56795,High income,Europe & Central Asia
 TUR,Turkey,2005,FALSE,6.84,30,70,7456,Upper middle income,Europe & Central Asia
 DEU,Germany,2005,FALSE,6.89,28,72,34507,High income,Europe & Central Asia
 ISR,Israel,2005,FALSE,7.08,24,76,20586,High income,Middle East & North Africa
-MKD,The former Yugoslav Republic of Macedonia,2005,FALSE,7.13,23,77,3037,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2005,FALSE,7.13,23,77,3037,Upper middle income,Europe & Central Asia
 FIN,Finland,2005,FALSE,7.43,25,75,39040,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2005,FALSE,8.29,30,70,5070,Upper middle income,Latin America & Caribbean
 AUS,Australia,2005,FALSE,8.31,27,73,33999,High income,East Asia & Pacific
@@ -2706,13 +2706,13 @@ PRY,Paraguay,2004,FALSE,12.08,20,80,1679,Upper middle income,Latin America & Car
 ROU,Romania,2004,FALSE,12.29,26,74,3495,Upper middle income,Europe & Central Asia
 JAM,Jamaica,2004,FALSE,12.39,31,69,3734,Upper middle income,Latin America & Caribbean
 BGR,Bulgaria,2004,FALSE,12.51,24,76,3390,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2004,FALSE,12.52,26,74,21902,High income,East Asia & Pacific
+BRN,Brunei,2004,FALSE,12.52,26,74,21902,High income,East Asia & Pacific
 UZB,Uzbekistan,2004,FALSE,12.83,22,78,465,Lower middle income,Europe & Central Asia
 TON,Tonga,2004,FALSE,12.97,23,77,2302,Upper middle income,East Asia & Pacific
 FJI,Fiji,2004,FALSE,13.08,27,73,3311,Upper middle income,East Asia & Pacific
 BTN,Bhutan,2004,FALSE,13.15,31,69,1068,Lower middle income,South Asia
 ECU,Ecuador,2004,FALSE,13.78,23,77,2691,Upper middle income,Latin America & Caribbean
-LAO,Lao People's Democratic Republic,2004,FALSE,13.85,31,69,418,Lower middle income,East Asia & Pacific
+LAO,Laos,2004,FALSE,13.85,31,69,418,Lower middle income,East Asia & Pacific
 EST,Estonia,2004,FALSE,13.86,25,75,8913,High income,Europe & Central Asia
 PAN,Panama,2004,FALSE,13.89,16,84,4592,Upper middle income,Latin America & Caribbean
 URY,Uruguay,2004,FALSE,13.91,23,77,4121,High income,Latin America & Caribbean
@@ -2728,7 +2728,7 @@ ALB,Albania,2004,FALSE,14.65,21,79,2374,Upper middle income,Europe & Central Asi
 LKA,Sri Lanka,2004,FALSE,14.7,19,81,1066,Lower middle income,South Asia
 MEX,Mexico,2004,FALSE,14.95,22,78,7484,Upper middle income,Latin America & Caribbean
 WSM,Samoa,2004,FALSE,15.12,29,71,2353,Lower middle income,East Asia & Pacific
-BOL,Bolivia (Plurinational State of),2004,FALSE,15.14,31,69,967,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2004,FALSE,15.14,31,69,967,Lower middle income,Latin America & Caribbean
 HUN,Hungary,2004,FALSE,15.16,24,76,10286,High income,Europe & Central Asia
 AFG,Afghanistan,2004,FALSE,15.19,23,77,211,Low income,South Asia
 MNE,Montenegro,2004,FALSE,15.28,27,73,3380,Upper middle income,Europe & Central Asia
@@ -2746,7 +2746,7 @@ HND,Honduras,2004,FALSE,15.94,36,64,1218,Lower middle income,Latin America & Car
 BHS,Bahamas,2004,FALSE,15.98,23,77,28396,High income,Latin America & Caribbean
 BGD,Bangladesh,2004,FALSE,16.36,22,78,475,Lower middle income,South Asia
 KOR,Republic of Korea,2004,FALSE,16.63,28,72,16496,High income,East Asia & Pacific
-MDA,Republic of Moldova,2004,FALSE,16.67,23,77,897,Upper middle income,Europe & Central Asia
+MDA,Moldova,2004,FALSE,16.67,23,77,897,Upper middle income,Europe & Central Asia
 BRB,Barbados,2004,FALSE,16.71,12,88,12513,High income,Latin America & Caribbean
 POL,Poland,2004,FALSE,16.89,22,78,6681,High income,Europe & Central Asia
 TKM,Turkmenistan,2004,FALSE,17.35,21,79,1454,Upper middle income,Europe & Central Asia
@@ -2791,7 +2791,7 @@ MAR,Morocco,2004,FALSE,23.76,16,84,1953,Lower middle income,Middle East & North 
 CPV,Cabo Verde,2004,FALSE,23.87,23,77,2024,Lower middle income,Sub-Saharan Africa
 MLI,Mali,2004,FALSE,24.46,40,60,441,Low income,Sub-Saharan Africa
 ETH,Ethiopia,2004,FALSE,24.82,33,67,136,Low income,Sub-Saharan Africa
-VNM,Viet Nam,2004,FALSE,24.88,21,79,547,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2004,FALSE,24.88,21,79,547,Lower middle income,East Asia & Pacific
 SEN,Senegal,2004,FALSE,24.89,32,68,937,Lower middle income,Sub-Saharan Africa
 TCD,Chad,2004,FALSE,25.05,34,66,454,Low income,Sub-Saharan Africa
 GAB,Gabon,2004,FALSE,25.1,32,68,5740,Upper middle income,Sub-Saharan Africa
@@ -2806,7 +2806,7 @@ KEN,Kenya,2004,FALSE,25.9,24,76,452,Lower middle income,Sub-Saharan Africa
 ZMB,Zambia,2004,FALSE,25.91,29,71,539,Lower middle income,Sub-Saharan Africa
 GMB,Gambia,2004,FALSE,25.93,29,71,643,Low income,Sub-Saharan Africa
 MDG,Madagascar,2004,FALSE,26.41,35,65,284,Low income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2004,FALSE,26.46,26,74,923,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2004,FALSE,26.46,26,74,923,Lower middle income,Sub-Saharan Africa
 MRT,Mauritania,2004,FALSE,26.67,42,58,804,Lower middle income,Sub-Saharan Africa
 OMN,Oman,2004,FALSE,26.87,19,81,10126,High income,Middle East & North Africa
 COM,Comoros,2004,FALSE,26.96,34,66,1061,Lower middle income,Sub-Saharan Africa
@@ -2826,7 +2826,7 @@ BDI,Burundi,2004,FALSE,29.71,31,69,128,Low income,Sub-Saharan Africa
 BWA,Botswana,2004,FALSE,29.81,22,78,5074,Upper middle income,Sub-Saharan Africa
 RUS,Russian Federation,2004,FALSE,29.91,27,73,4102,Upper middle income,Europe & Central Asia
 MLT,Malta,2004,FALSE,3.48,18,82,15197,High income,Middle East & North Africa
-TZA,United Republic of Tanzania,2004,FALSE,30.09,29,71,459,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2004,FALSE,30.09,29,71,459,Lower middle income,Sub-Saharan Africa
 SWZ,Eswatini,2004,FALSE,30.41,23,77,2699,Lower middle income,Sub-Saharan Africa
 GIN,Guinea,2004,FALSE,30.57,38,62,407,Low income,Sub-Saharan Africa
 TGO,Togo,2004,FALSE,31.04,32,68,413,Low income,Sub-Saharan Africa
@@ -2844,8 +2844,8 @@ COD,Democratic Republic of the Congo,2004,FALSE,36.54,36,64,194,Low income,Sub-S
 RWA,Rwanda,2004,FALSE,36.73,33,67,274,Low income,Sub-Saharan Africa
 LBR,Liberia,2004,FALSE,37.34,35,65,286,Low income,Sub-Saharan Africa
 THA,Thailand,2004,FALSE,38.86,20,80,2660,Upper middle income,East Asia & Pacific
-IRN,Iran (Islamic Republic of),2004,FALSE,39.01,24,76,2756,Lower middle income,Middle East & North Africa
-FSM,Micronesia (Federated States of),2004,FALSE,4.69,33,67,2253,Lower middle income,East Asia & Pacific
+IRN,Iran,2004,FALSE,39.01,24,76,2756,Lower middle income,Middle East & North Africa
+FSM,Micronesia,2004,FALSE,4.69,33,67,2253,Lower middle income,East Asia & Pacific
 GTM,Guatemala,2004,FALSE,4.95,19,81,1859,Upper middle income,Latin America & Caribbean
 ZAF,South Africa,2004,FALSE,41.27,29,71,4834,Upper middle income,Sub-Saharan Africa
 SWE,Sweden,2004,FALSE,5.57,25,75,42822,High income,Europe & Central Asia
@@ -2853,14 +2853,14 @@ NLD,Netherlands,2004,FALSE,5.57,29,71,40362,High income,Europe & Central Asia
 SGP,Singapore,2004,FALSE,6.25,21,79,27609,High income,East Asia & Pacific
 NOR,Norway,2004,FALSE,6.29,28,72,57604,High income,Europe & Central Asia
 TUR,Turkey,2004,FALSE,6.81,29,71,6102,Upper middle income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2004,FALSE,6.87,26,74,40209,High income,Europe & Central Asia
+GBR,United Kingdom,2004,FALSE,6.87,26,74,40209,High income,Europe & Central Asia
 DNK,Denmark,2004,FALSE,7.03,29,71,46512,High income,Europe & Central Asia
 CHE,Switzerland,2004,FALSE,7.18,22,78,54878,High income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2004,FALSE,7.37,31,69,4810,Upper middle income,Latin America & Caribbean
 DEU,Germany,2004,FALSE,7.48,27,73,34044,High income,Europe & Central Asia
 FIN,Finland,2004,FALSE,7.63,32,68,37703,High income,Europe & Central Asia
 ISR,Israel,2004,FALSE,7.74,22,78,19934,High income,Middle East & North Africa
-MKD,The former Yugoslav Republic of Macedonia,2004,FALSE,7.78,20,80,2763,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2004,FALSE,7.78,20,80,2763,Upper middle income,Europe & Central Asia
 AUS,Australia,2004,FALSE,8.21,28,72,30431,High income,East Asia & Pacific
 ISL,Iceland,2004,FALSE,8.26,29,71,47335,High income,Europe & Central Asia
 FRA,France,2004,FALSE,8.91,25,75,33741,High income,Europe & Central Asia
@@ -2896,7 +2896,7 @@ ESP,Spain,2003,FALSE,13.4,23,77,21463,High income,Europe & Central Asia
 WSM,Samoa,2003,FALSE,13.52,28,72,1909,Lower middle income,East Asia & Pacific
 EST,Estonia,2003,FALSE,13.62,21,79,7206,High income,Europe & Central Asia
 JAM,Jamaica,2003,FALSE,13.63,31,69,3481,Upper middle income,Latin America & Caribbean
-LAO,Lao People's Democratic Republic,2003,FALSE,13.74,32,68,363,Lower middle income,East Asia & Pacific
+LAO,Laos,2003,FALSE,13.74,32,68,363,Lower middle income,East Asia & Pacific
 GEO,Georgia,2003,FALSE,13.94,26,74,1010,Upper middle income,Europe & Central Asia
 PER,Peru,2003,FALSE,13.98,30,70,2146,Upper middle income,Latin America & Caribbean
 PAK,Pakistan,2003,FALSE,14,47,53,599,Lower middle income,South Asia
@@ -2908,14 +2908,14 @@ CZE,Czechia,2003,FALSE,14.57,25,75,9819,High income,Europe & Central Asia
 VUT,Vanuatu,2003,FALSE,14.64,24,76,1581,Lower middle income,East Asia & Pacific
 ALB,Albania,2003,FALSE,14.66,22,78,1846,Upper middle income,Europe & Central Asia
 BGD,Bangladesh,2003,FALSE,14.89,22,78,446,Lower middle income,South Asia
-FSM,Micronesia (Federated States of),2003,FALSE,14.97,33,67,2296,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2003,FALSE,14.97,33,67,2296,Lower middle income,East Asia & Pacific
 MEX,Mexico,2003,FALSE,14.98,22,78,7075,Upper middle income,Latin America & Caribbean
 TLS,Timor-Leste,2003,FALSE,14.99,34,66,518,Lower middle income,East Asia & Pacific
 AFG,Afghanistan,2003,FALSE,15.02,22,78,191,Low income,South Asia
 LKA,Sri Lanka,2003,FALSE,15.03,7,93,982,Lower middle income,South Asia
 ECU,Ecuador,2003,FALSE,15.06,24,76,2426,Upper middle income,Latin America & Caribbean
 HUN,Hungary,2003,FALSE,15.12,23,77,8421,High income,Europe & Central Asia
-BOL,Bolivia (Plurinational State of),2003,FALSE,15.12,31,69,908,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2003,FALSE,15.12,31,69,908,Lower middle income,Latin America & Caribbean
 SVK,Slovakia,2003,FALSE,15.27,24,76,8713,High income,Europe & Central Asia
 MUS,Mauritius,2003,FALSE,15.38,14,86,4794,Upper middle income,Sub-Saharan Africa
 NPL,Nepal,2003,FALSE,15.41,32,68,252,Lower middle income,South Asia
@@ -2926,7 +2926,7 @@ IND,India,2003,FALSE,15.8,22,78,547,Lower middle income,South Asia
 GRC,Greece,2003,FALSE,15.8,20,80,18478,High income,Europe & Central Asia
 MNG,Mongolia,2003,FALSE,15.84,23,77,646,Lower middle income,East Asia & Pacific
 HND,Honduras,2003,FALSE,15.92,37,63,1158,Lower middle income,Latin America & Caribbean
-MDA,Republic of Moldova,2003,FALSE,15.93,25,75,683,Upper middle income,Europe & Central Asia
+MDA,Moldova,2003,FALSE,15.93,25,75,683,Upper middle income,Europe & Central Asia
 USA,United States of America,2003,FALSE,15.97,32,68,39496,High income,North America
 NIC,Nicaragua,2003,FALSE,16,18,82,1006,Lower middle income,Latin America & Caribbean
 BHR,Bahrain,2003,FALSE,16.05,17,83,14222,High income,Middle East & North Africa
@@ -2970,7 +2970,7 @@ TUN,Tunisia,2003,FALSE,23.35,29,71,2760,Lower middle income,Middle East & North 
 LTU,Lithuania,2003,FALSE,23.55,24,76,5499,High income,Europe & Central Asia
 CPV,Cabo Verde,2003,FALSE,24,23,77,1809,Lower middle income,Sub-Saharan Africa
 MAR,Morocco,2003,FALSE,24.06,16,84,1725,Lower middle income,Middle East & North Africa
-VNM,Viet Nam,2003,FALSE,24.2,21,79,481,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2003,FALSE,24.2,21,79,481,Lower middle income,East Asia & Pacific
 ARE,United Arab Emirates,2003,FALSE,24.25,16,84,33499,High income,Middle East & North Africa
 MLI,Mali,2003,FALSE,24.54,41,59,393,Low income,Sub-Saharan Africa
 LVA,Latvia,2003,FALSE,24.63,27,73,5135,High income,Europe & Central Asia
@@ -2982,7 +2982,7 @@ GMB,Gambia,2003,FALSE,25.52,29,71,336,Low income,Sub-Saharan Africa
 GHA,Ghana,2003,FALSE,25.64,29,71,368,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2003,FALSE,25.72,31,69,485,Low income,Sub-Saharan Africa
 MRT,Mauritania,2003,FALSE,25.83,43,57,718,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2003,FALSE,25.87,26,74,872,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2003,FALSE,25.87,26,74,872,Lower middle income,Sub-Saharan Africa
 KWT,Kuwait,2003,FALSE,26,17,83,22148,High income,Middle East & North Africa
 COG,Congo,2003,FALSE,26.04,41,59,1028,Lower middle income,Sub-Saharan Africa
 KEN,Kenya,2003,FALSE,26.16,25,75,430,Lower middle income,Sub-Saharan Africa
@@ -3002,7 +3002,7 @@ BEN,Benin,2003,FALSE,28.22,30,70,711,Lower middle income,Sub-Saharan Africa
 BFA,Burkina Faso,2003,FALSE,28.4,36,64,375,Low income,Sub-Saharan Africa
 NGA,Nigeria,2003,FALSE,28.64,30,70,795,Lower middle income,Sub-Saharan Africa
 BDI,Burundi,2003,FALSE,29.82,32,68,114,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2003,FALSE,30,29,71,431,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2003,FALSE,30,29,71,431,Lower middle income,Sub-Saharan Africa
 SWZ,Eswatini,2003,FALSE,30.05,23,77,2149,Lower middle income,Sub-Saharan Africa
 GIN,Guinea,2003,FALSE,30.33,38,62,394,Low income,Sub-Saharan Africa
 TGO,Togo,2003,FALSE,30.94,33,67,397,Low income,Sub-Saharan Africa
@@ -3023,18 +3023,18 @@ RWA,Rwanda,2003,FALSE,36.87,32,68,250,Low income,Sub-Saharan Africa
 LBR,Liberia,2003,FALSE,37.5,35,65,243,Low income,Sub-Saharan Africa
 COD,Democratic Republic of the Congo,2003,FALSE,37.98,39,61,174,Low income,Sub-Saharan Africa
 THA,Thailand,2003,FALSE,38.84,21,79,2359,Upper middle income,East Asia & Pacific
-IRN,Iran (Islamic Republic of),2003,FALSE,38.93,24,76,2254,Lower middle income,Middle East & North Africa
+IRN,Iran,2003,FALSE,38.93,24,76,2254,Lower middle income,Middle East & North Africa
 DOM,Dominican Republic,2003,FALSE,39.2,19,81,2418,Upper middle income,Latin America & Caribbean
 MLT,Malta,2003,FALSE,4.49,12,88,13669,High income,Middle East & North Africa
 GTM,Guatemala,2003,FALSE,4.88,18,82,1738,Upper middle income,Latin America & Caribbean
 ZAF,South Africa,2003,FALSE,43.41,28,72,3751,Upper middle income,Sub-Saharan Africa
 SWE,Sweden,2003,FALSE,6.03,25,75,37322,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2003,FALSE,6.38,16,84,2410,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2003,FALSE,6.38,16,84,2410,Upper middle income,Europe & Central Asia
 TUR,Turkey,2003,FALSE,6.6,30,70,4760,Upper middle income,Europe & Central Asia
 NOR,Norway,2003,FALSE,6.7,26,74,50135,High income,Europe & Central Asia
 NLD,Netherlands,2003,FALSE,6.93,26,74,35672,High income,Europe & Central Asia
 SGP,Singapore,2003,FALSE,6.97,17,83,23730,High income,East Asia & Pacific
-GBR,United Kingdom of Great Britain and Northern Ireland,2003,FALSE,7.2,26,74,34384,High income,Europe & Central Asia
+GBR,United Kingdom,2003,FALSE,7.2,26,74,34384,High income,Europe & Central Asia
 ISR,Israel,2003,FALSE,7.41,22,78,19034,High income,Middle East & North Africa
 CHE,Switzerland,2003,FALSE,7.75,26,74,49470,High income,Europe & Central Asia
 FIN,Finland,2003,FALSE,7.9,30,70,32855,High income,Europe & Central Asia
@@ -3044,7 +3044,7 @@ DEU,Germany,2003,FALSE,8.38,27,73,30244,High income,Europe & Central Asia
 ISL,Iceland,2003,FALSE,8.41,37,63,39477,High income,Europe & Central Asia
 AUS,Australia,2003,FALSE,8.52,28,72,23447,High income,East Asia & Pacific
 IRL,Ireland,2003,FALSE,8.72,27,73,41101,High income,Europe & Central Asia
-BRN,Brunei Darussalam,2003,FALSE,8.77,26,74,18561,High income,East Asia & Pacific
+BRN,Brunei,2003,FALSE,8.77,26,74,18561,High income,East Asia & Pacific
 CAN,Canada,2003,FALSE,9.12,32,68,28300,High income,North America
 ARG,Argentina,2003,FALSE,9.41,24,76,3350,Upper middle income,Latin America & Caribbean
 UZB,Uzbekistan,2003,FALSE,9.92,22,78,396,Lower middle income,Europe & Central Asia
@@ -3069,7 +3069,7 @@ ITA,Italy,2002,FALSE,13.34,22,78,22270,High income,Europe & Central Asia
 BGD,Bangladesh,2002,FALSE,13.46,22,78,413,Lower middle income,South Asia
 WSM,Samoa,2002,FALSE,13.6,28,72,1633,Lower middle income,East Asia & Pacific
 ESP,Spain,2002,FALSE,13.6,23,77,17026,High income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2002,FALSE,13.63,32,68,320,Lower middle income,East Asia & Pacific
+LAO,Laos,2002,FALSE,13.63,32,68,320,Lower middle income,East Asia & Pacific
 MNE,Montenegro,2002,FALSE,13.69,28,72,2107,Upper middle income,Europe & Central Asia
 BEL,Belgium,2002,FALSE,13.86,26,74,24888,High income,Europe & Central Asia
 PAK,Pakistan,2002,FALSE,14.09,46,54,534,Lower middle income,South Asia
@@ -3088,14 +3088,14 @@ KGZ,Kyrgyzstan,2002,FALSE,14.64,25,75,322,Lower middle income,Europe & Central A
 HRV,Croatia,2002,FALSE,14.7,20,80,6233,High income,Europe & Central Asia
 IDN,Indonesia,2002,FALSE,14.77,25,75,900,Lower middle income,East Asia & Pacific
 AFG,Afghanistan,2002,FALSE,14.92,22,78,179,Low income,South Asia
-FSM,Micronesia (Federated States of),2002,FALSE,14.95,33,67,2266,Lower middle income,East Asia & Pacific
-BRN,Brunei Darussalam,2002,FALSE,15,23,77,16850,High income,East Asia & Pacific
+FSM,Micronesia,2002,FALSE,14.95,33,67,2266,Lower middle income,East Asia & Pacific
+BRN,Brunei,2002,FALSE,15,23,77,16850,High income,East Asia & Pacific
 ECU,Ecuador,2002,FALSE,15.01,24,76,2172,Upper middle income,Latin America & Caribbean
 TTO,Trinidad and Tobago,2002,FALSE,15.03,23,77,7053,High income,Latin America & Caribbean
 LKA,Sri Lanka,2002,FALSE,15.11,7,93,867,Lower middle income,South Asia
-BOL,Bolivia (Plurinational State of),2002,FALSE,15.16,31,69,904,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2002,FALSE,15.16,31,69,904,Lower middle income,Latin America & Caribbean
 NPL,Nepal,2002,FALSE,15.28,32,68,245,Lower middle income,South Asia
-MDA,Republic of Moldova,2002,FALSE,15.56,22,78,571,Upper middle income,Europe & Central Asia
+MDA,Moldova,2002,FALSE,15.56,22,78,571,Upper middle income,Europe & Central Asia
 PAN,Panama,2002,FALSE,15.72,20,80,4126,Upper middle income,Latin America & Caribbean
 NIC,Nicaragua,2002,FALSE,15.84,24,76,1001,Lower middle income,Latin America & Caribbean
 HND,Honduras,2002,FALSE,15.94,37,63,1134,Lower middle income,Latin America & Caribbean
@@ -3150,14 +3150,14 @@ KWT,Kuwait,2002,FALSE,23.54,17,83,17846,High income,Middle East & North Africa
 LCA,Saint Lucia,2002,FALSE,23.84,22,78,5646,Upper middle income,Latin America & Caribbean
 MAR,Morocco,2002,FALSE,24,16,84,1416,Lower middle income,Middle East & North Africa
 GUY,Guyana,2002,FALSE,24.03,18,82,975,Upper middle income,Latin America & Caribbean
-VNM,Viet Nam,2002,FALSE,24.3,22,78,430,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2002,FALSE,24.3,22,78,430,Lower middle income,East Asia & Pacific
 ETH,Ethiopia,2002,FALSE,24.65,34,66,112,Low income,Sub-Saharan Africa
 SEN,Senegal,2002,FALSE,24.68,32,68,684,Lower middle income,Sub-Saharan Africa
 MLI,Mali,2002,FALSE,24.79,41,59,336,Low income,Sub-Saharan Africa
 MYS,Malaysia,2002,FALSE,25.09,18,82,4166,Upper middle income,East Asia & Pacific
 SDN,Sudan,2002,FALSE,25.38,32,68,418,Low income,Sub-Saharan Africa
 AGO,Angola,2002,FALSE,25.39,43,57,872,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2002,FALSE,25.42,26,74,720,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2002,FALSE,25.42,26,74,720,Lower middle income,Sub-Saharan Africa
 OMN,Oman,2002,FALSE,25.61,19,81,8627,High income,Middle East & North Africa
 LVA,Latvia,2002,FALSE,25.77,24,76,4132,High income,Europe & Central Asia
 GMB,Gambia,2002,FALSE,25.78,29,71,412,Low income,Sub-Saharan Africa
@@ -3185,7 +3185,7 @@ BWA,Botswana,2002,FALSE,30.15,21,79,3191,Upper middle income,Sub-Saharan Africa
 GIN,Guinea,2002,FALSE,30.19,38,62,344,Low income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2002,FALSE,30.63,37,63,333,Low income,Sub-Saharan Africa
 TGO,Togo,2002,FALSE,30.8,34,66,328,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2002,FALSE,31.25,28,72,412,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2002,FALSE,31.25,28,72,412,Lower middle income,Sub-Saharan Africa
 SLE,Sierra Leone,2002,FALSE,31.28,37,63,252,Low income,Sub-Saharan Africa
 CAF,Central African Republic,2002,FALSE,31.61,35,65,261,Low income,Sub-Saharan Africa
 QAT,Qatar,2002,FALSE,31.68,10,90,30215,High income,Middle East & North Africa
@@ -3194,7 +3194,7 @@ ERI,Eritrea,2002,FALSE,32.85,25,75,294,Low income,Sub-Saharan Africa
 SLV,El Salvador,2002,FALSE,33.06,21,79,2124,Lower middle income,Latin America & Caribbean
 MWI,Malawi,2002,FALSE,33.24,26,74,298,Low income,Sub-Saharan Africa
 UGA,Uganda,2002,FALSE,33.33,25,75,246,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2002,FALSE,33.52,24,76,1912,Lower middle income,Middle East & North Africa
+IRN,Iran,2002,FALSE,33.52,24,76,1912,Lower middle income,Middle East & North Africa
 MOZ,Mozambique,2002,FALSE,33.92,29,71,303,Low income,Sub-Saharan Africa
 LBR,Liberia,2002,FALSE,34.78,35,65,306,Low income,Sub-Saharan Africa
 BLZ,Belize,2002,FALSE,36.13,19,81,3526,Lower middle income,Latin America & Caribbean
@@ -3210,7 +3210,7 @@ SWE,Sweden,2002,FALSE,6.32,26,74,29899,High income,Europe & Central Asia
 SGP,Singapore,2002,FALSE,6.36,18,82,22160,High income,East Asia & Pacific
 TUR,Turkey,2002,FALSE,6.8,30,70,3688,Upper middle income,Europe & Central Asia
 NLD,Netherlands,2002,FALSE,6.84,26,74,29204,High income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2002,FALSE,7.11,25,75,29983,High income,Europe & Central Asia
+GBR,United Kingdom,2002,FALSE,7.11,25,75,29983,High income,Europe & Central Asia
 CHE,Switzerland,2002,FALSE,7.33,26,74,42579,High income,Europe & Central Asia
 NOR,Norway,2002,FALSE,7.39,24,76,43084,High income,Europe & Central Asia
 FJI,Fiji,2002,FALSE,7.48,28,72,2249,Upper middle income,East Asia & Pacific
@@ -3220,7 +3220,7 @@ UZB,Uzbekistan,2002,FALSE,8.25,22,78,383,Lower middle income,Europe & Central As
 FIN,Finland,2002,FALSE,8.54,28,72,26870,High income,Europe & Central Asia
 ISR,Israel,2002,FALSE,8.68,20,80,18480,High income,Middle East & North Africa
 DEU,Germany,2002,FALSE,8.8,28,72,25078,High income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2002,FALSE,8.83,19,81,1950,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2002,FALSE,8.83,19,81,1950,Upper middle income,Europe & Central Asia
 PRY,Paraguay,2002,FALSE,8.86,18,82,1301,Upper middle income,Latin America & Caribbean
 DNK,Denmark,2002,FALSE,8.88,28,72,33229,High income,Europe & Central Asia
 AUS,Australia,2002,FALSE,9.11,28,72,20082,High income,East Asia & Pacific
@@ -3247,7 +3247,7 @@ ROU,Romania,2001,FALSE,13.02,25,75,1825,Upper middle income,Europe & Central Asi
 BGR,Bulgaria,2001,FALSE,13.15,24,76,1771,Upper middle income,Europe & Central Asia
 TON,Tonga,2001,FALSE,13.2,25,75,1839,Upper middle income,East Asia & Pacific
 GEO,Georgia,2001,FALSE,13.38,22,78,802,Upper middle income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2001,FALSE,13.38,32,68,327,Lower middle income,East Asia & Pacific
+LAO,Laos,2001,FALSE,13.38,32,68,327,Lower middle income,East Asia & Pacific
 CZE,Czechia,2001,FALSE,13.38,28,72,6637,High income,Europe & Central Asia
 FRA,France,2001,FALSE,13.4,27,73,22434,High income,Europe & Central Asia
 JAM,Jamaica,2001,FALSE,13.45,28,72,3438,Upper middle income,Latin America & Caribbean
@@ -3266,8 +3266,8 @@ ESP,Spain,2001,FALSE,14.36,24,76,15356,High income,Europe & Central Asia
 ALB,Albania,2001,FALSE,14.51,21,79,1282,Upper middle income,Europe & Central Asia
 IDN,Indonesia,2001,FALSE,14.62,25,75,748,Lower middle income,East Asia & Pacific
 ECU,Ecuador,2001,FALSE,14.77,23,77,1895,Upper middle income,Latin America & Caribbean
-BOL,Bolivia (Plurinational State of),2001,FALSE,14.81,31,69,949,Lower middle income,Latin America & Caribbean
-FSM,Micronesia (Federated States of),2001,FALSE,14.93,33,67,2248,Lower middle income,East Asia & Pacific
+BOL,Bolivia,2001,FALSE,14.81,31,69,949,Lower middle income,Latin America & Caribbean
+FSM,Micronesia,2001,FALSE,14.93,33,67,2248,Lower middle income,East Asia & Pacific
 SVN,Slovenia,2001,FALSE,14.99,19,81,10480,High income,Europe & Central Asia
 SVK,Slovakia,2001,FALSE,15.08,23,77,5717,High income,Europe & Central Asia
 HRV,Croatia,2001,FALSE,15.13,22,78,5362,High income,Europe & Central Asia
@@ -3278,7 +3278,7 @@ HND,Honduras,2001,FALSE,15.53,37,63,1133,Lower middle income,Latin America & Car
 URY,Uruguay,2001,FALSE,15.58,26,74,6284,High income,Latin America & Caribbean
 USA,United States of America,2001,FALSE,15.7,32,68,37133,High income,North America
 LCA,Saint Lucia,2001,FALSE,15.8,22,78,5643,Upper middle income,Latin America & Caribbean
-MDA,Republic of Moldova,2001,FALSE,15.81,25,75,508,Upper middle income,Europe & Central Asia
+MDA,Moldova,2001,FALSE,15.81,25,75,508,Upper middle income,Europe & Central Asia
 ARE,United Arab Emirates,2001,FALSE,15.81,17,83,31281,High income,Middle East & North Africa
 BEL,Belgium,2001,FALSE,15.83,26,74,22995,High income,Europe & Central Asia
 MNG,Mongolia,2001,FALSE,15.91,22,78,524,Lower middle income,East Asia & Pacific
@@ -3305,7 +3305,7 @@ SLB,Solomon Islands,2001,FALSE,18.4,24,76,966,Lower middle income,East Asia & Pa
 HTI,Haiti,2001,FALSE,18.7,34,66,739,Lower middle income,Latin America & Caribbean
 LBN,Lebanon,2001,FALSE,18.77,23,77,4422,Upper middle income,Middle East & North Africa
 BIH,Bosnia and Herzegovina,2001,FALSE,18.85,27,73,1531,Upper middle income,Europe & Central Asia
-BRN,Brunei Darussalam,2001,FALSE,19.41,21,79,16472,High income,East Asia & Pacific
+BRN,Brunei,2001,FALSE,19.41,21,79,16472,High income,East Asia & Pacific
 TJK,Tajikistan,2001,FALSE,19.47,23,77,171,Lower middle income,Europe & Central Asia
 ARM,Armenia,2001,FALSE,19.47,28,72,694,Upper middle income,Europe & Central Asia
 COL,Colombia,2001,FALSE,20.04,21,79,2440,Upper middle income,Latin America & Caribbean
@@ -3330,13 +3330,13 @@ CPV,Cabo Verde,2001,FALSE,23.41,24,76,1292,Lower middle income,Sub-Saharan Afric
 GAB,Gabon,2001,FALSE,23.5,33,67,3993,Upper middle income,Sub-Saharan Africa
 KWT,Kuwait,2001,FALSE,23.63,18,82,16587,High income,Middle East & North Africa
 MAR,Morocco,2001,FALSE,23.82,15,85,1339,Lower middle income,Middle East & North Africa
-VNM,Viet Nam,2001,FALSE,24.16,22,78,405,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2001,FALSE,24.16,22,78,405,Lower middle income,East Asia & Pacific
 GUY,Guyana,2001,FALSE,24.29,13,87,956,Upper middle income,Latin America & Caribbean
 ETH,Ethiopia,2001,FALSE,24.45,34,66,121,Low income,Sub-Saharan Africa
 SEN,Senegal,2001,FALSE,24.59,32,68,652,Lower middle income,Sub-Saharan Africa
 MLI,Mali,2001,FALSE,24.84,41,59,308,Low income,Sub-Saharan Africa
 AGO,Angola,2001,FALSE,25.19,44,56,527,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2001,FALSE,25.3,25,75,665,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2001,FALSE,25.3,25,75,665,Lower middle income,Sub-Saharan Africa
 MYS,Malaysia,2001,FALSE,25.43,18,82,3913,Upper middle income,East Asia & Pacific
 SDN,Sudan,2001,FALSE,25.48,32,68,383,Low income,Sub-Saharan Africa
 GMB,Gambia,2001,FALSE,25.51,29,71,505,Low income,Sub-Saharan Africa
@@ -3364,12 +3364,12 @@ VEN,Venezuela (Bolivarian Republic of),2001,FALSE,30.04,18,82,4987,Lower middle 
 BDI,Burundi,2001,FALSE,30.15,32,68,134,Low income,Sub-Saharan Africa
 GNB,Guinea-Bissau,2001,FALSE,30.42,37,63,320,Low income,Sub-Saharan Africa
 TGO,Togo,2001,FALSE,30.44,33,67,293,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2001,FALSE,30.61,25,75,1909,Lower middle income,Middle East & North Africa
+IRN,Iran,2001,FALSE,30.61,25,75,1909,Lower middle income,Middle East & North Africa
 GIN,Guinea,2001,FALSE,30.69,38,62,336,Low income,Sub-Saharan Africa
 BWA,Botswana,2001,FALSE,31.11,21,79,3278,Upper middle income,Sub-Saharan Africa
 CAF,Central African Republic,2001,FALSE,31.92,35,65,250,Low income,Sub-Saharan Africa
 ERI,Eritrea,2001,FALSE,31.92,25,75,317,Low income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2001,FALSE,32.03,28,72,407,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2001,FALSE,32.03,28,72,407,Lower middle income,Sub-Saharan Africa
 DOM,Dominican Republic,2001,FALSE,32.17,19,81,2977,Upper middle income,Latin America & Caribbean
 SLE,Sierra Leone,2001,FALSE,32.34,37,63,229,Low income,Sub-Saharan Africa
 MWI,Malawi,2001,FALSE,32.37,27,73,150,Low income,Sub-Saharan Africa
@@ -3383,7 +3383,7 @@ COD,Democratic Republic of the Congo,2001,FALSE,38,38,62,154,Low income,Sub-Saha
 ZAF,South Africa,2001,FALSE,38.34,28,72,2666,Upper middle income,Sub-Saharan Africa
 THA,Thailand,2001,FALSE,39.28,21,79,1893,Upper middle income,East Asia & Pacific
 MLT,Malta,2001,FALSE,4.79,19,81,10402,High income,Middle East & North Africa
-MKD,The former Yugoslav Republic of Macedonia,2001,FALSE,5.38,16,84,1816,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2001,FALSE,5.38,16,84,1816,Upper middle income,Europe & Central Asia
 VCT,Saint Vincent and the Grenadines,2001,FALSE,5.56,18,82,3986,Upper middle income,Latin America & Caribbean
 GTM,Guatemala,2001,FALSE,5.62,18,82,1550,Upper middle income,Latin America & Caribbean
 SGP,Singapore,2001,FALSE,5.84,14,86,21700,High income,East Asia & Pacific
@@ -3393,7 +3393,7 @@ NLD,Netherlands,2001,FALSE,6.97,25,75,26873,High income,Europe & Central Asia
 KIR,Kiribati,2001,FALSE,6.99,18,82,735,Lower middle income,East Asia & Pacific
 SWE,Sweden,2001,FALSE,7.04,27,73,27248,High income,Europe & Central Asia
 TUR,Turkey,2001,FALSE,7.04,29,71,3143,Upper middle income,Europe & Central Asia
-GBR,United Kingdom of Great Britain and Northern Ireland,2001,FALSE,7.04,26,74,27718,High income,Europe & Central Asia
+GBR,United Kingdom,2001,FALSE,7.04,26,74,27718,High income,Europe & Central Asia
 CHE,Switzerland,2001,FALSE,7.81,24,76,39728,High income,Europe & Central Asia
 FJI,Fiji,2001,FALSE,7.99,27,73,2030,Upper middle income,East Asia & Pacific
 DNK,Denmark,2001,FALSE,8.57,29,71,30752,High income,Europe & Central Asia
@@ -3431,9 +3431,9 @@ FRA,France,2000,FALSE,13.35,26,74,22364,High income,Europe & Central Asia
 ECU,Ecuador,2000,FALSE,13.51,23,77,1445,Upper middle income,Latin America & Caribbean
 TTO,Trinidad and Tobago,2000,FALSE,13.57,25,75,6435,High income,Latin America & Caribbean
 SYC,Seychelles,2000,FALSE,13.58,19,81,7579,High income,Sub-Saharan Africa
-MDA,Republic of Moldova,2000,FALSE,13.59,23,77,441,Upper middle income,Europe & Central Asia
+MDA,Moldova,2000,FALSE,13.59,23,77,441,Upper middle income,Europe & Central Asia
 UKR,Ukraine,2000,FALSE,13.61,24,76,636,Lower middle income,Europe & Central Asia
-LAO,Lao People's Democratic Republic,2000,FALSE,13.77,32,68,325,Lower middle income,East Asia & Pacific
+LAO,Laos,2000,FALSE,13.77,32,68,325,Lower middle income,East Asia & Pacific
 ITA,Italy,2000,FALSE,13.93,24,76,20088,High income,Europe & Central Asia
 PAK,Pakistan,2000,FALSE,13.95,47,53,576,Lower middle income,South Asia
 VUT,Vanuatu,2000,FALSE,14.06,25,75,1471,Lower middle income,East Asia & Pacific
@@ -3443,11 +3443,11 @@ KAZ,Kazakhstan,2000,FALSE,14.2,25,75,1229,Upper middle income,Europe & Central A
 ALB,Albania,2000,FALSE,14.35,21,79,1127,Upper middle income,Europe & Central Asia
 TLS,Timor-Leste,2000,FALSE,14.47,35,65,415,Lower middle income,East Asia & Pacific
 IDN,Indonesia,2000,FALSE,14.47,25,75,780,Lower middle income,East Asia & Pacific
-BOL,Bolivia (Plurinational State of),2000,FALSE,14.54,31,69,998,Lower middle income,Latin America & Caribbean
+BOL,Bolivia,2000,FALSE,14.54,31,69,998,Lower middle income,Latin America & Caribbean
 BRB,Barbados,2000,FALSE,14.58,13,87,11268,High income,Latin America & Caribbean
 CZE,Czechia,2000,FALSE,14.89,26,74,6029,High income,Europe & Central Asia
 WSM,Samoa,2000,FALSE,14.9,27,73,1542,Lower middle income,East Asia & Pacific
-FSM,Micronesia (Federated States of),2000,FALSE,14.9,33,67,2172,Lower middle income,East Asia & Pacific
+FSM,Micronesia,2000,FALSE,14.9,33,67,2172,Lower middle income,East Asia & Pacific
 SVK,Slovakia,2000,FALSE,15.11,21,79,5413,High income,Europe & Central Asia
 LKA,Sri Lanka,2000,FALSE,15.14,5,95,870,Lower middle income,South Asia
 HRV,Croatia,2000,FALSE,15.24,20,80,4842,High income,Europe & Central Asia
@@ -3459,7 +3459,7 @@ USA,United States of America,2000,FALSE,15.67,32,68,36335,High income,North Amer
 CUB,Cuba,2000,FALSE,15.76,22,78,2747,Upper middle income,Latin America & Caribbean
 PER,Peru,2000,FALSE,15.79,28,72,1956,Upper middle income,Latin America & Caribbean
 MNG,Mongolia,2000,FALSE,15.85,22,78,474,Lower middle income,East Asia & Pacific
-BRN,Brunei Darussalam,2000,FALSE,15.91,20,80,18013,High income,East Asia & Pacific
+BRN,Brunei,2000,FALSE,15.91,20,80,18013,High income,East Asia & Pacific
 ARE,United Arab Emirates,2000,FALSE,16.02,17,83,33291,High income,Middle East & North Africa
 TKM,Turkmenistan,2000,FALSE,16.1,23,77,643,Upper middle income,Europe & Central Asia
 MUS,Mauritius,2000,FALSE,16.12,15,85,3929,Upper middle income,Sub-Saharan Africa
@@ -3504,11 +3504,11 @@ CPV,Cabo Verde,2000,FALSE,22.89,25,75,1259,Lower middle income,Sub-Saharan Afric
 JOR,Jordan,2000,FALSE,23.23,31,69,1652,Upper middle income,Middle East & North Africa
 TUN,Tunisia,2000,FALSE,23.71,28,72,2212,Lower middle income,Middle East & North Africa
 MAR,Morocco,2000,FALSE,23.86,15,85,1335,Lower middle income,Middle East & North Africa
-VNM,Viet Nam,2000,FALSE,24.09,22,78,390,Lower middle income,East Asia & Pacific
+VNM,Vietnam,2000,FALSE,24.09,22,78,390,Lower middle income,East Asia & Pacific
 ETH,Ethiopia,2000,FALSE,24.61,34,66,124,Low income,Sub-Saharan Africa
 SEN,Senegal,2000,FALSE,24.81,32,68,617,Lower middle income,Sub-Saharan Africa
 AGO,Angola,2000,FALSE,25.07,45,55,557,Lower middle income,Sub-Saharan Africa
-CIV,Côte d’Ivoire,2000,FALSE,25.44,25,75,653,Lower middle income,Sub-Saharan Africa
+CIV,Ivory Coast,2000,FALSE,25.44,25,75,653,Lower middle income,Sub-Saharan Africa
 SDN,Sudan,2000,FALSE,25.5,32,68,366,Low income,Sub-Saharan Africa
 BHS,Bahamas,2000,FALSE,25.56,24,76,27098,High income,Latin America & Caribbean
 MLI,Mali,2000,FALSE,25.56,41,59,271,Low income,Sub-Saharan Africa
@@ -3522,7 +3522,7 @@ GUY,Guyana,2000,FALSE,26.25,19,81,954,Upper middle income,Latin America & Caribb
 COG,Congo,2000,FALSE,26.28,41,59,1032,Lower middle income,Sub-Saharan Africa
 KEN,Kenya,2000,FALSE,26.44,26,74,397,Lower middle income,Sub-Saharan Africa
 MDG,Madagascar,2000,FALSE,26.63,35,65,294,Low income,Sub-Saharan Africa
-IRN,Iran (Islamic Republic of),2000,FALSE,26.8,25,75,1670,Lower middle income,Middle East & North Africa
+IRN,Iran,2000,FALSE,26.8,25,75,1670,Lower middle income,Middle East & North Africa
 MYS,Malaysia,2000,FALSE,26.83,17,83,4044,Upper middle income,East Asia & Pacific
 COM,Comoros,2000,FALSE,26.92,35,65,647,Lower middle income,Sub-Saharan Africa
 TCD,Chad,2000,FALSE,26.95,34,66,166,Low income,Sub-Saharan Africa
@@ -3550,7 +3550,7 @@ QAT,Qatar,2000,FALSE,31.23,10,90,29976,High income,Middle East & North Africa
 SLE,Sierra Leone,2000,FALSE,31.23,37,63,139,Low income,Sub-Saharan Africa
 ERI,Eritrea,2000,FALSE,31.32,25,75,308,Low income,Sub-Saharan Africa
 BWA,Botswana,2000,FALSE,31.84,20,80,3522,Upper middle income,Sub-Saharan Africa
-TZA,United Republic of Tanzania,2000,FALSE,32.22,28,72,411,Lower middle income,Sub-Saharan Africa
+TZA,Tanzania,2000,FALSE,32.22,28,72,411,Lower middle income,Sub-Saharan Africa
 CAF,Central African Republic,2000,FALSE,32.33,36,64,251,Low income,Sub-Saharan Africa
 UGA,Uganda,2000,FALSE,33.87,24,76,262,Low income,Sub-Saharan Africa
 MOZ,Mozambique,2000,FALSE,33.97,30,70,319,Low income,Sub-Saharan Africa
@@ -3566,13 +3566,13 @@ ZAF,South Africa,2000,FALSE,43.99,28,72,3032,Upper middle income,Sub-Saharan Afr
 SGP,Singapore,2000,FALSE,6.5,17,83,23852,High income,East Asia & Pacific
 SWE,Sweden,2000,FALSE,6.74,25,75,29625,High income,Europe & Central Asia
 GTM,Guatemala,2000,FALSE,6.85,19,81,1664,Upper middle income,Latin America & Caribbean
-GBR,United Kingdom of Great Britain and Northern Ireland,2000,FALSE,6.89,26,74,28156,High income,Europe & Central Asia
+GBR,United Kingdom,2000,FALSE,6.89,26,74,28156,High income,Europe & Central Asia
 NLD,Netherlands,2000,FALSE,7.55,26,74,26149,High income,Europe & Central Asia
 ISR,Israel,2000,FALSE,7.99,21,79,21101,High income,Middle East & North Africa
 NOR,Norway,2000,FALSE,8.05,27,73,38131,High income,Europe & Central Asia
 FIN,Finland,2000,FALSE,8.11,33,67,24285,High income,Europe & Central Asia
 AZE,Azerbaijan,2000,FALSE,8.16,21,79,655,Upper middle income,Europe & Central Asia
-MKD,The former Yugoslav Republic of Macedonia,2000,FALSE,8.21,20,80,1855,Upper middle income,Europe & Central Asia
+MKD,Macedonia,2000,FALSE,8.21,20,80,1855,Upper middle income,Europe & Central Asia
 KIR,Kiribati,2000,FALSE,8.29,18,82,797,Lower middle income,East Asia & Pacific
 CHE,Switzerland,2000,FALSE,8.54,28,72,38952,High income,Europe & Central Asia
 TUR,Turkey,2000,FALSE,8.98,29,71,4337,Upper middle income,Europe & Central Asia
