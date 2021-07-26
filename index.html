@@ -34,7 +34,7 @@ async function init() {
     .attr("class", "tooltip")				
     .style("opacity", 0); 
 
-  /*
+  
   d3.select("svg")
     .attr("width",width+2*margin)
     .attr("height",height+2*margin)
@@ -47,7 +47,7 @@ async function init() {
     .attr("d", d3.line()
       .x(function(d) { return x(d.Year) })
       .y(function(d) { return y(d.Value) }))
-  */
+  
 
   d3.select("svg")
     .attr("width",width+2*margin)
