@@ -1,15 +1,22 @@
 <html>
 <title>US Road Traffic Mortality</title>
 <script src="https://d3js.org/d3.v5.js"></script>
-
+<style>
+  div.tooltip {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px;
+    pointer-events: none;
+  }
+</style>
 <body onload='init()'>
 <h1>US Road Traffic Mortality</h1>
 <p>Amanda Wang</p>
 <p>July 23, 2021</p>
-<p>&nbsp;</p>
-<p>
-<input type="button" onclick="location.href='est_road_deaths.html';" value="Next" />
-</p>
 <p>&nbsp;</p>
 <p>INSERT TEXT HERE</p>
 <svg width=1000 height=700></svg>
@@ -22,66 +29,59 @@ async function init() {
 
   var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
   var ys=d3.scaleLinear().domain([11,16.5]).range([height,0]);
-  var tooltip=d3.select("#tooltip").append("div")
-          .style("opacity",0)
-          .attr("class","tooltip")
-          .style("background-color","white")
-          .style("border","solid")
-          .style("border-width","2px")
-          .style("border-radius","5px")
-          .style("padding","5px")
-          .style("position","absolute")
   var xTickLabels=["2000","2005","2010","2015","2020"]
-  //Line
-d3.select("svg")
-  .attr("width",width+2*margin)
-  .attr("height",height+2*margin)
-  .append("g")
-  .attr("transform","translate("+margin+","+margin+")")
-  .selectAll("body").data(data).enter().append("path")
-  .datum(data)
-  .attr("fill","none")
-  .attr("stroke", "skyblue")
-  .attr("stroke-width", 1.5)
-  .attr("d", d3.line()
-    .x(function(d) { return x(d.Year) })
-    .y(function(d) { return y(d.Value) })
-    )
-    //Main graph
-d3.select("svg")
-  .attr("width",width+2*margin)
-  .attr("height",height+2*margin)
-  .append("g")
-  .attr("transform","translate("+margin+","+margin+")")
-  .selectAll("body").data(data).enter().append("circle")
-  .attr("cx",function(d) {return xs(d.Year);})
-  .attr("cy",function(d) {return ys(d.Value);})
-  .attr("r",function(d) {return 8;})
-  .attr("fill",d3.color("blue"))
-  .on("mouseover", function(d) {tooltip.style("opacity", 1);})
-  .on("mousemove",function(d) {tooltip.html("Year: "+d.Year
-        +"<br>Number of Fatalities: "+d.Value+"<br>% of Deaths-Female: "+d.Female
-        +"%<br>% of Deaths-Male: "+d.Male+"%")
-                .style("top", (event.pageY)-105+"px")
-                .style("left",(event.pageX)-60+"px");
-      })
-  .on("mouseleave", function(d) { tooltip.style("opacity", 0);})
+  div = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0); 
 
-d3.select("svg").append("g")
-  .attr("transform","translate("+margin+","+margin+")")
-  .call(d3.axisLeft(y));
+  d3.select("svg")
+    .attr("width",width+2*margin)
+    .attr("height",height+2*margin)
+    .append("g")
+    .attr("transform","translate("+margin+","+margin+")")
+    .selectAll("body").data(data).enter().append("path")
+    .datum(data)
+    .attr("fill","none")
+    .attr("stroke", "skyblue")
+    .attr("stroke-width", 1.5)
+    .attr("d", d3.line()
+      .x(function(d) { return x(d.Year) })
+      .y(function(d) { return y(d.Value) })
+      )
+    //Main graph
+  d3.select("svg")
+    .attr("width",width+2*margin)
+    .attr("height",height+2*margin)
+    .append("g")
+    .attr("transform","translate("+margin+","+margin+")")
+    .selectAll("body").data(data).enter().append("circle")
+    .attr("cx",function(d) {return xs(d.Year);})
+    .attr("cy",function(d) {return ys(d.Value);})
+    .attr("r",function(d) {return 5;})
+    .attr("fill",d3.color("blue"))
+    .on("mouseover", function(d) {
+      div.html("Year: "+d.Year+"<br>Number of Fatalities: "+d.Value+
+          +"<br>% of Deaths-Female: "+d.Female+"%<br>% of Deaths-Male: "+d.Male+"%")
+        .style("top", (event.pageY)-105+"px")
+        .style("left",(event.pageX)-60+"px")
+        .style("opacity",.85);
+        })
+    .on("mouseleave", function(d) { tooltip.style("opacity", 0);})
 
   d3.select("svg").append("g")
-  .attr("transform","translate("+margin+","+(height+margin)+")")
-  .call(d3.axisBottom(x).ticks(5).tickValues([2000,2005,2010,2015,2020])
-  .tickFormat(function (d,i) {return xTickLabels[i]}))
+    .attr("transform","translate("+margin+","+margin+")")
+    .call(d3.axisLeft(ys));
 
+  d3.select("svg").append("g")
+    .attr("transform","translate("+margin+","+(height+margin)+")")
+    .call(d3.axisBottom(xs).ticks(5).tickValues([2000,2005,2010,2015,2020])
+    .tickFormat(function (d,i) {return xTickLabels[i]}))
 
-// Axes Labels
   d3.select("svg").append("text")
     .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
     .style("text-anchor","middle")
     .text("Year");
+
   d3.select("svg").append("text")
     .attr("transform","rotate(-90)")
     .attr("y", 0-margin.left)
@@ -89,14 +89,14 @@ d3.select("svg").append("g")
     .attr("dy","1em")
     .style("text-anchor","middle")
     .text("Number of Traffic-Related Fatalities per 100,000 population");
-// Title
+
   d3.select("svg").append("text")
-  .attr("x",(width/2-100))
-  .attr("y",margin/2)
-  .attr("text-anchor","center")
-  .attr("font-weight",600)
-  .style("font-size","24px")
-  .text("Traffic-Related Fatalities in the United States");
+    .attr("x",(width/2-100))
+    .attr("y",margin/2)
+    .attr("text-anchor","center")
+    .attr("font-weight",600)
+    .style("font-size","24px")
+    .text("Traffic-Related Fatalities in the United States");
 }
 
 </script>

@@ -61,7 +61,7 @@ async function init() {
         .on("mouseover", function(d) {
             div.html("Country: "+d.Country+"<br>Region: "+d.Region
                 +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
-                +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
+                +d.Value+"<br>% of Fatalities-Female: "+d.Female+"%<br>% of Fatalities-Male: "+d.Male+"%")
                 .style("top", (event.pageY)-105+"px")
                 .style("left",(event.pageX)-60+"px")
                 .style("opacity", .85);		
@@ -84,6 +84,7 @@ async function init() {
         .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
         .style("text-anchor","middle")
         .text("GDP per Capita");
+        
     d3.select("svg").append("text")
         .attr("transform","rotate(-90)")
         .attr("y", 0-margin.left)
@@ -109,7 +110,7 @@ async function init() {
         .on("mouseover", function(d) {
             div.html("Country: "+d.Country+"<br>Region: "+d.Region
                 +"<br>GDP per Capita: "+d.GDP+"<br>Fatalities: "
-                +d.Value+"<br>% of Fatalities-Female: "+d.Female+"<br>% of Fatalities-Male: "+d.Male)
+                +d.Value+"<br>% of Fatalities-Female: "+d.Female+"%<br>% of Fatalities-Male: "+d.Male+"%")
                 .style("top", (event.pageY)-105+"px")
                 .style("left",(event.pageX)-60+"px")
                 .style("opacity", .85);		
