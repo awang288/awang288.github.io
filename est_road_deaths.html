@@ -20,9 +20,7 @@
     height: 30px;
   }
   .myCircle:hover {
-    border-radius: 2px;
-    border: solid;
-    border-color: black;
+    stroke:black
   }
 </style>
 <body onload="init()">
@@ -63,6 +61,8 @@ async function init() {
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
         .attr("r", 5)
+        .attr("stroke",function (d) { return colors(d['Region']) })
+        .attr("stroke-width",2)
         .style("fill", function (d) { return colors(d['Region']) })
         .on("mouseover", function(d) {
             div.html("Country: "+d.Country+"<br>Region: "+d.Region
@@ -112,6 +112,8 @@ async function init() {
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
         .attr("r", 5)
+        .attr("stroke",function (d) { return colors(d['Region']) })
+        .attr("stroke-width",2)
         .style("fill", function (d) { return colors(d['Region']) })
         .on("mouseover", function(d) {
             div.html("Country: "+d.Country+"<br>Region: "+d.Region
