@@ -74,7 +74,7 @@ async function init() {
         .attr("width",width+2*margin)
         .attr("height",height+2*margin)
         .append("g").attr("transform","translate("+margin+","+margin+")")
-        
+
     var dot= svg.selectAll("body").data(data).enter().append("circle")
         .filter(function(d) {return d.Year==2000;})
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
@@ -132,12 +132,9 @@ async function init() {
 
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
-        d3.selectAll("circle").remove();
-        d3.select("svg")
-        .attr("width",width+2*margin)
-        .attr("height",height+2*margin)
-        .append("g").attr("transform","translate("+margin+","+margin+")")
-        .selectAll("body").data(data).enter().append("circle")
+        var dataFilter=data.map(function(d){return {GDP: d.GDP, Value: d.Value}})
+        dot
+        .datum(dataFilter)
         .transition()
         .duration(1000)
         .filter(function(d) {return d.Year==selectedOption})
