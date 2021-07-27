@@ -85,7 +85,9 @@ function update(selectedVar) {
                 .attr("y", function(d) { return ys(d.Value); })
                 .attr("width", xs.bandwidth())
                 .attr("height", function(d) { return height-ys(d.Value); })
-            
+            if (d.Region=="East Asia & Pacific"){
+                console.log('hi')
+            }
                 //.attr("fill", function (d) { return colors(d['Region']) })
         }
     )
