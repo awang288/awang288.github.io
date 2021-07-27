@@ -31,10 +31,10 @@ var xs=d3.scaleBand().domain(data.map(function(d) {return d.Region;})).range([0,
 var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
 const regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
 "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
-var groups=["Pedestrians","Drivers/Passengers of Motorized 4-Wheeled Vehicles",
-"Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles","Cyclists"]
-const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
-const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
+//var groups=["Pedestrians","Drivers/Passengers of Motorized 4-Wheeled Vehicles",
+//"Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles","Cyclists"]
+//const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
+//const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
 
 var svg = d3.select("svg")
     .attr("width",width+2*margin)
@@ -42,9 +42,9 @@ var svg = d3.select("svg")
     .append("g").attr("transform","translate("+margin+","+margin+")")
 
 var xAxis = svg.append("g")
-    .attr("transform","translate("+margin+","+(height+margin)+")")
+    .attr("transform","translate(0,"+height+")")
 var yAxis = svg.append("g")
-    .attr("transform","translate("+margin+","+margin+")")
+    //.attr("transform","translate("+margin+","+margin+")")
 
 d3.select("svg").append("text")
     .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
@@ -55,18 +55,17 @@ d3.select("svg").append("text")
     .attr("transform","rotate(-90)")
     .attr("y", 0-margin.left)
     .attr("x",-50-(height/2))
-    .attr("dy","1em")
+    //.attr("dy","1em")
     .style("text-anchor","middle")
     .text("Percentage of Traffic Related Fatalities");
 
-d3.select("svg").append("text")
+/*d3.select("svg").append("text")
     .attr("x",(width/2-100))
     .attr("y",margin/2)
     .attr("text-anchor","center")
     .attr("font-weight",600)
     .style("font-size","24px")
-    .text("Traffic-Related Fatalities Distributions by Region");
-
+    .text("Traffic-Related Fatalities Distributions by Region");*/
 
 function update(selectedVar) {
     if (selectedVar=="Pedestrians"){
@@ -85,17 +84,18 @@ function update(selectedVar) {
                 .attr("transform", "translate(-10,0)rotate(-45)")
                 .style("text-anchor", "end");
 
-            //ys.domain([0, d3.max(data, function(d) { return +d.Value }) ]);
+            ys.domain([0, d3.max(data, function(d) { return +d.Value }) ]);
             yAxis.transition().duration(1000).call(d3.axisLeft(ys));
 
-      var bars = svg.selectAll("rect").data(data)
-      bars.enter().append("rect").merge(bars).transition().duration(1000)
-          .attr("x", function(d) { return xs(d.Region); })
-          .attr("y", function(d) { return ys(d.Value); })
-          .attr("width", x.bandwidth())
-          .attr("height", function(d) { return height-ys(d.selectedVar); })
-          .attr("fill", function (d) { return colors(d['Region']) })
-    })
+            var bars = svg.selectAll("rect").data(data)
+            bars.enter().append("rect").merge(bars).transition().duration(1000)
+                .attr("x", function(d) { return xs(d.Region); })
+                .attr("y", function(d) { return ys(d.Value); })
+                .attr("width", x.bandwidth())
+                .attr("height", function(d) { return height-ys(d.Value); })
+                //.attr("fill", function (d) { return colors(d['Region']) })
+        }
+    )
 }
 update('Pedestrians')
 
