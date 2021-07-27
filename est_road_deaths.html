@@ -151,31 +151,36 @@ async function init() {
 }
 
 d3.select("svg").append("rect")
-    .attr("x",800)
-    .attr("y",150)
+    .attr("x",600)
+    .attr("y",100)
     .attr("width",350)
     .attr("height",90)
     .style("fill","black");
-d3.select("svg").append("rect")
-    .attr("x",805)
-    .attr("y",150)
-    .attr("width",340)
-    .attr("height",80)
-    .style("fill","white");
 
 var filter = function(d) {
-    d3.selectAll(".dots1").style("opacity", .15)
-    d3.selectAll(".dots2").style("opacity", .15)
-    d3.selectAll(".dots"+d).style("opacity", 1)
+  d3.selectAll(".dots0").style("opacity", .15)
+  d3.selectAll(".dots1").style("opacity", .15)
+  d3.selectAll(".dots2").style("opacity", .15)
+  d3.selectAll(".dots3").style("opacity", .15)
+  d3.selectAll(".dots4").style("opacity", .15)
+  d3.selectAll(".dots5").style("opacity", .15)
+  d3.selectAll(".dots6").style("opacity", .15)
+  d3.selectAll(".dots"+d).style("opacity", 1)
   };
 var unfilter = function(d) {
-    d3.selectAll(".dots").style("opacity", 1)
+  d3.selectAll(".dots0").style("opacity", 1)
+  d3.selectAll(".dots1").style("opacity", 1)
+  d3.selectAll(".dots2").style("opacity", 1)
+  d3.selectAll(".dots3").style("opacity", 1)
+  d3.selectAll(".dots4").style("opacity", 1)
+  d3.selectAll(".dots5").style("opacity", 1)
+  d3.selectAll(".dots6").style("opacity", 1)
   };
 
 d3.select("svg").append("circle")
     .data(["0"])
-    .attr('cx',800)
-    .attr('cy',120)
+    .attr('cx',615)
+    .attr('cy',110)
     .attr('r',5)
     .style('fill',"dodgerblue")
     .on("mouseover", filter)
@@ -183,7 +188,7 @@ d3.select("svg").append("circle")
 
 d3.select("svg").append("text")
     .data(["0"])
-    .attr("transform","translate(814,120)")
+    .attr("transform","translate(620,110)")
     .style("text-anchor", "left")
     .style("fill", "dodgerblue")
     .on("mouseover", filter)
