@@ -134,7 +134,7 @@ async function init() {
         var selectedOption = d3.select(this).property("value");
         var filtered=data.filter(function(d) {return d.Year==selectedOption})
         dot
-        .datum(filtered)
+        .data(filtered)
         .transition()
         .duration(1000)
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
