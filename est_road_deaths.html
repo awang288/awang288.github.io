@@ -151,10 +151,16 @@ async function init() {
 }
 
 d3.select("svg").append("rect")
-    .attr("x",600)
+    .attr("x",620)
     .attr("y",100)
     .attr("width",350)
-    .attr("height",90)
+    .attr("height",150)
+    .style("fill","black");
+d3.select("svg").append("rect")
+    .attr("x",622)
+    .attr("y",102)
+    .attr("width",346)
+    .attr("height",146)
     .style("fill","black");
 
 var filter = function(d) {
@@ -176,15 +182,6 @@ var unfilter = function(d) {
   d3.selectAll(".dots5").style("opacity", 1)
   d3.selectAll(".dots6").style("opacity", 1)
   };
-
-d3.select("svg").append("circle")
-    .data(["0"])
-    .attr('cx',615)
-    .attr('cy',110)
-    .attr('r',5)
-    .style('fill',"dodgerblue")
-    .on("mouseover", filter)
-    .on("mouseleave", unfilter);
 
 d3.select("svg").append("text")
     .data(["0"])
