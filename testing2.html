@@ -132,9 +132,9 @@ async function init() {
 
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
+        var filtered=data.filter(function(d) {return d.Year==selectedOption})
         dot
-        .data(data)
-        .filter(function(d) {return d.Year==selectedOption})
+        .datum(filtered)
         .transition()
         .duration(1000)
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
