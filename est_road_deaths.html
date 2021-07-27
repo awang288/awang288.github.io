@@ -183,6 +183,11 @@ var unfilter = function(d) {
   d3.selectAll(".dots6").style("opacity", 1)
   };
 
+const regions=["East Asia & Pacific","Europe & Central Asia",
+"Latin America & Caribbean","Middle East & North Africa",
+"North America","South Asia","Sub-Saharan Africa"]
+const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
+
 d3.select("svg").append("text")
   .attr("transform","translate(627,100)")
   .style("text-anchor", "left")
@@ -193,7 +198,7 @@ d3.select("svg").append("text")
   .data(["0"])
   .attr("transform","translate(627,120)")
   .style("text-anchor", "left")
-  .style("fill", "dodgerblue")
+  .style("fill", colors(d['Region']))
   .on("mouseover", filter)
   .on("mouseleave", unfilter)
   .text("East Asia & Pacific");
