@@ -1,20 +1,10 @@
 <html>
 <title>Road Traffic Mortality Around the World</title>
-<script src="https://d3js.org/d3.v5.js"></script>
-<style>
-  #button {
-    position: absolute;
-    left: 50px;
-    top: 140px;
-    width: 60px;
-    height: 30px;
-  }
-</style>
-<body onload="init()">
+<script src="https://d3js.org/d3.v4.js"></script>
+<body>
 <h1>Traffic Mortality Distribution</h1>
 <p>&nbsp;</p>
 <p>INSERT TEXT HERE</p>
-<svg width=1000 height=700></svg>
 <center><span style="font-style: bold; font-weight: 1000;" span="">
     Select:&nbsp;&nbsp;<input type="radio" onclick="update(value)" name="onclick" value="Pedestrians" checked="checked" />Pedestrians
     &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 4-Wheeled Vehicles" />Drivers/Passengers of Motorized 4-Wheeled Vehicles
@@ -24,71 +14,83 @@
 
 <div id="my_dataviz"></div>
 <script>
-async function init() {
-    data = await d3.csv("https://awang288.github.io/raw_data/DistributionFinal.csv");
-    var width=800;
-    var height=500;
-    var margin=100;
-    var xs=d3.scaleBand().domain(data.map(function(d) {return d.Region;})).range([0, width]).padding(0.2);
-    var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
-    const regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
-    "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
-    var groups=["Pedestrians","Drivers/Passengers of Motorized 4-Wheeled Vehicles",
-    "Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles","Cyclists"]
-    const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
-    const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
+var width=800;
+var height=500;
+var margin=100;
+var xs=d3.scaleBand().range([0, width]).padding(0.2);
+var ys=d3.scaleLinear().range([height,0]);
+//var regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
+//"Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
+//var groups=["Pedestrians","Drivers/Passengers of Motorized 4-Wheeled Vehicles",
+//"Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles","Cyclists"]
+//var colors=d3.scaleBand().domain(regions).range(d3.schemeSet2)
+//const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
+var color = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3","#a6d854", "#ffd92f", "#e5c494"];
 
-    var svg = d3.select("svg")
-        .attr("width",width+2*margin)
-        .attr("height",height+2*margin)
-        .append("g").attr("transform","translate("+margin+","+margin+")")
+var svg = d3.select("#my_dataviz").append("svg")
+    .attr("width",width+2*margin)
+    .attr("height",height+2*margin)
+    .append("g").attr("transform","translate("+margin+","+margin+")")
 
-    var xAxis = svg.append("g")
-        .attr("transform","translate("+margin+","+(height+margin)+")")
-    var yAxis = svg.append("g")
-        .attr("transform","translate("+margin+","+margin+")")
+var xAxis = svg.append("g")
+    .attr("transform","translate(0,"+height+")")
+var yAxis = svg.append("g")
+    //.attr("transform","translate("+margin+","+margin+")")
 
-    d3.select("svg").append("text")
-        .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
-        .style("text-anchor","middle")
-        .text("Regions");
+svg.append("text")
+    .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
+    .style("text-anchor","middle")
+    .text("Regions");
 
-    d3.select("svg").append("text")
-        .attr("transform","rotate(-90)")
-        .attr("y", 0-margin.left)
-        .attr("x",-50-(height/2))
-        .attr("dy","1em")
-        .style("text-anchor","middle")
-        .text("Percentage of Traffic Related Fatalities");
+svg.append("text")
+    .attr("transform","rotate(-90)")
+    .attr("y", 0-margin.left)
+    .attr("x",-50-(height/2))
+    //.attr("dy","1em")
+    .style("text-anchor","middle")
+    .text("Percentage of Traffic Related Fatalities");
 
-    d3.select("svg").append("text")
-      .attr("x",(width/2-100))
-      .attr("y",margin/2)
-      .attr("text-anchor","center")
-      .attr("font-weight",600)
-      .style("font-size","24px")
-      .text("Traffic-Related Fatalities Distributions by Region");
-}
+/*svg.append("text")
+    .attr("x",(width/2-100))
+    .attr("y",margin/2)
+    .attr("text-anchor","center")
+    .attr("font-weight",600)
+    .style("font-size","24px")
+    .text("Traffic-Related Fatalities Distributions by Region");*/
 
-    function update(selectedVar) {
-      xAxis.transition().duration(1000).call(d3.axisBottom(x))
-        .selectAll("text")
-        .attr("transform", "translate(-10,0)rotate(-45)")
-        .style("text-anchor", "end");
-
-      //ys.domain([0, d3.max(data, function(d) { return +d.MaxSuicides100K }) ]);
-      yAxis.transition().duration(1000).call(d3.axisLeft(y));
-
-      var bars = svg.selectAll("rect").data(data)
-  
-      bars.enter().append("rect").merge(bars).transition().duration(1000)
-          .attr("x", function(d) { return x(d.Region); })
-          .attr("y", function(d) { return y(d.selectedVar); })
-          .attr("width", x.bandwidth())
-          .attr("height", function(d) { return height-ys(d.selectedVar); })
-          .attr("fill", function (d) { return colors(d['Region']) })
+function update(selectedVar) {
+    var url;
+    if (selectedVar=="Pedestrians"){
+        url="https://awang288.github.io/raw_data/DistrPed.csv"
+    }else if (selectedVar=="Drivers/Passengers of Motorized 4-Wheeled Vehicles"){
+        url="https://awang288.github.io/raw_data/Distr4Wheeled.csv"
+    }else if (selectedVar=="Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles"){
+        url="https://awang288.github.io/raw_data/Distr23Wheeled.csv"
+    }else if (selectedVar=="Cyclists"){
+        url="https://awang288.github.io/raw_data/DistrCyclists.csv"
     }
-    update('Pedestrians')
+    d3.csv(url,function(d){return {Region: d.Region, Value : d.Value }},  
+        function(data){
+            xs.domain(data.map(function(d) {return d.Region;}))
+            xAxis.transition().duration(1000).call(d3.axisBottom(xs))
+                .selectAll("text")
+                .attr("transform", "translate(-10,0)rotate(-45)")
+                .style("text-anchor", "end");
+
+            ys.domain([0, d3.max(data, function(d) { return +d.Value }) ]);
+            yAxis.transition().duration(1000).call(d3.axisLeft(ys));
+
+            var bars = svg.selectAll("rect").data(data)
+            bars.enter().append("rect").merge(bars).transition().duration(1000)
+                .attr("x", function(d) { return xs(d.Region); })
+                .attr("y", function(d) { return ys(d.Value); })
+                .attr("width", xs.bandwidth())
+                .attr("height", function(d) { return height-ys(d.Value); })
+                .attr("fill", function (d,i) { return color[i] })
+        }
+    )
+}
+update('Pedestrians')
 
   
 /*
