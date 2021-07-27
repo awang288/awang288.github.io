@@ -36,12 +36,12 @@ var xAxis = svg.append("g")
 var yAxis = svg.append("g")
     //.attr("transform","translate("+margin+","+margin+")")
 
-d3.select("svg").append("text")
+svg.append("text")
     .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
     .style("text-anchor","middle")
     .text("Regions");
 
-d3.select("svg").append("text")
+svg.append("text")
     .attr("transform","rotate(-90)")
     .attr("y", 0-margin.left)
     .attr("x",-50-(height/2))
@@ -49,7 +49,7 @@ d3.select("svg").append("text")
     .style("text-anchor","middle")
     .text("Percentage of Traffic Related Fatalities");
 
-/*d3.select("svg").append("text")
+/*svg.append("text")
     .attr("x",(width/2-100))
     .attr("y",margin/2)
     .attr("text-anchor","center")
