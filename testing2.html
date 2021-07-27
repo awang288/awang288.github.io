@@ -132,12 +132,11 @@ async function init() {
 
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
-        var dataFilter=data.map(function(d){return {GDP: d.GDP, Value: d.Value}})
         dot
-        .datum(dataFilter)
+        .data(data)
+        .filter(function(d) {return d.Year==selectedOption})
         .transition()
         .duration(1000)
-        .filter(function(d) {return d.Year==selectedOption})
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
         .attr("cx", function (d) { return xs(d.GDP); })
         .attr("cy", function (d) { return ys(d.Value); })
