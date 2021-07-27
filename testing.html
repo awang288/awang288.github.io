@@ -23,7 +23,7 @@ var regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Cari
 "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
 //var groups=["Pedestrians","Drivers/Passengers of Motorized 4-Wheeled Vehicles",
 //"Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles","Cyclists"]
-const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
+const colors=d3.scaleBand().domain(regions).range(d3.schemeSet2)
 //const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
 
 var svg = d3.select("#my_dataviz").append("svg")
