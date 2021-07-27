@@ -151,13 +151,13 @@ async function init() {
 }
 
 d3.select("svg").append("rect")
-    .attr("x",620)
+    .attr("x",640)
     .attr("y",80)
     .attr("width",350)
     .attr("height",175)
     .style("fill","black");
 d3.select("svg").append("rect")
-    .attr("x",622)
+    .attr("x",642)
     .attr("y",82)
     .attr("width",346)
     .attr("height",171)
@@ -183,29 +183,24 @@ var unfilter = function(d) {
   d3.selectAll(".dots6").style("opacity", 1)
   };
 
-const regions=["East Asia & Pacific","Europe & Central Asia",
-"Latin America & Caribbean","Middle East & North Africa",
-"North America","South Asia","Sub-Saharan Africa"]
-const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
-
 d3.select("svg").append("text")
-  .attr("transform","translate(627,100)")
+  .attr("transform","translate(647,100)")
   .style("text-anchor", "left")
   .style("fill", "black")
   .text("Legend (mouse over region to filter)");
 
 d3.select("svg").append("text")
   .data(["0"])
-  .attr("transform","translate(627,125)")
+  .attr("transform","translate(647,125)")
   .style("text-anchor", "left")
-  .style("fill", colors["East Asia & Pacific"])
+  .style("fill", d3.schemeSet2[0])
   .on("mouseover", filter)
   .on("mouseleave", unfilter)
   .text("East Asia & Pacific");
 
 d3.select("svg").append("text")
   .data(["1"])
-  .attr("transform","translate(627,145)")
+  .attr("transform","translate(647,145)")
   .style("text-anchor", "left")
   .style("fill", "dodgerblue")
   .on("mouseover", filter)
@@ -214,7 +209,7 @@ d3.select("svg").append("text")
 
 d3.select("svg").append("text")
   .data(["2"])
-  .attr("transform","translate(627,165)")
+  .attr("transform","translate(647,165)")
   .style("text-anchor", "left")
   .style("fill", "dodgerblue")
   .on("mouseover", filter)
@@ -223,7 +218,7 @@ d3.select("svg").append("text")
 
 d3.select("svg").append("text")
   .data(["3"])
-  .attr("transform","translate(627,185)")
+  .attr("transform","translate(647,185)")
   .style("text-anchor", "left")
   .style("fill", "dodgerblue")
   .on("mouseover", filter)
@@ -232,7 +227,7 @@ d3.select("svg").append("text")
 
 d3.select("svg").append("text")
   .data(["4"])
-  .attr("transform","translate(627,205)")
+  .attr("transform","translate(647,205)")
   .style("text-anchor", "left")
   .style("fill", "dodgerblue")
   .on("mouseover", filter)
@@ -241,7 +236,7 @@ d3.select("svg").append("text")
 
 d3.select("svg").append("text")
   .data(["5"])
-  .attr("transform","translate(627,225)")
+  .attr("transform","translate(647,225)")
   .style("text-anchor", "left")
   .style("fill", "dodgerblue")
   .on("mouseover", filter)
@@ -250,7 +245,7 @@ d3.select("svg").append("text")
 
 d3.select("svg").append("text")
   .data(["6"])
-  .attr("transform","translate(627,245)")
+  .attr("transform","translate(647,245)")
   .style("text-anchor", "left")
   .style("fill", "dodgerblue")
   .on("mouseover", filter)
