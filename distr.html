@@ -86,7 +86,7 @@ async function init() {
           .attr("y", function(d) { return y(d.selectedVar); })
           .attr("width", x.bandwidth())
           .attr("height", function(d) { return height-ys(d.selectedVar); })
-          .attr("fill", "#DC143C")
+          .attr("fill", function (d) { return colors(d['Region']) })
     }
     update('Pedestrians')
   
