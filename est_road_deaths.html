@@ -137,6 +137,8 @@ async function init() {
         .attr("height",height+2*margin)
         .append("g").attr("transform","translate("+margin+","+margin+")")
         .selectAll("body").data(data).enter().append("circle")
+        .transition()
+        .duration(1000)
         .filter(function(d) {return d.Year==selectedOption})
         .attr("class", function(d) { return "dots" + vals(d['Region'])})
         .attr("cx", function (d) { return xs(d.GDP); })
