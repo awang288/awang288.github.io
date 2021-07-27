@@ -23,7 +23,7 @@ var color = ["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3","#a6d854", "#ffd92f", "#
 
 var svg = d3.select("#my_dataviz").append("svg")
     .attr("width",width+2*margin)
-    .attr("height",height+3*margin)
+    .attr("height",height+2.5*margin)
     .append("g").attr("transform","translate("+margin+","+margin+")")
 
 var xAxis = svg.append("g")
@@ -32,7 +32,7 @@ var yAxis = svg.append("g")
     //.attr("transform","translate("+margin+","+margin+")")
 
 svg.append("text")
-    .attr("transform","translate("+(width/2)+","+(height+margin+50)+")")
+    .attr("transform","translate("+(width/2)+","+(height+margin)+")")
     .style("text-anchor","middle")
     .text("Regions");
 
