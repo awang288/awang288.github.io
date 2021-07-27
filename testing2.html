@@ -132,7 +132,9 @@ async function init() {
 
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
-        var filtered=data.filter(function(d) {return d.Year==selectedOption})
+        var filtered=data
+        .map(function(d){return {Country: d.Country}})
+        .filter(function(d) {return d.Year==selectedOption})
         dot
         .data(filtered)
         .transition()
