@@ -195,6 +195,7 @@ var unfilter = function(d) {
 
 d3.select("svg").append("text")
   .attr("transform","translate(647,100)")
+  .attr("font-weight",600)
   .style("text-anchor", "left")
   .style("fill", "black")
   .text("Legend (mouse over region to filter)");
@@ -202,7 +203,7 @@ d3.select("svg").append("text")
 d3.select("svg").append("text")
   .data(["0"])
   .attr("transform","translate(647,125)")
-  .attr("font-weight",400)
+  .attr("font-weight",600)
   .style("text-anchor", "left")
   .style("fill", d3.schemeSet2[0])
   .on("mouseover", filter)
