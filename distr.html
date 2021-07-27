@@ -1,11 +1,180 @@
-<title>Distribution of Traffic-Related Fatalities</title>
+<html>
+<title>Road Traffic Mortality Around the World</title>
 <script src="https://d3js.org/d3.v5.js"></script>
-<body>
+<style>
+  #button {
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    width: 60px;
+    height: 30px;
+  }
+</style>
+<body onload="init()">
+<h1>Traffic Mortality Distribution</h1>
 <p>&nbsp;</p>
-<h2>Distribution of Traffic-Related Fatalities</h2>
-<p>INSERT SLIDE 2 TEXT</p>
-<p>&nbsp;</p>
+<p>INSERT TEXT HERE</p>
+<svg width=1000 height=700></svg>
+<center><span style="font-style: bold; font-weight: 1000;" span="">
+    Select Suicides per 100K of Population:&nbsp;&nbsp;<input type="radio" onclick="update(value)" name="onclick" value="Pedestrians" checked="checked" />Pedestrians
+    &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 4-Wheeled Vehicles" />Drivers/Passengers of Motorized 4-Wheeled Vehicles
+    &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles" />Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles
+    &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Cyclists" />Cyclists
+</span></center>
+
+<div id="my_dataviz"></div>
+<script>
+async function init() {
+    data = await d3.csv("https://awang288.github.io/raw_data/DistributionFinal.csv");
+    var width=800;
+    var height=500;
+    var margin=100;
+    var xs=d3.scaleBand().domain(data.map(function(d) {return d.Region;})).range([0, width]).padding(0.2);
+    var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
+    const regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
+    "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
+    var groups=["Pedestrians","Drivers/Passengers of Motorized 4-Wheeled Vehicles",
+    "Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles","Cyclists"]
+    const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
+    const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
+
+    var svg = d3.select("svg")
+        .attr("width",width+2*margin)
+        .attr("height",height+2*margin)
+        .append("g").attr("transform","translate("+margin+","+margin+")")
+
+    var xAxis = svg.append("g")
+        .attr("transform","translate("+margin+","+(height+margin)+")")
+    var yAxis = svg.append("g")
+        .attr("transform","translate("+margin+","+margin+")")
+
+    d3.select("svg").append("text")
+        .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
+        .style("text-anchor","middle")
+        .text("Regions");
+
+    d3.select("svg").append("text")
+        .attr("transform","rotate(-90)")
+        .attr("y", 0-margin.left)
+        .attr("x",-50-(height/2))
+        .attr("dy","1em")
+        .style("text-anchor","middle")
+        .text("Percentage of Traffic Related Fatalities");
+
+    d3.select("svg").append("text")
+      .attr("x",(width/2-100))
+      .attr("y",margin/2)
+      .attr("text-anchor","center")
+      .attr("font-weight",600)
+      .style("font-size","24px")
+      .text("Traffic-Related Fatalities Distributions by Region");
+
+
+    function update(selectedVar) {
+      xAxis.transition().duration(1000).call(d3.axisBottom(x))
+        .selectAll("text")
+        .attr("transform", "translate(-10,0)rotate(-45)")
+        .style("text-anchor", "end");
+
+      //ys.domain([0, d3.max(data, function(d) { return +d.MaxSuicides100K }) ]);
+      yAxis.transition().duration(1000).call(d3.axisLeft(y));
+
+      var bars = svg.selectAll("rect").data(data)
+  
+      bars.enter().append("rect").merge(bars).transition().duration(1000)
+          .attr("x", function(d) { return x(d.Region); })
+          .attr("y", function(d) { return y(d.selectedVar); })
+          .attr("width", x.bandwidth())
+          .attr("height", function(d) { return height-ys(d.selectedVar); })
+          .attr("fill", "#DC143C")
+    }
+    update('Pedestrians')
+  
+  }
+/*
+d3.select("svg").append("rect")
+    .attr("x",640)
+    .attr("y",80)
+    .attr("width",320)
+    .attr("height",175)
+    .style("fill","black");
+d3.select("svg").append("rect")
+    .attr("x",642)
+    .attr("y",82)
+    .attr("width",316)
+    .attr("height",171)
+    .style("fill","white");
+
+
+d3.select("svg").append("text")
+  .attr("transform","translate(647,100)")
+  .attr("font-weight",600)
+  .style("text-anchor", "left")
+  .style("fill", "black")
+  .text("Legend");
+
+d3.select("svg").append("text")
+  .data(["0"])
+  .attr("transform","translate(647,125)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[0])
+  .text("East Asia & Pacific");
+
+d3.select("svg").append("text")
+  .data(["1"])
+  .attr("transform","translate(647,145)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[1])
+  .text("Europe & Central Asia");
+
+d3.select("svg").append("text")
+  .data(["2"])
+  .attr("transform","translate(647,165)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[2])
+  .text("Latin America & Caribbean");
+
+d3.select("svg").append("text")
+  .data(["3"])
+  .attr("transform","translate(647,185)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[3])
+  .text("Middle East & North Africa");
+
+d3.select("svg").append("text")
+  .data(["4"])
+  .attr("transform","translate(647,205)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[4])
+  .text("North America");
+
+d3.select("svg").append("text")
+  .data(["5"])
+  .attr("transform","translate(647,225)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[5])
+  .text("South Asia");
+
+d3.select("svg").append("text")
+  .data(["6"])
+  .attr("transform","translate(647,245)")
+  .attr("font-weight",400)
+  .style("text-anchor", "left")
+  .style("fill", d3.schemeSet2[6])
+  .text("Sub-Saharan Africa");
+*/
+</script>
+
+<p>INSERT TEXT HERE</p>
 <p>
-<input type="button" onclick="location.href='est_road_deaths.html';" value="Previous" />
-<input type="button" onclick="location.href='index.html';" value="Restart" />
+  <input type="button" onclick="location.href='est_road_deaths.html';" value="Previous" />
+  <input type="button" onclick="location.href='index.html';" value="Restart" />
 </p>
+</body>
+</html>
