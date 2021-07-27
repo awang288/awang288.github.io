@@ -79,8 +79,14 @@ function update(selectedVar) {
             ys.domain([0, d3.max(data, function(d) { return +d.Value }) ]);
             yAxis.transition().duration(1000).call(d3.axisLeft(ys));
 
-            var bars = svg.selectAll("rect").data(data)
+            /*var bars = svg.selectAll("rect").data(data)
             bars.enter().append("rect").merge(bars).transition().duration(1000)
+                .attr("x", function(d) { return xs(d.Region); })
+                .attr("y", function(d) { return ys(d.Value); })
+                .attr("width", x.bandwidth())
+                .attr("height", function(d) { return height-ys(d.Value); })
+                var bars = svg.selectAll("rect").data(data)*/
+            svg.selectAll("rect").data(data).enter().append("rect")
                 .attr("x", function(d) { return xs(d.Region); })
                 .attr("y", function(d) { return ys(d.Value); })
                 .attr("width", x.bandwidth())
