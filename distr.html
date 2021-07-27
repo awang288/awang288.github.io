@@ -16,7 +16,7 @@
 <p>INSERT TEXT HERE</p>
 <svg width=1000 height=700></svg>
 <center><span style="font-style: bold; font-weight: 1000;" span="">
-    Select Suicides per 100K of Population:&nbsp;&nbsp;<input type="radio" onclick="update(value)" name="onclick" value="Pedestrians" checked="checked" />Pedestrians
+    Select:&nbsp;&nbsp;<input type="radio" onclick="update(value)" name="onclick" value="Pedestrians" checked="checked" />Pedestrians
     &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 4-Wheeled Vehicles" />Drivers/Passengers of Motorized 4-Wheeled Vehicles
     &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles" />Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles
     &nbsp; <input type="radio" onclick="update(value)" name="onclick" value="Cyclists" />Cyclists
@@ -68,7 +68,7 @@ async function init() {
       .attr("font-weight",600)
       .style("font-size","24px")
       .text("Traffic-Related Fatalities Distributions by Region");
-
+}
 
     function update(selectedVar) {
       xAxis.transition().duration(1000).call(d3.axisBottom(x))
@@ -89,8 +89,8 @@ async function init() {
           .attr("fill", function (d) { return colors(d['Region']) })
     }
     update('Pedestrians')
+
   
-  }
 /*
 d3.select("svg").append("rect")
     .attr("x",640)
