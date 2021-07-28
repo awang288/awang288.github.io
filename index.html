@@ -116,7 +116,15 @@ async function init() {
     .style("font-size","24px")
     .text("Traffic-Related Fatalities in the United States");
 
-  d3.select("svg").append("path")
+  d3.select("svg").append("line")
+    .attr("x1",150).attr("y1",300)
+    .attr("x2",150).attr("y2",500)
+    .attr("stroke","#001932").attr("stroke-width",1)
+
+  d3.select("svg").append("text")
+    .attr("x",130).attr("y",550).attr("fill","#001932")
+    .text("hello testing")
+    .style("font-weight",300)
 }
 
 </script>
