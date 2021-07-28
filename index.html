@@ -122,8 +122,23 @@ async function init() {
     .attr("stroke","#001932").attr("stroke-width",1)
 
   d3.select("svg").append("text")
-    .attr("x",130).attr("y",250).attr("fill","#001932")
-    .text("Nov 2001 NY first state")
+    .attr("x",150).attr("y",250).attr("fill","#001932")
+    .text("November 2001")
+    .style("font-style","bold")
+
+  d3.select("svg").append("text")
+    .attr("x",130).attr("y",275).attr("fill","#001932")
+    .text("New York becomes the first state to implement")
+    .style("font-weight",300)
+
+  d3.select("svg").append("text")
+    .attr("x",130).attr("y",275).attr("fill","#001932")
+    .text("a law banning all drivers from using ")
+    .style("font-weight",300)
+
+  d3.select("svg").append("text")
+    .attr("x",130).attr("y",275).attr("fill","#001932")
+    .text("hand-held cell phones while driving.")
     .style("font-weight",300)
 
   d3.select("svg").append("line")
