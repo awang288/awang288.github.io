@@ -169,27 +169,45 @@ async function init() {
       .attr("x",120).attr("y",500)
       .attr("class","a2")
       .text("By 2010, the negative correlation")
-      .style("fill-opacity",1);
+      .style("fill-opacity",0);
     var a22=d3.select("svg").append("text")
       .attr("x",120).attr("y",525)
       .attr("class","a2")
       .text("grows stronger. The fatality rate")
-      .style("fill-opacity",1);
+      .style("fill-opacity",0);
     var a23=d3.select("svg").append("text")
       .attr("x",120).attr("y",550)
       .attr("class","a2")
       .text("decreases universally, but wealthier")
-      .style("fill-opacity",1);
+      .style("fill-opacity",0);
     var a24=d3.select("svg").append("text")
       .attr("x",120).attr("y",575)
       .attr("class","a2")
       .text("nations see a steeper decline.")
-      .style("fill-opacity",1);
+      .style("fill-opacity",0);
 
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
         if (selectedOption==2010){
-          d3.selectAll(".a2").style("opacity",0)
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2011){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2012){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2013){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2014){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2015){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2016){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2017){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2018){
+          d3.selectAll(".a2").style("opacity",1)
+        }else if (selectedOption==2019){
+          d3.selectAll(".a2").style("opacity",1)
         }
         var filtered=data.filter(function(d) {return d.Year==selectedOption})
         dot
