@@ -80,7 +80,7 @@ async function init() {
     .attr("stroke-width",2)
     .attr("fill",d3.color("dodgerblue"))
     .on("mouseover", function(d) {
-      div.html("Year: "+d.Year+"<br>Number of Fatalities: "+d.Value+
+      div.html("Year: "+d.Year+"<br>Fatality Frequency: "+d.Value+
           "<br>% of Deaths-Female: "+d.Female+"%<br>% of Deaths-Male: "+d.Male+"%")
         .style("top", (event.pageY)-105+"px")
         .style("left",(event.pageX)-60+"px")
