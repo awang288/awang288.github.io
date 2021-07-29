@@ -29,7 +29,9 @@
   fatalities in the United States. In addition to the increased safety features of many modern cars,
   such as automatic emergency braking, lane departure detection, and blind spot detection, there have
   been more safety programs in recent years focusing on seatbelt use and the dangers of impaired driving.
-  There has also been an increase in legislation regarding these areas, as noted in the graph below.
+  There has also been an increase in legislation regarding these areas, as noted in the graph below.<br>
+  <br>
+  In the following graph, hover over each point to learn more about that year.
 </p>
 <svg width=1000 height=1000></svg>
 <script>
@@ -105,8 +107,8 @@ async function init() {
 
   d3.select("svg").append("text")
     .attr("transform","rotate(-90)")
-    .attr("y", 0-margin.left+50)
-    .attr("x",-50-(height/2))
+    .attr("y", 100-margin.left)
+    .attr("x",-80-(height/2))
     .attr("dy","1em")
     .style("text-anchor","middle")
     .text("Number of Traffic-Related Fatalities per 100,000 Population");
