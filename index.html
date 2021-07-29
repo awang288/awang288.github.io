@@ -174,8 +174,13 @@ async function init() {
     .text("January 2008").style("font-weight",1000)
   d3.select("svg").append("text").attr("x",520).attr("y",275)
     .attr("fill","#001932")
-    .text("Washington state passes the first law specifically banning all drivers from texting")
-  
+    .text("Washington state passes the first law specifically")
+  d3.select("svg").append("text").attr("x",520).attr("y",300)
+    .attr("fill","#001932")
+    .text("banning all drivers from texting. 26 other states")
+  d3.select("svg").append("text").attr("x",520).attr("y",325)
+    .attr("fill","#001932")
+    .text("ended up passing similar laws within 3 years.")
 }
 
 </script>
