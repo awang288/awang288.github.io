@@ -188,6 +188,9 @@ async function init() {
 
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
+        if (selectedOption==2010){
+          d3.selectAll(".a2").style("opacity",0)
+        }
         var filtered=data.filter(function(d) {return d.Year==selectedOption})
         dot
         .data(filtered)
