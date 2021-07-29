@@ -142,6 +142,11 @@ async function init() {
       .style("font-size","24px")
       .text("Traffic-Related Fatalities vs. GDP Per Capita");
 
+    // First annotation
+    var a1=d3.select("svg").append("text")
+      .attr("x",100).attr("y",100)
+      .text("In the early 2000s, there doesn't seem to be a strong")// relationship between GDP per capita and traffic-related fatality frequency")
+
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
         var filtered=data.filter(function(d) {return d.Year==selectedOption})
