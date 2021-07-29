@@ -105,8 +105,8 @@ async function init() {
 
   d3.select("svg").append("text")
     .attr("transform","rotate(-90)")
-    .attr("y", 0-margin.left)
-    .attr("x",-50-(height/2)+80)
+    .attr("y", 0-margin.left+50)
+    .attr("x",-50-(height/2))
     .attr("dy","1em")
     .style("text-anchor","middle")
     .text("Number of Traffic-Related Fatalities per 100,000 Population");
@@ -188,7 +188,7 @@ async function init() {
 
 </script>
 
-<p>
+<p class="p1">
 <input type="button" onclick="location.href='est_road_deaths.html';" value="Next" />
 </p>
 <br>
