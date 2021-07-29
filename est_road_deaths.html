@@ -166,14 +166,19 @@ async function init() {
 
     // Second annotation
     var a21=d3.select("svg").append("text")
-      .attr("x",120).attr("y",450)
+      .attr("x",120).attr("y",500)
       .attr("class","a2")
-      .text("By 2010, the negative correlation grows stronger.")
+      .text("By 2010, the negative correlation grows")
       .style("fill-opacity",1);
-      var a21=d3.select("svg").append("text")
-      .attr("x",120).attr("y",475)
+    var a21=d3.select("svg").append("text")
+      .attr("x",120).attr("y",525)
       .attr("class","a2")
-      .text("The fatality rate decreases universally, but wealthier nations see a steeper decline.")
+      .text("stronger. The fatality rate decreases")
+      .style("fill-opacity",1);
+    var a21=d3.select("svg").append("text")
+      .attr("x",120).attr("y",550)
+      .attr("class","a2")
+      .text("universally, but wealthier nations see a steeper decline.")
       .style("fill-opacity",1);
 
     d3.select("#button").on("change", function(d) {
