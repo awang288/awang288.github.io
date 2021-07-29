@@ -18,6 +18,8 @@
     top: 140px;
     width: 60px;
     height: 30px;
+    top: 185px;
+    left:150px;
   }
   .dots0:hover{
     stroke:black
@@ -46,8 +48,6 @@
   }
   #button{
     position:absolute;
-    top: 185px;
-    left:150px;
   }
 </style>
 <body onload="init()">
@@ -150,18 +150,32 @@ async function init() {
     // First annotation
     var a11=d3.select("svg").append("text")
       .attr("x",120).attr("y",120)
+      .attr("class","a1")
       .text("In the early 2000s, there doesn't seem to be a strong")
       .style("fill-opacity",1);
     var a12=d3.select("svg").append("text")
       .attr("x",120).attr("y",145)
+      .attr("class","a1")
       .text("relationship between GDP per capita and")
       .style("fill-opacity",1);
     var a13=d3.select("svg").append("text")
       .attr("x",120).attr("y",170)
+      .attr("class","a1")
       .text("traffic-related fatality frequency.")
       .style("fill-opacity",1);
 
-    
+    // Second annotation
+    var a21=d3.select("svg").append("text")
+      .attr("x",120).attr("y",450)
+      .attr("class","a2")
+      .text("By 2010, the negative correlation grows stronger.")
+      .style("fill-opacity",1);
+      var a21=d3.select("svg").append("text")
+      .attr("x",120).attr("y",475)
+      .attr("class","a2")
+      .text("The fatality rate decreases universally, but wealthier nations see a steeper decline.")
+      .style("fill-opacity",1);
+
     d3.select("#button").on("change", function(d) {
         var selectedOption = d3.select(this).property("value");
         var filtered=data.filter(function(d) {return d.Year==selectedOption})
