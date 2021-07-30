@@ -121,6 +121,7 @@ async function init() {
     );
 
     d3.select("svg").append("text")
+        .attr("x",0).attr("y",0)
         .attr("transform","translate("+(width/2+100)+","+(height+margin+50)+")")
         .style("text-anchor","middle")
         .text("GDP per Capita (Current US$)");
