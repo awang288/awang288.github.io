@@ -1,25 +1,26 @@
 <html>
 <title>Road Traffic Mortality Around the World</title>
 <script src="https://d3js.org/d3.v4.js"></script>
+<style>
+    p.p1{
+    max-width: 950px;
+    margin-left: 20px;
+  }
+</style>
 <body>
 <h1>Traffic Mortality Distribution</h1>
 <p>&nbsp;</p>
 <p>INSERT TEXT HERE</p>
-<span style="font-style: bold; font-weight: 1000;" span="">
-    &nbsp;&nbsp;&nbsp;      Select:
-</span><br>
-<span style="font-style: bold; font-weight: 60;" span="">
-    &nbsp;&nbsp;&nbsp;      <input type="radio" onclick="update(value)" name="onclick" value="Pedestrians" checked="checked" />Pedestrians
-</span><br>
-<span style="font-style: bold; font-weight: 60;" span="">
-    &nbsp;&nbsp;&nbsp;      <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 4-Wheeled Vehicles" />Drivers/Passengers of Motorized 4-Wheeled Vehicles
-</span><br>
-<span style="font-style: bold; font-weight: 60;" span="">
-    &nbsp;&nbsp;&nbsp;      <input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles" />Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles
-</span><br>
-<span style="font-style: bold; font-weight: 60;" span="">
-    &nbsp;&nbsp;&nbsp;      <input type="radio" onclick="update(value)" name="onclick" value="Cyclists" />Cyclists
-</span>
+<p class="p1">
+Select:<br>
+<input type="radio" onclick="update(value)" name="onclick" value="Pedestrians" checked="checked" />Pedestrians<br>
+<input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 4-Wheeled Vehicles" />Drivers/Passengers of Motorized 4-Wheeled Vehicles
+<input type="radio" onclick="update(value)" name="onclick" value="Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles" />Drivers/Passengers of Motorized 2- or 3-Wheeled Vehicles
+<input type="radio" onclick="update(value)" name="onclick" value="Cyclists" />Cyclists
+</p>
+
+
+
 
 <div id="my_dataviz"></div>
 <script>
