@@ -55,13 +55,17 @@
   over time. You can also hover over data points for more information or hover over a region name
   in the legend to focus on countries from that region.<br>
   <br>
-  Select year here:
+  Select year here:<br>
   <br><br>
 </p>
 <svg width=1000 height=700></svg>
 <select id="button"></select>
 <div id="my_dataviz"></div>
 <script>
+var years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019]
+d3.select("#button").selectAll("myOptions").data(years)
+        .enter().append("option").text(function (d) {return d;})
+        .attr("value",function(d) {return d;})
 async function init() {
     data = await d3.csv("https://awang288.github.io/raw_data/Overall.csv");
     var width=800;
@@ -71,14 +75,12 @@ async function init() {
     var ys=d3.scaleLinear().domain([0,65]).range([height,0]);
     const regions=["East Asia & Pacific","Europe & Central Asia","Latin America & Caribbean",
     "Middle East & North Africa","North America","South Asia","Sub-Saharan Africa"]
-    var years=[2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019]
+    
     const colors=d3.scaleOrdinal().domain(regions).range(d3.schemeSet2)
     const vals=d3.scaleOrdinal().domain(regions).range([0,1,2,3,4,5,6])
     var xTickLabels=["$100","$1000","$10,000","$100,000"]
 
-    d3.select("#button").selectAll("myOptions").data(years)
-        .enter().append("option").text(function (d) {return d;})
-        .attr("value",function(d) {return d;})
+
 
     div = d3.select("body").append("div")	
         .attr("class", "tooltip")				
