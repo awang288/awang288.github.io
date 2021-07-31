@@ -123,10 +123,6 @@ async function init() {
     .text("Traffic-Related Fatalities in the United States");
 
   // First annotation
-  d3.select("svg").append("line")
-    .attr("x1",190).attr("y1",160)
-    .attr("x2",190).attr("y2",220)
-    .attr("stroke-width",1)
 
   d3.select("svg").append("text")
     .attr("x",130).attr("y",250)
@@ -180,6 +176,12 @@ async function init() {
     .text("banning all drivers from texting. 26 other states")
   d3.select("svg").append("text").attr("x",520).attr("y",325)
     .text("ended up passing similar laws within 3 years.")
+
+  d3.select("svg").append("line")
+    .attr("x1",190).attr("y1",160)
+    .attr("x2",190).attr("y2",220)
+    .attr("stroke-width",1)
+    .attr("fill","black")
 }
 
 </script>
