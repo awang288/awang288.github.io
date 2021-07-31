@@ -41,7 +41,11 @@ async function init() {
   var width=750;
   var height=500;
   var margin=100;
-
+  d3.select("svg").append("line")
+    .attr("x1",190).attr("y1",160)
+    .attr("x2",190).attr("y2",220)
+    .attr("stroke-width",1)
+    .attr("fill","black")
   var xs=d3.scaleLinear().domain([1999,2021]).range([0,width]);
   var ys=d3.scaleLinear().domain([11,16.5]).range([height,0]);
   var xTickLabels=["2000","2005","2010","2015","2020"]
@@ -179,11 +183,7 @@ async function init() {
 
 
 }
-d3.select("svg").append("line")
-    .attr("x1",190).attr("y1",160)
-    .attr("x2",190).attr("y2",220)
-    .attr("stroke-width",1)
-    .attr("fill","black")
+
 </script>
 
 <p class="p1">
