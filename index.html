@@ -188,13 +188,16 @@ async function init() {
 
   // Fourth annotation
   d3.select("svg").append("line")
-    .attr("x1",640).attr("y1",400)
-    .attr("x2",640).attr("y2",480)
+    .attr("x1",645).attr("y1",400)
+    .attr("x2",645).attr("y2",480)
     .attr("stroke-width",1)
     .attr("stroke","black")
   d3.select("svg").append("text").attr("x",560).attr("y",300)
     .text("June 2014-Jan. 2016").style("font-weight",1000)
-
+  d3.select("svg").append("text").attr("x",560).attr("y",325)
+    .text("Crude oil prices drop almost 70%, from $120.12/barrel")
+  d3.select("svg").append("text").attr("x",560).attr("y",350)
+    .text("in June 2014 to $38.56/barrel by January 2016.")
 }
 
 </script>
@@ -223,6 +226,8 @@ We'll explore these questions on the next page. <br></p>
   https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries<br>
   https://www.nhtsa.gov/traffic-deaths-decreased-2018-still-36560-people-died<br>
   https://www.cdc.gov/transportationsafety/seatbeltbrief/index.html<br>
+  https://www.npr.org/sections/thetwo-way/2016/08/29/491854557/traffic-deaths-climb-by-largest-increase-in-decades<br>
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001674/</p>
+  
 </body>
 </html>
