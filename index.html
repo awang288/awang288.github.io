@@ -125,7 +125,7 @@ async function init() {
 
   // First annotation
   d3.select("svg").append("line")
-    .attr("x1",190).attr("y1",160)
+    .attr("x1",190).attr("y1",170)
     .attr("x2",190).attr("y2",220)
     .attr("stroke-width",1)
     .attr("stroke","black")
@@ -171,7 +171,7 @@ async function init() {
   // Third annotation
   d3.select("svg").append("line")
     .attr("x1",375).attr("y1",390)
-    .attr("x2",250).attr("y2",420)
+    .attr("x2",220).attr("y2",420)
     .attr("stroke-width",1)
     .attr("stroke","black")
 
@@ -188,11 +188,11 @@ async function init() {
 
   // Fourth annotation
   d3.select("svg").append("line")
-    .attr("x1",700).attr("y1",380)
-    .attr("x2",700).attr("y2",480)
+    .attr("x1",650).attr("y1",380)
+    .attr("x2",650).attr("y2",480)
     .attr("stroke-width",1)
     .attr("stroke","black")
-  d3.select("svg").append("text").attr("x",550).attr("y",300)
+  d3.select("svg").append("text").attr("x",520).attr("y",300)
     .text("June 2014-Jan. 2016").style("font-weight",1000)
 
 }
