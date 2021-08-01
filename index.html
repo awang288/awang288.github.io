@@ -175,14 +175,23 @@ async function init() {
     .attr("stroke-width",1)
     .attr("stroke","black")
 
-  d3.select("svg").append("text").attr("x",140).attr("y",450)
+  d3.select("svg").append("text").attr("x",170).attr("y",450)
     .text("January 2008").style("font-weight",1000)
-  d3.select("svg").append("text").attr("x",140).attr("y",475)
-    .text("Washington is the first state to pass a law explicitly")
-  d3.select("svg").append("text").attr("x",140).attr("y",500)
-    .text("banning all drivers from texting. 26 other states")
-  d3.select("svg").append("text").attr("x",140).attr("y",525)
-    .text("ended up passing similar laws within 3 years.")
+  d3.select("svg").append("text").attr("x",170).attr("y",475)
+    .text("Washington is the first state to pass")
+  d3.select("svg").append("text").attr("x",170).attr("y",500)
+    .text("a law explicitly banning all drivers from texting.")
+  d3.select("svg").append("text").attr("x",170).attr("y",525)
+    .text("26 other states ended up passing")
+  d3.select("svg").append("text").attr("x",170).attr("y",525)
+    .text("similar laws within 3 years.")
+
+  // Fourth annotation
+  d3.select("svg").append("line")
+    .attr("x1",500).attr("y1",350)
+    .attr("x2",500).attr("y2",450)
+    .attr("stroke-width",1)
+    .attr("stroke","black")
 
 
 }
