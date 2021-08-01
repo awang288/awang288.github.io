@@ -41,7 +41,6 @@ var svg = d3.select("#my_dataviz").append("svg")
 var xAxis = svg.append("g")
     .attr("transform","translate(0,"+height+")")
 var yAxis = svg.append("g")
-    //.attr("transform","translate("+margin+","+margin+")")
 
 svg.append("text")
     .attr("transform","translate("+(width/2)+","+(height+1.2*margin)+")")
@@ -52,7 +51,6 @@ svg.append("text")
     .attr("transform","rotate(-90)")
     .attr("y", 50-margin)
     .attr("x",0-(height/2))
-    //.attr("dy","1em")
     .style("text-anchor","middle")
     .text("Percentage of Traffic Related Fatalities");
 
